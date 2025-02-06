@@ -32,8 +32,8 @@ source ~/miniconda3/etc/profile.d/conda.sh
 conda activate busco
 
 # Define start and end batch numbers
-START_BATCH=1
-END_BATCH=10
+START_BATCH=11
+END_BATCH=20
 
 # Loop through specified batch range
 for batch_num in $(seq $START_BATCH $END_BATCH); do
