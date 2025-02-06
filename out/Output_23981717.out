@@ -1,0 +1,140 @@
+2025-02-06 11:43:59 INFO:	***** Start a BUSCO v5.8.2 analysis, current time: 02/06/2025 11:43:59 *****
+2025-02-06 11:43:59 INFO:	Configuring BUSCO with local environment
+2025-02-06 11:43:59 INFO:	Running genome mode
+2025-02-06 11:43:59 INFO:	'Force' option selected; overwriting previous results directory
+2025-02-06 11:43:59 INFO:	Downloading information on latest versions of BUSCO data...
+2025-02-06 11:44:02 INFO:	Input file is /work3/s233201/data/ncbi_dataset/data/GCA_028024125.1/GCA_028024125.1_ASM2802412v1_genomic.fna
+2025-02-06 11:44:03 INFO:	Running BUSCO using lineage dataset fungi_odb10 (eukaryota, 2024-01-08)
+2025-02-06 11:44:03 INFO:	Running 1 job(s) on bbtools, starting at 02/06/2025 11:44:03
+2025-02-06 11:44:04 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-02-06 11:44:05 INFO:	Running 1 job(s) on metaeuk, starting at 02/06/2025 11:44:05
+2025-02-06 11:46:28 INFO:	[metaeuk]	1 of 1 task(s) completed
+2025-02-06 11:46:28 INFO:	***** Run HMMER on gene sequences *****
+2025-02-06 11:46:28 INFO:	Running 758 job(s) on hmmsearch, starting at 02/06/2025 11:46:28
+2025-02-06 11:46:30 INFO:	[hmmsearch]	76 of 758 task(s) completed
+2025-02-06 11:46:31 INFO:	[hmmsearch]	152 of 758 task(s) completed
+2025-02-06 11:46:31 INFO:	[hmmsearch]	228 of 758 task(s) completed
+2025-02-06 11:46:32 INFO:	[hmmsearch]	304 of 758 task(s) completed
+2025-02-06 11:46:33 INFO:	[hmmsearch]	379 of 758 task(s) completed
+2025-02-06 11:46:33 INFO:	[hmmsearch]	455 of 758 task(s) completed
+2025-02-06 11:46:33 INFO:	[hmmsearch]	531 of 758 task(s) completed
+2025-02-06 11:46:34 INFO:	[hmmsearch]	607 of 758 task(s) completed
+2025-02-06 11:46:34 INFO:	[hmmsearch]	683 of 758 task(s) completed
+2025-02-06 11:46:38 INFO:	[hmmsearch]	758 of 758 task(s) completed
+2025-02-06 11:46:39 INFO:	3 candidate overlapping regions found
+2025-02-06 11:46:39 INFO:	1585 exons in total
+2025-02-06 11:46:39 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
+2025-02-06 11:46:44 INFO:	Running 1 job(s) on metaeuk, starting at 02/06/2025 11:46:44
+2025-02-06 11:47:44 INFO:	[metaeuk]	1 of 1 task(s) completed
+2025-02-06 11:47:44 INFO:	***** Run HMMER on gene sequences *****
+2025-02-06 11:47:44 INFO:	Running 13 job(s) on hmmsearch, starting at 02/06/2025 11:47:44
+2025-02-06 11:47:45 INFO:	[hmmsearch]	2 of 13 task(s) completed
+2025-02-06 11:47:45 INFO:	[hmmsearch]	3 of 13 task(s) completed
+2025-02-06 11:47:45 INFO:	[hmmsearch]	4 of 13 task(s) completed
+2025-02-06 11:47:45 INFO:	[hmmsearch]	6 of 13 task(s) completed
+2025-02-06 11:47:45 INFO:	[hmmsearch]	7 of 13 task(s) completed
+2025-02-06 11:47:45 INFO:	[hmmsearch]	8 of 13 task(s) completed
+2025-02-06 11:47:46 INFO:	[hmmsearch]	10 of 13 task(s) completed
+2025-02-06 11:47:46 INFO:	[hmmsearch]	11 of 13 task(s) completed
+2025-02-06 11:47:46 INFO:	[hmmsearch]	12 of 13 task(s) completed
+2025-02-06 11:47:46 INFO:	[hmmsearch]	13 of 13 task(s) completed
+2025-02-06 11:47:46 INFO:	8 candidate overlapping regions found
+2025-02-06 11:47:46 INFO:	1526 exons in total
+2025-02-06 11:47:46 INFO:	Results:	C:99.2%[S:99.1%,D:0.1%],F:0.3%,M:0.5%,n:758	   
+
+2025-02-06 11:47:53 INFO:	
+
+    ---------------------------------------------------
+    |Results from dataset fungi_odb10                  |
+    ---------------------------------------------------
+    |C:99.2%[S:99.1%,D:0.1%],F:0.3%,M:0.5%,n:758       |
+    |752    Complete BUSCOs (C)                        |
+    |751    Complete and single-copy BUSCOs (S)        |
+    |1    Complete and duplicated BUSCOs (D)           |
+    |2    Fragmented BUSCOs (F)                        |
+    |4    Missing BUSCOs (M)                           |
+    |758    Total BUSCO groups searched                |
+    ---------------------------------------------------
+2025-02-06 11:47:53 INFO:	BUSCO analysis done. Total running time: 231 seconds
+2025-02-06 11:47:53 INFO:	Results written in /zhome/85/8/203063/a3_fungi/busco_first_run
+2025-02-06 11:47:53 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-02-06 11:47:53 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 23981717: <SingleCorePython> in cluster <dcc> Done
+
+Job <SingleCorePython> was submitted from host <n-62-27-18> by user <s233201> in cluster <dcc> at Thu Feb  6 11:43:54 2025
+Job was executed on host(s) <16*n-62-29-22>, in queue <hpc>, as user <s233201> in cluster <dcc> at Thu Feb  6 11:43:54 2025
+</zhome/85/8/203063> was used as the home directory.
+</zhome/85/8/203063/a3_fungi> was used as the working directory.
+Started at Thu Feb  6 11:43:54 2025
+Terminated at Thu Feb  6 11:47:53 2025
+Results reported at Thu Feb  6 11:47:53 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+# embedded options to bsub - start with #BSUB
+# -- our name ---
+#BSUB -J SingleCorePython 
+# -- choose queue --
+#BSUB -q hpc
+# -- specify that we need 4GB of memory per core/slot --
+# so when asking for 4 cores, we are really asking for 4*4GB=16GB of memory 
+# for this job. 
+#BSUB -R "rusage[mem=4GB]"
+# -- Notify me by email when execution begins --
+##BSUB -B
+# -- Notify me by email when execution ends   --
+##BSUB -N
+# -- email address -- 
+# please uncomment the following line and put in your e-mail address,
+# if you want to receive e-mail notifications on a non-default address
+##BSUB -u your_email_address
+# -- Output File --
+#BSUB -o out/Output_%J.out
+# -- Error File --
+#BSUB -e out/Output_%J.err
+# -- estimated wall clock time (execution time): hh:mm -- 
+#BSUB -W 24:00 
+# -- Number of cores requested -- 
+#BSUB -n 16 
+# -- Specify the distribution of the cores: on a single node --
+#BSUB -R "span[hosts=1]"
+# -- end of LSF options -- 
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate busco
+
+## busco -i /work3/s233201/data/ncbi_dataset/data/ -m genome -l fungi_odb10 -f -o busco_first_run -c 16
+
+busco -i /work3/s233201/data/ncbi_dataset/data/GCA_028024125.1/GCA_028024125.1_ASM2802412v1_genomic.fna -m genome -l fungi_odb10 -f -o busco_first_run -c 16 --metaeuk
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2574.56 sec.
+    Max Memory :                                 877 MB
+    Average Memory :                             855.25 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               64659.00 MB
+    Max Swap :                                   -
+    Max Processes :                              25
+    Max Threads :                                44
+    Run time :                                   239 sec.
+    Turnaround time :                            239 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <out/Output_23981717.err> for stderr output of this job.
+

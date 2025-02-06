@@ -1,0 +1,53 @@
+When running **BUSCO** (Benchmarking Universal Single-Copy Orthologs), the identified regions in the genome are stored in the output files. Here’s where you can find the relevant information:
+
+### 1. **Identified Regions (Coordinates)**
+   - The file:  
+     ```
+     run_<lineage>/full_table.tsv
+     ```
+   - This file contains a table with columns, including:
+     - **BUSCO ID** (e.g., specific gene name)
+     - **Sequence ID** (contig or scaffold name)
+     - **Start and End Coordinates** (if applicable)
+     - **Score and Status** (Complete, Fragmented, Missing)
+
+   **How to extract coordinates:**
+   ```
+   awk '$2 == "Complete" {print $1, $3, $4, $5}' run_<lineage>/full_table.tsv
+   ```
+   This will print the BUSCO ID, contig name, start, and end positions of complete genes.
+
+---
+
+### 2. **Extracting the Identified Sequences**
+   - The identified sequences are stored in:
+     ```
+     run_<lineage>/busco_sequences/
+     ```
+   - The folder contains:
+     - `single_copy_busco_sequences/` → Single-copy ortholog sequences
+     - `fragmented_busco_sequences/` → Incomplete sequences
+     - `duplicated_busco_sequences/` → Multiple copies detected
+   - If you need all sequences, check:
+     ```
+     run_<lineage>/busco_sequences/complete_busco_sequences.fna
+     ```
+     This file contains the **FASTA sequences** of all complete BUSCO genes.
+
+---
+
+### 3. **Extracting Regions from Genome**
+   If you have the coordinates and need to extract these regions from your genome file (`genome.fasta`), you can use **BEDtools**:
+
+   1. Create a BED file from `full_table.tsv`:
+      ```
+      awk '$2 == "Complete" {print $3, $4-1, $5, $1}' OFS="\t" run_<lineage>/full_table.tsv > busco_regions.bed
+      ```
+   2. Extract sequences:
+      ```
+      bedtools getfasta -fi genome.fasta -bed busco_regions.bed -fo busco_extracted_sequences.fasta
+      ```
+
+This will create a **FASTA file with the extracted BUSCO sequences from the genome**.
+
+Would you like help formatting the output further?
