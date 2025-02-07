@@ -1,13 +1,13 @@
 #!/bin/bash
 # embedded options to bsub - start with #BSUB
 # -- our name ---
-#BSUB -J SingleCorePython 
+#BSUB -J busco_test_run 
 # -- choose queue --
 #BSUB -q hpc
 # -- specify that we need 4GB of memory per core/slot --
 # so when asking for 4 cores, we are really asking for 4*4GB=16GB of memory 
 # for this job. 
-#BSUB -R "rusage[mem=4GB]"
+#BSUB -R "rusage[mem=1GB]"
 # -- Notify me by email when execution begins --
 ##BSUB -B
 # -- Notify me by email when execution ends   --
@@ -21,9 +21,9 @@
 # -- Error File --
 #BSUB -e out/Output_%J.err
 # -- estimated wall clock time (execution time): hh:mm -- 
-#BSUB -W 24:00 
+#BSUB -W 1:00
 # -- Number of cores requested -- 
-#BSUB -n 16 
+#BSUB -n 4
 # -- Specify the distribution of the cores: on a single node --
 #BSUB -R "span[hosts=1]"
 # -- end of LSF options -- 
@@ -31,6 +31,4 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate busco
 
-## busco -i /work3/s233201/data/ncbi_dataset/data/ -m genome -l fungi_odb10 -f -o busco_first_run -c 16
-
-busco -i /work3/s233201/data/ncbi_dataset/data/GCA_028024125.1/GCA_028024125.1_ASM2802412v1_genomic.fna -m genome -l fungi_odb10 -f -o busco_first_run -c 16 --metaeuk
+busco -i /work3/s233201/data/ncbi_dataset/data/batch_1/GCA_000182805.2_ASM18280v2_genomic.fna -m genome -l fungi_odb10 -f -o busco_first_run -c 4 --metaeuk

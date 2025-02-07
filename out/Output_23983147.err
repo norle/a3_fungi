@@ -1,8 +1,0 @@
-2025-02-06 13:58:45 ERROR:	A signal was sent to kill the process. 
-BUSCO analysis failed !
-2025-02-06 13:58:45 ERROR:	BUSCO analysis failed!
-2025-02-06 13:58:45 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
-
-Terminated
-/zhome/85/8/203063/miniconda3/envs/busco/lib/python3.6/multiprocessing/semaphore_tracker.py:143: UserWarning: semaphore_tracker: There appear to be 5 leaked semaphores to clean up at shutdown
-  len(cache))
