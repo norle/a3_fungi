@@ -11,8 +11,13 @@ SOURCE_DIR="$1"
 DEST_DIR="$2"
 LOG_FILE="$DEST_DIR/finished_runs.txt"
 
-# Ensure the log file is empty
-> "$LOG_FILE"
+# Check if the log file is not empty and echo a message
+if [ -s "$LOG_FILE" ]; then
+    echo "Warning: The log file is not empty. Appending new entries."
+else
+    # Ensure the log file is empty
+    > "$LOG_FILE"
+fi
 
 # Loop through each batch directory in the source directory
 for batch_dir in "$SOURCE_DIR"/*; do
@@ -29,15 +34,21 @@ for batch_dir in "$SOURCE_DIR"/*; do
                         rm -rf "$dir/run_fungi_odb10/metaeuk_output"
                     fi
                     
-                    # Add the directory name to the log file
+                    # Append the directory name to the log file
                     echo "$(basename "$dir")" >> "$LOG_FILE"
                     
-                    # Move the directory to the destination path
-                    mv "$dir" "$DEST_DIR"
-                else
-                    # Delete the directory if it doesn't contain exactly 4 objects
-                    rm -rf "$dir"
+                    # If the destination directory already exists, delete the source directory
+                    if [ -d "$DEST_DIR/$(basename "$dir")" ]; then
+                        rm -rf "$dir"
+                    else
+                        # Move the directory to the destination path
+                        mv "$dir" "$DEST_DIR"
+                    fi
                 fi
+                # else
+                #     # Delete the directory if it doesn't contain exactly 4 objects
+                #     rm -rf "$dir"
+
             fi
         done
     fi
