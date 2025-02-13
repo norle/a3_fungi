@@ -18,7 +18,7 @@
 # -- Error File --
 #BSUB -e out/Output_rf_loop_%J.err
 # -- estimated wall clock time (execution time): hh:mm -- 
-#BSUB -W 1:00
+#BSUB -W 48:00
 # -- Number of cores requested -- 
 #BSUB -n 1
 # -- Specify the distribution of the cores: on a single node --

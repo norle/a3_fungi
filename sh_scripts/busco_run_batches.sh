@@ -12,9 +12,9 @@ mkdir -p out
 mkdir -p out_busco
 
 # Define start and end batch numbers
-START_BATCH=21
-END_BATCH=100
-MAX_CONCURRENT=30
+START_BATCH=1
+END_BATCH=54
+MAX_CONCURRENT=10
 echo 'Starting batches'
 
 # Function to count running jobs

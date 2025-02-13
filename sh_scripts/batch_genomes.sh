@@ -17,19 +17,22 @@ BATCH_SIZE="${3:-100}"
 
 echo "Batch size of $BATCH_SIZE"
 
-# Initialize batch counter
-batch_num=1
-file_count=0
+# Initialize batch counters
+regular_batch_num=1
+large_batch_num=1
+regular_file_count=0
+large_file_count=0
 
-# Create the first batch directory
-batch_dir="$DIR/batch_$batch_num"
-mkdir -p "$batch_dir"
+# Create initial batch directories
+regular_batch_dir="$DIR/batch_$regular_batch_num"
+large_batch_dir="$DIR/batch_l_$large_batch_num"
+mkdir -p "$regular_batch_dir" "$large_batch_dir"
 
 # Create the finished runs directory
 finished_runs_dir="$DIR/finished_runs"
 mkdir -p "$finished_runs_dir"
 
-# If the finished runs file is provided, move the corresponding files
+# Handle finished runs if file provided
 if [ -n "$FINISHED_RUNS_FILE" ]; then
     while IFS= read -r finished_file; do
         if [ -f "$DIR/$finished_file" ]; then
@@ -38,24 +41,44 @@ if [ -n "$FINISHED_RUNS_FILE" ]; then
     done < "$FINISHED_RUNS_FILE"
 fi
 
-# Loop through all files in the directory
+# Process files
 for file in "$DIR"/*; do
     # Skip directories
     if [ -d "$file" ]; then
         continue
     fi
 
-    # Move the file to the current batch directory
-    mv "$file" "$batch_dir"
-    ((file_count++))
+    # Get file size in megabytes
+    size_mb=$(du -m "$file" | cut -f1)
 
-    # If the batch size is reached, create a new batch directory
-    if ((file_count == BATCH_SIZE)); then
-        ((batch_num++))
-        batch_dir="$DIR/batch_$batch_num"
-        mkdir -p "$batch_dir"
-        file_count=0
+    # Determine if file is large (>100MB)
+    if [ "$size_mb" -gt 100 ]; then
+        # Handle large file
+        mv "$file" "$large_batch_dir"
+        ((large_file_count++))
+
+        # Create new large batch directory if needed
+        if ((large_file_count == BATCH_SIZE)); then
+            ((large_batch_num++))
+            large_batch_dir="$DIR/batch_l_$large_batch_num"
+            mkdir -p "$large_batch_dir"
+            large_file_count=0
+        fi
+    else
+        # Handle regular file
+        mv "$file" "$regular_batch_dir"
+        ((regular_file_count++))
+
+        # Create new regular batch directory if needed
+        if ((regular_file_count == BATCH_SIZE)); then
+            ((regular_batch_num++))
+            regular_batch_dir="$DIR/batch_$regular_batch_num"
+            mkdir -p "$regular_batch_dir"
+            regular_file_count=0
+        fi
     fi
 done
 
 echo "Files have been distributed into batches."
+echo "Regular batches: $regular_batch_num"
+echo "Large genome batches: $large_batch_num"
