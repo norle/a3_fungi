@@ -13,8 +13,8 @@ mkdir -p out_busco
 
 # Define start and end batch numbers
 START_BATCH=1
-END_BATCH=54
-MAX_CONCURRENT=10
+END_BATCH=2
+MAX_CONCURRENT=1
 echo 'Starting batches'
 
 # Function to count running jobs
@@ -24,8 +24,8 @@ count_running_jobs() {
 
 # Loop through specified batch range
 for batch_num in $(seq $START_BATCH $END_BATCH); do
-    batch_dir="/work3/s233201/data/ncbi_dataset/data/batch_${batch_num}"
-    out_dir="out_busco/busco_batch_${batch_num}"
+    batch_dir="/work3/s233201/data/ncbi_dataset/data/batch_l_${batch_num}"
+    out_dir="out_busco/busco_batch_l_${batch_num}"
     
     if [ -d "$batch_dir" ]; then
         # Wait if we have reached max concurrent jobs
@@ -40,7 +40,7 @@ for batch_num in $(seq $START_BATCH $END_BATCH); do
         bsub -J "busco_${batch_num}" \
              -o "out/Output_${batch_num}.out" \
              -e "out/Error_${batch_num}.err" \
-             -n 16 \
+             -n 32 \
              -R "span[hosts=1] rusage[mem=1GB]" \
              -q hpc \
              -W 48:00 \
@@ -53,7 +53,7 @@ for batch_num in $(seq $START_BATCH $END_BATCH); do
                 -f \
                 -q \
                 -o ${out_dir} \
-                -c 16 \
+                -c 32 \
                 --metaeuk"
     else
         echo "Batch directory ${batch_num} not found"

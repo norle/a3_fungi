@@ -1,25 +1,27 @@
 #!/bin/bash
+#BSUB -J remove_hmmer
+#BSUB -n 8
+#BSUB -R "span[hosts=1]"
+#BSUB -o remove_hmmer.out
+#BSUB -e remove_hmmer.err
 
-# Check if the parent directory is provided as an argument
-if [ -z "$1" ]; then
-    echo "Usage: $0 <parent_directory>"
+# Set default parent directory if not provided
+PARENT_DIR=${1:-/work3/s233201/finished_runs}
+
+# Verify the directory exists
+if [ ! -d "$PARENT_DIR" ]; then
+    echo "Error: Directory $PARENT_DIR does not exist"
     exit 1
 fi
 
-# Parent directory
-PARENT_DIR="$1"
-
-# Loop through directories in the parent directory
-for dir in "$PARENT_DIR"/*/; do
-    # Check if hmmer_output directory exists and remove it
-    if [ -d "$dir/run_fungi_odb10/hmmer_output" ]; then
-        rm -rf "$dir/run_fungi_odb10/hmmer_output"
-        #echo "Removed $dir/hmmer_output"
+# Use find and xargs to process directories in parallel
+# -P 8 sets the number of parallel processes to 8
+find "$PARENT_DIR" -mindepth 1 -maxdepth 1 -type d -print0 | \
+xargs -0 -P 8 -I {} bash -c '
+    if [ -d "{}/run_fungi_odb10/hmmer_output" ]; then
+        rm -rf "{}/run_fungi_odb10/hmmer_output"
     fi
-
-    # Check if logs directory exists and remove it
-    if [ -d "$dir/logs" ]; then
-        rm -rf "$dir/logs"
-        #echo "Removed $dir/logs"
+    if [ -d "{}/logs" ]; then
+        rm -rf "{}/logs"
     fi
-done
+'
