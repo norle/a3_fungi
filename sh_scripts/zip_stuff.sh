@@ -28,4 +28,4 @@
 #BSUB -R "span[hosts=1]"
 # -- end of LSF options -- 
 
-tar cf - /work3/s233201/finished_runs | zstd -T0 -o /work3/s233201/finished_runs.tar.zst
+tar cf - /work3/s233201/data | zstd -T0 -o /work3/s233201/genomes.tar.zst

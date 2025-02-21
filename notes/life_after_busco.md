@@ -5,7 +5,8 @@
 - see which buscos are present in most genomes
 - determine a rule to filter out genomes that are incompatible
 
-**all genomes selected should have the same buscos present** so that to make the phylogeny comparison using buscos possible
+*all genomes selected should have the same buscos present* so that to make the phylogeny comparison using buscos possible
+There are no such buscos present, so the threshould is set to 90% of genomes should have a busco to include it
 
 ## Retrieve enzyme sequences
 either 
