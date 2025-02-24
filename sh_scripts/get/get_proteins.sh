@@ -34,12 +34,18 @@ mkdir -p "$PROTEIN_DIR"
 
 # Process the file to get accessions:
 # 1. Skip header line
-# 2. For each line, keep everything before second underscore
-ACCESSIONS=$(tail -n +2 ~/a3_fungi/data_out/filtered_genomes.csv | \
-             awk -F '_' '{print $1"_"$2}')
+# 2. Take first 15 characters from each line
+ACCESSIONS=$(tail -n +2 ~/a3_fungi/data_out/busco_results_cleaned.csv | \
+             cut -c 1-15)
 
 # Download protein data for each accession separately
 for ACCESSION in $ACCESSIONS; do
+    # Check if file already exists
+    if [ -f "${PROTEIN_DIR}/${ACCESSION}_proteins.zip" ]; then
+        echo "Skipping ${ACCESSION}: protein file already exists"
+        continue
+    fi
+    
     echo "Downloading proteins for: $ACCESSION"
     
     # Download protein data for the accession

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to the CSV file
-csv_file="/zhome/85/8/203063/a3_fungi/data_out/filtered_genomes.csv"
+csv_file="/zhome/85/8/203063/a3_fungi/data_out/cleaned_genomes.csv"
 
 # Path to the directory containing the folders
 source_dir="/work3/s233201/finished_runs"

@@ -5,22 +5,28 @@ import matplotlib.pyplot as plt
 csv_path = '~/a3_fungi/data_out/busco_results.csv'
 df = pd.read_csv(csv_path)
 
-# Filter out entries with >100 missing BUSCOs and >50 fragmented BUSCOs
-df = df[(df['missing_buscos'] <= 40) & (df['fragmented_buscos'] <= 20)]
-print(f"filtered df shape: {df.shape}")
-
 # Create a new column for sorting (1 for GCF, 0 for GCA)
 df['is_gcf'] = df['organism'].str.startswith('GCF').astype(int)
 # Remove GCA/GCF prefix for grouping
 df['clean_name'] = df['organism'].str.replace(r'^(GCA|GCF)_', '', regex=True)
+
 # Sort by is_gcf (descending) and keep first occurrence
 df = df.sort_values('is_gcf', ascending=False).drop_duplicates(subset='clean_name', keep='first')
 # Clean up temporary columns
 df = df.drop(['is_gcf', 'clean_name'], axis=1)
-print(f"filtered df shape after dropping duplicates: {df.shape}")
+print(f"df shape after dropping duplicates: {df.shape}")
+
+df.to_csv('~/a3_fungi/data_out/busco_results_cleaned.csv', index=False)
+
+df['organism'].to_csv('~/a3_fungi/data_out/cleaned_genomes.csv', index=False)
+
+
+# Filter out entries with >100 missing BUSCOs and >50 fragmented BUSCOs
+df = df[(df['missing_buscos'] <= 100) & (df['fragmented_buscos'] <= 50)]
+print(f"filtered df shape: {df.shape}")
 
 # Save the filtered DataFrame to a new CSV file
-output_csv_path = '~/a3_fungi/data_out/filtered_busco_results.csv'
+output_csv_path = '~/a3_fungi/data_out/filtered_busco_results1.csv'
 df.to_csv(output_csv_path, index=False)
 # Save the organism column to a new CSV file
 organism_output_csv_path = '~/a3_fungi/data_out/filtered_genomes.csv'
