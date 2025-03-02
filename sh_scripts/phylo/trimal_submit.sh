@@ -7,9 +7,13 @@
 #BSUB -R "rusage[mem=1GB]"
 #BSUB -W 24:00
 
+# Define source and output paths
+SOURCE_DIR="/work3/s233201/enzyme_out/alignments"
+OUTPUT_DIR="/work3/s233201/enzyme_out/trim"
+
 # Create output directories if they don't exist
 mkdir -p out_trimal
-mkdir -p /work3/s233201/output_phyl/supermatrix/trim
+mkdir -p "$OUTPUT_DIR"
 
 # Function to count running jobs
 count_running_jobs() {
@@ -19,7 +23,7 @@ count_running_jobs() {
 MAX_CONCURRENT=20
 
 # Process each alignment file
-for aln_file in /work3/s233201/output_phyl/supermatrix/alignments/*.aln; do
+for aln_file in "${SOURCE_DIR}"/*.aln; do
     # Extract filename without path and extension
     filename=$(basename "$aln_file" .aln)
     
@@ -41,5 +45,5 @@ for aln_file in /work3/s233201/output_phyl/supermatrix/alignments/*.aln; do
          -W 1:00 \
          "source ~/miniconda3/etc/profile.d/conda.sh && \
           conda activate busco_phyl && \
-          trimal -in ${aln_file} -out /work3/s233201/output_phyl/supermatrix/trim/${filename}.aln -gappyout"
+          trimal -in ${aln_file} -out ${OUTPUT_DIR}/${filename}.aln -gappyout"
 done

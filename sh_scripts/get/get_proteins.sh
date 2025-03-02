@@ -38,20 +38,41 @@ mkdir -p "$PROTEIN_DIR"
 ACCESSIONS=$(tail -n +2 ~/a3_fungi/data_out/busco_results_cleaned.csv | \
              cut -c 1-15)
 
-# Download protein data for each accession separately
+# Get list of existing folders into an array
+mapfile -t EXISTING_FOLDERS < <(ls -d ${PROTEIN_DIR}/*/ 2>/dev/null | xargs -n 1 basename)
+
+# Debug print
+echo "Found ${#EXISTING_FOLDERS[@]} existing folders"
+
+# Find missing accessions
+MISSING_ACCESSIONS=()
 for ACCESSION in $ACCESSIONS; do
-    # Check if file already exists
-    if [ -f "${PROTEIN_DIR}/${ACCESSION}_proteins.zip" ]; then
-        echo "Skipping ${ACCESSION}: protein file already exists"
-        continue
+    FOUND=0
+    for FOLDER in "${EXISTING_FOLDERS[@]}"; do
+        if [ "$ACCESSION" = "$FOLDER" ]; then
+            FOUND=1
+            break
+        fi
+    done
+    if [ $FOUND -eq 0 ]; then
+        MISSING_ACCESSIONS+=("$ACCESSION")
     fi
-    
+done
+
+# Print the number of missing accessions
+echo "Total accessions to process: $(echo "$ACCESSIONS" | wc -w)"
+echo "Number of missing accessions: ${#MISSING_ACCESSIONS[@]}"
+
+# Download protein data for each missing accession separately
+for ACCESSION in "${MISSING_ACCESSIONS[@]}"; do
     echo "Downloading proteins for: $ACCESSION"
     
     # Download protein data for the accession
-    datasets download genome accession "$ACCESSION" \
+    if ! datasets download genome accession "$ACCESSION" \
         --include protein \
-        --filename "${PROTEIN_DIR}/${ACCESSION}_proteins.zip"
+        --filename "${PROTEIN_DIR}/${ACCESSION}_proteins.zip"; then
+        echo "Failed to download proteins for: $ACCESSION"
+    fi
 done
 
 

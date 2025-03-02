@@ -23,7 +23,7 @@
 # -- estimated wall clock time (execution time): hh:mm -- 
 #BSUB -W 48:00
 # -- Number of cores requested -- 
-#BSUB -n 16
+#BSUB -n 1
 # -- Specify the distribution of the cores: on a single node --
 #BSUB -R "span[hosts=1]"
 # -- end of LSF options -- 
@@ -31,5 +31,5 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate busco_phyl
 
-python -u ~/a3_fungi/py_scripts/build_supermatrix.py -i /work3/s233201/output_phyl/supermatrix/trim -o /work3/s233201/output_phyl/supermatrix/final.aln
+python -u ~/a3_fungi/py_scripts/build_supermatrix.py -i /work3/s233201/enzyme_out/trim -o /work3/s233201/enzyme_out/final.aln
 
