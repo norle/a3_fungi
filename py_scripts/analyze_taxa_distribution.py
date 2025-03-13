@@ -32,7 +32,7 @@ def main():
     print_distribution(taxa_df, "Original Distribution")
     
     # Get all FASTA files
-    fasta_files = glob.glob('/work3/s233201/enzyme_out/*.fasta')
+    fasta_files = glob.glob('/work3/s233201/enzyme_out/non_filtered/alignments/trim/*.aln')
     
     # Get accessions that appear in ALL FASTA files
     first_file = True
@@ -57,7 +57,7 @@ def main():
     print(f"\nNumber of sequences removed: {removed_count}")
     print(f"Percentage of sequences removed: {(removed_count/len(taxa_df))*100:.2f}%")
 
-    taxa_df.to_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing.csv', index=False)
+    filtered_df.to_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing.csv', index=False)
 
 if __name__ == "__main__":
     main()

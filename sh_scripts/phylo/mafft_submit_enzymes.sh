@@ -9,8 +9,8 @@
 
 
 
-SEQUENCE_DIR="/work3/s233201/enzyme_out"
-OUTPUT_DIR="/work3/s233201/enzyme_out"
+SEQUENCE_DIR="/work3/s233201/enzyme_out_2"
+OUTPUT_DIR="/work3/s233201/enzyme_out_2"
 
 # Create output directories if they don't exist
 mkdir -p out_mafft
@@ -52,5 +52,5 @@ for seq_file in "${SEQUENCE_DIR}"/*.fasta; do
          -W 12:00 \
          "source ~/miniconda3/etc/profile.d/conda.sh && \
           conda activate mafft && \
-          mafft --auto --thread 8 ${seq_file} > ${OUTPUT_DIR}/alignments/${filename}.aln"
+          fftnsi --thread 8 ${seq_file} > ${OUTPUT_DIR}/alignments_mafft/${filename}.aln"
 done

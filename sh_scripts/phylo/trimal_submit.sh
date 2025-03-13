@@ -8,8 +8,8 @@
 #BSUB -W 24:00
 
 # Define source and output paths
-SOURCE_DIR="/work3/s233201/enzyme_out/alignments"
-OUTPUT_DIR="/work3/s233201/enzyme_out/trim"
+SOURCE_DIR="/work3/s233201/output_phyl_busco_1/supermatrix/alignments"
+OUTPUT_DIR="/work3/s233201/output_phyl_busco_1/supermatrix/trim"
 
 # Create output directories if they don't exist
 mkdir -p out_trimal
@@ -20,7 +20,7 @@ count_running_jobs() {
     bjobs -w | grep "trimal_" | wc -l
 }
 
-MAX_CONCURRENT=20
+MAX_CONCURRENT=50
 
 # Process each alignment file
 for aln_file in "${SOURCE_DIR}"/*.aln; do

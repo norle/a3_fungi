@@ -136,7 +136,7 @@ def main():
     print(f"Number of partitions: {len(partitions)}")
 
     # Write FASTA
-    fasta_out = f"{args.output}.fasta"
+    fasta_out = f"{args.output}"
     SeqIO.write(records, fasta_out, "fasta")
     print(f"Wrote FASTA format: {fasta_out}")
 

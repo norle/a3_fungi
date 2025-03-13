@@ -9,19 +9,20 @@ try:
     taxa_df = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_non_filtered.csv')
        
     # Read the distance matrix, skipping header
-    distance_matrix = pd.read_csv('/work3/s233201/enzyme_out/final_iq.mldist', 
+    distance_matrix = pd.read_csv('/work3/s233201/output_phyl_busco/tree_iq_multi_LGI.mldist', 
                                 sep='\s+',
                                 header=None,
                                 skiprows=1)
     
     # Convert to numpy array and drop first column (which contains accessions)
     distance_matrix = distance_matrix.to_numpy()
-    accessions = distance_matrix[:, 0]
+    accessions = np.array([acc[:15] for acc in distance_matrix[:, 0]])  # Trim to 15 chars
     distance_matrix = distance_matrix[:, 1:]
     
     # Filter and align taxa_df with distance matrix accessions
-    taxa_df = taxa_df[taxa_df['Accession'].isin(accessions)].copy()
-    taxa_df = taxa_df.set_index('Accession').loc[accessions].reset_index()
+    taxa_df['Accession_trim'] = taxa_df['Accession'].str[:15]  # Add trimmed column
+    taxa_df = taxa_df[taxa_df['Accession_trim'].isin(accessions)].copy()
+    taxa_df = taxa_df.set_index('Accession_trim').loc[accessions].reset_index()
     
     print(f"Matrix shape: {distance_matrix.shape}")
     print(f"Number of matching taxa: {len(taxa_df)}")
@@ -37,7 +38,8 @@ try:
             'UMAP2': embedding[:, 1],
             'UMAP3': embedding[:, 2],
             'Phylum': taxa_df['Phylum'],
-            'Accession': accessions
+            'Accession': taxa_df['Accession'],  # Use full accession for display
+            'Accession_trim': accessions
         })
         
         # Create 3D scatter plot

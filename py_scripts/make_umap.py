@@ -9,7 +9,7 @@ try:
     #taxa_df = pd.read_csv('/work3/s233201/enzyme_out/final_iq.mldist')
        
     # Read the distance matrix, skipping header
-    distance_matrix = pd.read_csv('/work3/s233201/enzyme_out/final_iq.mldist', 
+    distance_matrix = pd.read_csv('/work3/s233201/enzyme_out_1/tree_iq_multi_LGI.mldist', 
                                 sep='\s+',
                                 header=None,
                                 skiprows=1)
@@ -19,9 +19,11 @@ try:
     accessions = distance_matrix[:, 0]
     distance_matrix = distance_matrix[:, 1:]
     
-    # Filter and align taxa_df with distance matrix accessions
-    taxa_df = taxa_df[taxa_df['Accession'].isin(accessions)].copy()
-    taxa_df = taxa_df.set_index('Accession').loc[accessions].reset_index()
+    # Filter and align taxa_df with distance matrix accessions using first 15 characters
+    taxa_df['Accession_short'] = taxa_df['Accession'].str[:15]
+    accessions_short = np.array([acc[:15] for acc in accessions])
+    taxa_df = taxa_df[taxa_df['Accession_short'].isin(accessions_short)].copy()
+    taxa_df = taxa_df.set_index('Accession_short').loc[accessions_short].reset_index()
     
     print(f"Matrix shape: {distance_matrix.shape}")
     print(f"Number of matching taxa: {len(taxa_df)}")
@@ -44,7 +46,7 @@ try:
             mask = taxa_df['Phylum'] == phylum
             points = plt.scatter(embedding[mask.values, 0], 
                        embedding[mask.values, 1],
-                       s=25,  # Reduced point size
+                       s=10,  # Reduced point size
                        label=phylum,
                        color=phylum_to_color[phylum],
                        alpha=0.6)

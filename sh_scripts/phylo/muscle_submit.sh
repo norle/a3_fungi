@@ -1,5 +1,5 @@
 #!/bin/bash
-#BSUB -J submit_mafft
+#BSUB -J submit_muscle
 #BSUB -o out/submit_mafft_%J.out
 #BSUB -e out/submit_mafft_%J.err
 #BSUB -q hpc
@@ -7,23 +7,32 @@
 #BSUB -R "rusage[mem=1GB]"
 #BSUB -W 48:00
 
-BASE_DIR="/work3/s233201/output_phyl_busco_1/supermatrix"
+
+
+SEQUENCE_DIR="/work3/s233201/enzyme_out_2"
+OUTPUT_DIR="/work3/s233201/enzyme_out_2"
 
 # Create output directories if they don't exist
 mkdir -p out_mafft
-mkdir -p "${BASE_DIR}/alignments"
+mkdir -p "${OUTPUT_DIR}/alignments_muscle"
 
 # Function to count running jobs
 count_running_jobs() {
-    bjobs -w | grep "mafft_" | wc -l
+    bjobs -w | grep "muscle_" | wc -l
 }
 
 MAX_CONCURRENT=20
 
 # Process each sequence file
-for seq_file in ${BASE_DIR}/sequences/*.faa; do
+for seq_file in "${SEQUENCE_DIR}"/*.fasta; do
+    # Check if files exist
+    if [ ! -f "$seq_file" ]; then
+        echo "No .faa files found in ${SEQUENCE_DIR}"
+        exit 1
+    fi
+    
     # Extract filename without path and extension
-    filename=$(basename "$seq_file" .faa)
+    filename=$(basename "$seq_file" .fasta)
     
     # Wait if we have reached max concurrent jobs
     while [ $(count_running_jobs) -ge $MAX_CONCURRENT ]; do
@@ -31,17 +40,17 @@ for seq_file in ${BASE_DIR}/sequences/*.faa; do
         sleep 60
     done
     
-    echo "Submitting MAFFT job for ${filename}"
+    echo "Submitting Muscle job for ${filename}"
     
     # Submit the MAFFT job
-    bsub -J "mafft_${filename}" \
-         -o "out_mafft/mafft_${filename}_%J.out" \
-         -e "out_mafft/mafft_${filename}_%J.err" \
+    bsub -J "muscle_${filename}" \
+         -o "out_muscle/muscle_${filename}_%J.out" \
+         -e "out_muscle/muscle_${filename}_%J.err" \
          -n 8 \
          -R "span[hosts=1] rusage[mem=1GB]" \
          -q hpc \
          -W 12:00 \
          "source ~/miniconda3/etc/profile.d/conda.sh && \
-          conda activate mafft && \
-          mafft --auto --thread 8 ${seq_file} > ${BASE_DIR}/alignments/${filename}.aln"
+          conda activate busco_phyl && \
+          muscle -threads 8 -super5 ${seq_file} -output ${OUTPUT_DIR}/alignments_muscle/${filename}.aln"
 done

@@ -31,5 +31,5 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate busco_phyl
 
-python -u ~/a3_fungi/py_scripts/build_supermatrix.py -i /work3/s233201/enzyme_out/trim -o /work3/s233201/enzyme_out/final.aln
+python -u ~/a3_fungi/py_scripts/build_supermatrix.py -i /work3/s233201/output_phyl_busco/supermatrix/trim -o /work3/s233201/output_phyl_busco_1/supermatrix/final.aln
 

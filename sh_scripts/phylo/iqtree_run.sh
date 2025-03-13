@@ -7,7 +7,7 @@
 # -- specify that we need 4GB of memory per core/slot --
 # so when asking for 4 cores, we are really asking for 4*4GB=16GB of memory 
 # for this job. 
-#BSUB -R "rusage[mem=4GB]"
+#BSUB -R "rusage[mem=18GB]"
 # -- Notify me by email when execution begins --
 ##BSUB -B
 # -- Notify me by email when execution ends   --
@@ -21,9 +21,9 @@
 # -- Error File --
 #BSUB -e out/tree_%J.err
 # -- estimated wall clock time (execution time): hh:mm -- 
-#BSUB -W 24:00
+#BSUB -W 72:00
 # -- Number of cores requested -- 
-#BSUB -n 32
+#BSUB -n 20
 # -- Specify the distribution of the cores: on a single node --
 #BSUB -R "span[hosts=1]"
 # -- end of LSF options -- 
@@ -31,6 +31,8 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate busco_phyl
 
-#iqtree -s /work3/s233201/output_phyl/supermatrix/final.aln -T 4 -m LG+I+G -B 1000 -pre /work3/s233201/output_phyl/supermatrix/final_iq
+# iqtree -s /work3/s233201/output_phyl_busco/supermatrix/final.aln -T 20 -mem 300G -m LG+I -B 1000 -pre /work3/s233201/output_phyl_busco/tree_iq_multi_LGI
 
-iqtree -s /work3/s233201/enzyme_out/final.aln -T 32 -m LG+F+G -B 1000 -pre /work3/s233201/enzyme_out/final_iq_fg
+# iqtree -s /work3/s233201/output_phyl_busco_1/supermatrix/final.aln -T 20 -mem 300G -m LG+I -fast -pre /work3/s233201/output_phyl_busco_1/tree_iq_multi_LGI_fast
+
+iqtree -s /work3/s233201/enzyme_out_1/final.aln -T 20 -m LG+I -B 1000 -pre /work3/s233201/enzyme_out_1/tree_iq_multi_LGI
