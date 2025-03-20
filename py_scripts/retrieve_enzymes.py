@@ -16,10 +16,27 @@ def process_results(result_path, name, gene_dict):
 
     return gene_dict
 
+def check_gene_counts(gene_dict):
+    counts = {gene: len(sequences) for gene, sequences in gene_dict.items()}
+    max_count = max(counts.values())
+    
+    missing = {}
+    for gene, count in counts.items():
+        if count < max_count:
+            missing[gene] = max_count - count
+    
+    if missing:
+        print("\nInconsistent gene counts found:")
+        print(f"Maximum sequences found: {max_count}")
+        for gene, missing_count in missing.items():
+            print(f"{gene}: missing {missing_count} sequences")
+    else:
+        print(f"\nAll genes have {max_count} sequences")
+
 def main():
 
     PARENT_DIR = '/work3/s233201/fungi_proteins/'
-    RESULT_DIR = '/work3/s233201/enzyme_out_1/'
+    RESULT_DIR = '/work3/s233201/enzyme_out_3/'
     TAX_FILE = '/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing.csv'
 
     # Read valid accessions
@@ -47,6 +64,8 @@ def main():
     for gene, sequences in gene_dict.items():
         with open(f'{RESULT_DIR}/{gene}.fasta', 'w') as f:
             f.writelines(sequences)
+    
+    check_gene_counts(gene_dict)
 
 if __name__ == '__main__':
     main()

@@ -14,7 +14,7 @@ def get_fasta_accessions(fasta_file):
 
 def main():
     # Read all FASTA files
-    fasta_files = glob.glob('/work3/s233201/enzyme_out/*.fasta')
+    fasta_files = glob.glob('/work3/s233201/enzyme_out_1/*.fasta')
     
     # Read taxa_clean.csv
     taxa_df = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_clean.csv')
