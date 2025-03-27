@@ -70,7 +70,8 @@ def manage_duplicates(in_fasta, unique_fasta, mat_dist, log_file):
     
     return df_full
 
-if __name__ == '__main__':
+def enzyme_matrices():
+
     gene_names = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
     for gene_name in gene_names:
         in_fasta = f'/work3/s233201/enzyme_out_3/{gene_name}.fasta'
@@ -85,3 +86,27 @@ if __name__ == '__main__':
         output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/full_mat_{gene_name}.csv'
         full_mat.to_csv(output_path, sep=' ', index=False)
         print(full_mat.shape)
+
+def single_matrix():
+
+    main_dir = '/work3/s233201/enzyme_out_1'
+    in_fasta = f'{main_dir}/final.aln'
+    
+    unique_fasta = f'{main_dir}/tree_iq_multi_LGI.uniqueseq.phy'
+    mat_dist_name = f'{main_dir}/tree_iq_multi_LGI.mldist'
+    log_file = f'{main_dir}/tree_iq_multi_LGI.log'
+
+    output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl.csv'
+
+    mat_dist = pd.read_csv(mat_dist_name, sep=r'\s+', header=None, skiprows=1)
+    mat_dist = mat_dist.iloc[:, 1:].to_numpy()
+
+    full_mat = manage_duplicates(in_fasta, unique_fasta, mat_dist, log_file)
+    
+    full_mat.to_csv(output_path, sep=' ', index=False)
+    print(full_mat.shape)
+
+if __name__ == '__main__':
+
+    single_matrix()
+    

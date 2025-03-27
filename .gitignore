@@ -8,3 +8,4 @@ busco_first_run
 *.out
 *.err
 *.tar.zst
+full_dist_mats
