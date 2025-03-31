@@ -59,5 +59,16 @@ def main():
 
     filtered_df.to_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing.csv', index=False)
 
+def match_accession_to_phyla_interpro():
+    taxa_df = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing.csv')
+
+    missing_df = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/interpro/all_missing.txt', header=None)
+    missing_df.columns = ['Accession']
+
+    # Remove rows in taxa_df that match accessions in missing_df
+    filtered_taxa_df = taxa_df[~taxa_df['Accession'].isin(missing_df['Accession'])]
+
+    print_distribution(filtered_taxa_df, "Distribution After Interpro Missing Data")
 if __name__ == "__main__":
-    main()
+    #main()
+    match_accession_to_phyla_interpro()

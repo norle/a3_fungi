@@ -1,0 +1,41 @@
+GCF_028829455.1	5edf8a97126ae9a612975db4e983a216	373	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	193	308	1.53E-8	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-.1
+GCA_003709865.1	0f92a0da046282396cc3a763f1fed3d5	115	Gene3D	G3DSA:3.40.50.720	-	53	111	1.3E-11	T	17-03-2025	-	-	-	-
+GCA_030270505.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270505.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270505.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270505.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_030270465.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270465.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270465.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270465.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_030270525.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270525.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270525.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270525.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_030270545.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270545.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270545.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270545.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_030270485.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270485.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270485.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270485.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_027575375.1	366e19d1ae733eece26d6fed522ce86f	115	Gene3D	G3DSA:3.40.50.720	-	1	69	2.2E-23	T	17-03-2025	-	-	-	-
+GCA_023646395.1	b862b874d0d4d78acff269bd5e7938f8	103	Gene3D	G3DSA:3.40.50.720	-	9	103	2.7E-25	T	17-03-2025	-	-	-	-
+GCA_905219575.1	5cac1900855a905fa70fcac2df83f614	137	Gene3D	G3DSA:3.40.50.720	-	7	111	2.5E-35	T	17-03-2025	-	-	-	-
+GCA_000149815.1	9ae2bc360a0d5332b83d76883d41555b	78	Gene3D	G3DSA:3.40.50.720	-	1	78	3.2E-30	T	17-03-2025	-	-	-	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Pfam	PF00809	Pterin binding enzyme	158	322	1.4E-45	T	17-03-2025	IPR000489	Pterin-binding domain	GO:0042558(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	SUPERFAMILY	SSF51717	Dihydropteroate synthetase-like	156	323	9.03E-54	T	17-03-2025	IPR011005	Dihydropteroate synthase-like superfamily	GO:0044237(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	ProSitePatterns	PS00794	7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase signature.	62	73	-	T	17-03-2025	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	GO:0003848(InterPro)|GO:0009396(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	SUPERFAMILY	SSF55083	6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase, HPPK	5	112	3.66E-36	T	17-03-2025	IPR035907	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase HPPK superfamily	-	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Gene3D	G3DSA:3.20.20.20	-	133	340	9.0E-63	T	17-03-2025	IPR011005	Dihydropteroate synthase-like superfamily	GO:0044237(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Gene3D	G3DSA:3.30.70.560	-	1	130	1.4E-40	T	17-03-2025	IPR035907	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase HPPK superfamily	-	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	ProSitePatterns	PS00792	Dihydropteroate synthase signature 1.	157	172	-	T	17-03-2025	IPR000489	Pterin-binding domain	GO:0042558(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	ProSiteProfiles	PS50972	Pterin-binding domain profile.	155	455	38.989735	T	17-03-2025	IPR000489	Pterin-binding domain	GO:0042558(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	PANTHER	PTHR20941	FOLATE SYNTHESIS PROTEINS	2	322	2.4E-101	T	17-03-2025	IPR045031	Dihydropteroate synthase-like	GO:0004156(PANTHER)|GO:0005740(PANTHER)|GO:0009396(InterPro)|GO:0046654(PANTHER)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	ProSitePatterns	PS00793	Dihydropteroate synthase signature 2.	190	203	-	T	17-03-2025	IPR000489	Pterin-binding domain	GO:0042558(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Pfam	PF01288	7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase (HPPK)	6	107	3.9E-26	T	17-03-2025	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	GO:0003848(InterPro)|GO:0009396(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	NCBIfam	TIGR01498	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	4	107	5.3E-28	T	17-03-2025	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	GO:0003848(InterPro)|GO:0009396(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	CDD	cd00483	HPPK	5	105	1.23027E-49	T	17-03-2025	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	GO:0003848(InterPro)|GO:0009396(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Gene3D	G3DSA:3.40.50.720	-	393	455	2.8E-8	T	17-03-2025	-	-	-	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	NCBIfam	TIGR01496	dihydropteroate synthase	156	322	1.3E-46	T	17-03-2025	IPR006390	Dihydropteroate synthase domain	GO:0004156(InterPro)|GO:0009396(InterPro)	-

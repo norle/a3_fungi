@@ -1,0 +1,1078 @@
+GCF_028829455.1	5edf8a97126ae9a612975db4e983a216	373	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	193	308	1.53E-8	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-.1
+GCA_000765035.1	8aa125176293a30e413ca887d2013840	209	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	55	205	4.4E-26	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000765035.1	8aa125176293a30e413ca887d2013840	209	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	198	4.93E-14	T	17-03-2025	-	-	-	-
+GCA_000765035.1	8aa125176293a30e413ca887d2013840	209	SMART	SM01002	AlaDh_PNT_C_2	42	153	0.0045	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_000765035.1	8aa125176293a30e413ca887d2013840	209	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	7	53	4.3E-7	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000765035.1	8aa125176293a30e413ca887d2013840	209	Gene3D	G3DSA:3.40.50.720	-	38	161	3.2E-45	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	5	901	4.5E-226	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	SMART	SM01002	AlaDh_PNT_C_2	183	371	3.0E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	561	897	1.2E-78	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	SMART	SM01003	AlaDh_PNT_N_2	5	136	4.5E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	3	211	7.06E-29	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	Gene3D	G3DSA:3.40.50.720	-	2	146	9.0E-41	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	563	842	1.3E-157	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	CDD	cd12189	LKR_SDH_like	3	428	0.0	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	5	135	3.1E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	441	557	4.5E-20	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	439	570	4.0E-41	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	437	614	6.6E-26	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	689	803	1.3E-157	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	Gene3D	G3DSA:3.40.50.720	-	439	897	1.3E-157	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	3	148	4.6E-52	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	562	845	6.54E-67	T	17-03-2025	-	-	-	-
+GCA_027604685.1	8ae0569108ee4c7d124aadbee76b9007	904	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	563	693	3.9E-48	T	17-03-2025	-	-	-	-
+GCA_019633565.1	7201d0cf8fe6b39d4178baa2347f264b	277	SMART	SM01003	AlaDh_PNT_N_2	5	114	2.2E-5	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_019633565.1	7201d0cf8fe6b39d4178baa2347f264b	277	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	18	176	2.72E-17	T	17-03-2025	-	-	-	-
+GCA_019633565.1	7201d0cf8fe6b39d4178baa2347f264b	277	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	155	274	2.7E-8	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_019633565.1	7201d0cf8fe6b39d4178baa2347f264b	277	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	139	273	2.5E-45	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_019633565.1	7201d0cf8fe6b39d4178baa2347f264b	277	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	7	114	3.7E-9	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_019633565.1	7201d0cf8fe6b39d4178baa2347f264b	277	SMART	SM01002	AlaDh_PNT_C_2	150	276	4.5E-10	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_019633565.1	7201d0cf8fe6b39d4178baa2347f264b	277	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	107	277	1.2E-66	T	17-03-2025	-	-	-	-
+GCA_019633565.1	7201d0cf8fe6b39d4178baa2347f264b	277	Gene3D	G3DSA:3.40.50.720	-	107	277	9.1E-62	T	17-03-2025	-	-	-	-
+GCA_001702695.2	60bde1398b07c6f6340db49609d99e8d	294	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	85	285	4.3E-22	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_001702695.2	60bde1398b07c6f6340db49609d99e8d	294	SMART	SM01002	AlaDh_PNT_C_2	97	235	7.4E-12	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_001702695.2	60bde1398b07c6f6340db49609d99e8d	294	Gene3D	G3DSA:3.40.50.720	-	43	243	1.7E-70	T	17-03-2025	-	-	-	-
+GCA_001702695.2	60bde1398b07c6f6340db49609d99e8d	294	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	43	243	6.3E-78	T	17-03-2025	-	-	-	-
+GCA_001702695.2	60bde1398b07c6f6340db49609d99e8d	294	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	108	241	2.04E-10	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	CDD	cd12189	LKR_SDH_like	30	455	0.0	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	159	406	1.0E-24	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	594	729	7.4E-46	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	30	175	2.3E-55	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	30	158	6.7E-21	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	471	603	1.9E-41	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	32	163	6.4E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	594	860	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	471	647	1.19E-26	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	29	237	3.83E-32	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	593	860	5.49E-58	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	471	909	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	SMART	SM01003	AlaDh_PNT_N_2	32	163	2.3E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	473	588	6.2E-19	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	721	820	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	32	913	4.8E-224	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	SMART	SM01002	AlaDh_PNT_C_2	210	398	9.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027578095.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	592	909	9.0E-76	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	CDD	cd12189	LKR_SDH_like	30	455	0.0	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	159	406	1.0E-24	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	594	729	7.4E-46	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	30	175	2.3E-55	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	30	158	6.7E-21	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	471	603	1.9E-41	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	32	163	6.4E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	594	860	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	471	647	1.19E-26	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	29	237	3.83E-32	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	593	860	5.49E-58	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	471	909	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	SMART	SM01003	AlaDh_PNT_N_2	32	163	2.3E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	473	588	6.2E-19	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	721	820	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	32	913	4.8E-224	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	SMART	SM01002	AlaDh_PNT_C_2	210	398	9.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027577335.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	592	909	9.0E-76	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	CDD	cd12189	LKR_SDH_like	30	455	0.0	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	159	406	1.0E-24	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	594	729	7.4E-46	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	30	175	2.3E-55	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	30	158	6.7E-21	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	471	603	1.9E-41	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	32	163	6.4E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	594	860	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	471	647	1.19E-26	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	29	237	3.83E-32	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	593	860	5.49E-58	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:3.40.50.720	-	471	909	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	SMART	SM01003	AlaDh_PNT_N_2	32	163	2.3E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	473	588	6.2E-19	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	721	820	8.9E-154	T	17-03-2025	-	-	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	32	913	4.8E-224	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	SMART	SM01002	AlaDh_PNT_C_2	210	398	9.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027577475.1	c2a20b534354158f9c5e83fe46ef08ec	931	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	592	909	9.0E-76	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_022832995.1	1ce307a3a382d50eb43f347b05dc98c1	303	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	10	286	9.35E-13	T	17-03-2025	-	-	-	-
+GCA_022832995.1	1ce307a3a382d50eb43f347b05dc98c1	303	SMART	SM01002	AlaDh_PNT_C_2	103	242	1.6E-16	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_022832995.1	1ce307a3a382d50eb43f347b05dc98c1	303	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	58	250	6.6E-85	T	17-03-2025	-	-	-	-
+GCA_022832995.1	1ce307a3a382d50eb43f347b05dc98c1	303	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	104	230	1.84E-11	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_022832995.1	1ce307a3a382d50eb43f347b05dc98c1	303	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	85	295	5.5E-47	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_022832995.1	1ce307a3a382d50eb43f347b05dc98c1	303	Gene3D	G3DSA:3.40.50.720	-	58	250	2.6E-72	T	17-03-2025	-	-	-	-
+GCA_026023515.1	16c827739f8e6e388d42d354141d3d33	305	Gene3D	G3DSA:3.40.50.720	-	6	89	1.1E-21	T	17-03-2025	-	-	-	-
+GCA_026023515.1	16c827739f8e6e388d42d354141d3d33	305	Gene3D	G3DSA:3.40.50.720	-	219	258	7.3E-12	T	17-03-2025	-	-	-	-
+GCA_026023515.1	16c827739f8e6e388d42d354141d3d33	305	Gene3D	G3DSA:3.40.50.720	-	102	218	1.7E-44	T	17-03-2025	-	-	-	-
+GCA_026023515.1	16c827739f8e6e388d42d354141d3d33	305	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	11	84	8.6E-12	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_026023515.1	16c827739f8e6e388d42d354141d3d33	305	SMART	SM01002	AlaDh_PNT_C_2	142	250	0.0011	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_026023515.1	16c827739f8e6e388d42d354141d3d33	305	SMART	SM01003	AlaDh_PNT_N_2	9	109	6.8E-7	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_026023515.1	16c827739f8e6e388d42d354141d3d33	305	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	16	294	6.04E-23	T	17-03-2025	-	-	-	-
+GCA_026023515.1	16c827739f8e6e388d42d354141d3d33	305	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	9	130	6.0E-49	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	SMART	SM01002	AlaDh_PNT_C_2	200	386	5.4E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	SMART	SM01003	AlaDh_PNT_N_2	15	163	1.2E-10	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	12	237	1.19E-21	T	17-03-2025	-	-	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	520	648	2.8E-39	T	17-03-2025	-	-	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	643	928	2.2E-154	T	17-03-2025	-	-	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	15	980	1.3E-173	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	522	635	7.3E-15	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	642	898	9.81E-52	T	17-03-2025	-	-	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	641	977	1.2E-65	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	771	881	2.2E-154	T	17-03-2025	-	-	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	519	658	8.44E-25	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	Gene3D	G3DSA:3.40.50.720	-	520	977	2.2E-154	T	17-03-2025	-	-	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	Gene3D	G3DSA:3.40.50.720	-	11	180	9.7E-42	T	17-03-2025	-	-	-	-
+GCA_000695385.1	04eadc40fd7b8144859656b842d44507	1004	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	23	163	5.3E-13	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_024761805.1	807ba63d018612d18a4dd5f7fd61d302	210	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	95	184	5.29E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_024761805.1	807ba63d018612d18a4dd5f7fd61d302	210	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	35	210	6.7E-79	T	17-03-2025	-	-	-	-
+GCA_024761805.1	807ba63d018612d18a4dd5f7fd61d302	210	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	2	109	4.85E-10	T	17-03-2025	-	-	-	-
+GCA_024761805.1	807ba63d018612d18a4dd5f7fd61d302	210	Gene3D	G3DSA:3.40.50.720	-	35	210	3.2E-71	T	17-03-2025	-	-	-	-
+GCA_024761805.1	807ba63d018612d18a4dd5f7fd61d302	210	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	62	203	3.5E-32	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024761805.1	807ba63d018612d18a4dd5f7fd61d302	210	SMART	SM01002	AlaDh_PNT_C_2	75	208	7.6E-12	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	CDD	cd12189	LKR_SDH_like	45	467	0.0	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	FunFam	G3DSA:3.40.50.720:FF:000284	Lysine-ketoglutarate reductase/saccharopine dehydrogenase1	45	194	1.5E-62	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	Gene3D	G3DSA:3.40.50.720	-	43	190	3.9E-42	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	47	178	7.9E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	Gene3D	G3DSA:3.40.50.720	-	484	919	4.8E-171	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	33	-	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	486	600	6.5E-15	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	SMART	SM01002	AlaDh_PNT_C_2	224	409	6.8E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	606	875	3.6E-77	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	SMART	SM01003	AlaDh_PNT_N_2	47	178	3.7E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	734	833	4.8E-171	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	47	920	7.9E-237	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	44	252	5.44E-32	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	606	876	4.8E-171	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	484	614	7.6E-41	T	17-03-2025	-	-	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	484	660	7.61E-24	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	605	920	1.3E-82	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_020617735.1	00a6d9ccc472dbd18c3dcc5e26dd02d6	1321	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	607	738	1.5E-50	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	CDD	cd12189	LKR_SDH_like	45	467	0.0	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	607	872	1.4E-171	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	44	252	3.06E-32	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	Gene3D	G3DSA:3.40.50.720	-	43	190	2.4E-42	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	484	660	4.47E-24	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	606	875	1.96E-77	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	486	600	4.1E-15	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	33	-	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	SMART	SM01002	AlaDh_PNT_C_2	224	409	6.8E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	SMART	SM01003	AlaDh_PNT_N_2	47	178	3.7E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	FunFam	G3DSA:3.40.50.720:FF:000284	Lysine-ketoglutarate reductase/saccharopine dehydrogenase1	45	194	9.0E-63	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	47	178	4.8E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	47	925	1.2E-238	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	Gene3D	G3DSA:3.40.50.720	-	484	922	1.4E-171	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	734	833	1.4E-171	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	484	614	4.7E-41	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	607	738	9.0E-51	T	17-03-2025	-	-	-	-
+GCA_020617725.1	0c39099683653d38708061df777f08d0	929	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	605	922	1.2E-83	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027596175.1	499eca628af5dd0a1ad634b588f3a214	133	Gene3D	G3DSA:3.40.50.720	-	1	121	4.6E-35	T	17-03-2025	-	-	-	-
+GCA_027596175.1	499eca628af5dd0a1ad634b588f3a214	133	SMART	SM01003	AlaDh_PNT_N_2	1	115	5.9E-8	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027596175.1	499eca628af5dd0a1ad634b588f3a214	133	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	1	130	2.3E-21	T	17-03-2025	-	-	-	-
+GCA_027596175.1	499eca628af5dd0a1ad634b588f3a214	133	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	2	129	2.2E-36	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027596175.1	499eca628af5dd0a1ad634b588f3a214	133	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	1	115	3.9E-16	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_029590625.1	9fda1b17223f7772a42de7f105475fdc	146	Pfam	PF01262	Alanine dehydrogenase/PNT, C-terminal domain	12	122	0.04	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_029590625.1	9fda1b17223f7772a42de7f105475fdc	146	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	8	140	3.7E-11	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_029590625.1	9fda1b17223f7772a42de7f105475fdc	146	Gene3D	G3DSA:3.40.50.720	-	1	98	5.8E-40	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	44	513	6.5E-97	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Coils	Coil	Coil	275	295	-	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	CDD	cd12189	LKR_SDH_like	42	467	0.0	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	516	-	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	42	187	1.4E-57	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Gene3D	G3DSA:3.40.50.720	-	169	418	9.6E-24	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	12	-	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	44	175	1.4E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	SMART	SM01002	AlaDh_PNT_C_2	226	410	4.0E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	SMART	SM01003	AlaDh_PNT_N_2	44	175	2.6E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	42	249	8.08E-34	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Gene3D	G3DSA:3.40.50.720	-	41	168	1.4E-23	T	17-03-2025	-	-	-	-
+GCA_027578255.1	ee7e0fb23cf01d0f82819dafc7f53e6f	516	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	17-03-2025	-	-	-	-
+GCA_000302655.1	c9d8e1dfbe61396343ab7b52a33f8aa5	409	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	142	280	9.2E-16	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000302655.1	c9d8e1dfbe61396343ab7b52a33f8aa5	409	Gene3D	G3DSA:3.40.50.720	-	144	233	3.2E-5	T	17-03-2025	-	-	-	-
+GCA_000302655.1	c9d8e1dfbe61396343ab7b52a33f8aa5	409	Gene3D	G3DSA:3.40.50.720	-	273	402	4.0E-35	T	17-03-2025	-	-	-	-
+GCA_000302655.1	c9d8e1dfbe61396343ab7b52a33f8aa5	409	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	315	395	2.6E-43	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000302655.1	c9d8e1dfbe61396343ab7b52a33f8aa5	409	MobiDBLite	mobidb-lite	consensus disorder prediction	48	80	-	T	17-03-2025	-	-	-	-
+GCA_000302655.1	c9d8e1dfbe61396343ab7b52a33f8aa5	409	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	140	282	2.64E-25	T	17-03-2025	-	-	-	-
+GCA_000302655.1	c9d8e1dfbe61396343ab7b52a33f8aa5	409	SMART	SM01003	AlaDh_PNT_N_2	141	280	1.0E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Gene3D	G3DSA:3.40.50.720	-	169	418	3.4E-23	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	CDD	cd12189	LKR_SDH_like	42	467	0.0	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	483	660	1.62E-30	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	12	-	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Gene3D	G3DSA:3.40.50.720	-	483	916	2.5E-159	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	606	756	9.0E-50	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	SMART	SM01002	AlaDh_PNT_C_2	226	410	4.0E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	42	187	3.9E-57	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	483	615	5.9E-40	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	604	917	1.9E-79	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	42	249	2.64E-33	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Coils	Coil	Coil	275	295	-	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	939	-	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Gene3D	G3DSA:3.40.50.720	-	41	168	3.6E-23	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	733	827	2.5E-159	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	44	917	1.5E-231	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	44	175	3.6E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	605	867	1.96E-63	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	485	600	5.6E-20	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	SMART	SM01003	AlaDh_PNT_N_2	44	175	2.6E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	606	867	2.5E-159	T	17-03-2025	-	-	-	-
+GCA_027577675.1	158a435d25b255cd8aa94b4ed171f41a	939	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	17-03-2025	-	-	-	-
+GCA_000350255.1	6482d0cd8032dfe0d57b18ab59ae6d2e	272	Gene3D	G3DSA:3.40.50.720	-	135	272	2.9E-44	T	17-03-2025	-	-	-	-
+GCA_000350255.1	6482d0cd8032dfe0d57b18ab59ae6d2e	272	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	142	1.1E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000350255.1	6482d0cd8032dfe0d57b18ab59ae6d2e	272	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	159	270	2.7E-56	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000350255.1	6482d0cd8032dfe0d57b18ab59ae6d2e	272	SMART	SM01003	AlaDh_PNT_N_2	8	142	6.2E-28	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000350255.1	6482d0cd8032dfe0d57b18ab59ae6d2e	272	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	7	144	1.28E-30	T	17-03-2025	-	-	-	-
+GCA_030267665.1	d9b0619e6f146b3399bcee32549efa89	237	Gene3D	G3DSA:3.40.50.720	-	6	138	3.8E-19	T	17-03-2025	-	-	-	-
+GCA_030267665.1	d9b0619e6f146b3399bcee32549efa89	237	FunFam	G3DSA:3.40.50.720:FF:000423	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	6	138	1.3E-66	T	17-03-2025	-	-	-	-
+GCA_030267665.1	d9b0619e6f146b3399bcee32549efa89	237	Gene3D	G3DSA:3.40.50.720	-	139	237	6.2E-33	T	17-03-2025	-	-	-	-
+GCA_030267665.1	d9b0619e6f146b3399bcee32549efa89	237	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	163	233	1.8E-54	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_030267665.1	d9b0619e6f146b3399bcee32549efa89	237	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	9	143	1.1E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_030267665.1	d9b0619e6f146b3399bcee32549efa89	237	SMART	SM01003	AlaDh_PNT_N_2	8	143	4.0E-29	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_030267665.1	d9b0619e6f146b3399bcee32549efa89	237	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	5	210	1.02E-39	T	17-03-2025	-	-	-	-
+GCA_030060715.1	b9600cb9508f5efdd45dd49439977302	242	SMART	SM01002	AlaDh_PNT_C_2	45	180	5.1E-17	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_030060715.1	b9600cb9508f5efdd45dd49439977302	242	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	64	177	4.59E-11	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_030060715.1	b9600cb9508f5efdd45dd49439977302	242	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	31	240	3.2E-28	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_030060715.1	b9600cb9508f5efdd45dd49439977302	242	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	9	199	5.6E-83	T	17-03-2025	-	-	-	-
+GCA_030060715.1	b9600cb9508f5efdd45dd49439977302	242	Gene3D	G3DSA:3.40.50.720	-	9	199	2.0E-70	T	17-03-2025	-	-	-	-
+GCA_032433595.1	deee2808c6ef16ed91abab5ed51e97d6	297	SMART	SM01002	AlaDh_PNT_C_2	105	246	1.8E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_032433595.1	deee2808c6ef16ed91abab5ed51e97d6	297	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	61	254	3.4E-61	T	17-03-2025	-	-	-	-
+GCA_032433595.1	deee2808c6ef16ed91abab5ed51e97d6	297	Gene3D	G3DSA:3.40.50.720	-	61	254	5.0E-60	T	17-03-2025	-	-	-	-
+GCA_032433595.1	deee2808c6ef16ed91abab5ed51e97d6	297	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	20	135	3.4E-10	T	17-03-2025	-	-	-	-
+GCA_032433595.1	deee2808c6ef16ed91abab5ed51e97d6	297	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	18	86	2.9E-30	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	143	2.04E-32	T	17-03-2025	-	-	-	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	161	258	4.6E-54	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	10	101	2.0E-43	T	17-03-2025	-	-	-	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	SMART	SM01003	AlaDh_PNT_N_2	7	141	1.0E-27	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	134	272	1.6E-56	T	17-03-2025	-	-	-	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	141	3.1E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	194	263	5.59E-5	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	Gene3D	G3DSA:3.40.50.720	-	8	85	1.8E-6	T	17-03-2025	-	-	-	-
+GCA_024761825.1	c5379f47d13483939a2257d398a7567d	272	Gene3D	G3DSA:3.40.50.720	-	134	272	2.5E-51	T	17-03-2025	-	-	-	-
+GCA_024244195.1	8bb4ac338833644a25dfd79cf7bfb1db	308	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	183	264	1.0E-50	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024244195.1	8bb4ac338833644a25dfd79cf7bfb1db	308	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	11	108	3.0E-41	T	17-03-2025	-	-	-	-
+GCA_024244195.1	8bb4ac338833644a25dfd79cf7bfb1db	308	SMART	SM01003	AlaDh_PNT_N_2	8	148	8.3E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_024244195.1	8bb4ac338833644a25dfd79cf7bfb1db	308	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	9	148	1.2E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_024244195.1	8bb4ac338833644a25dfd79cf7bfb1db	308	Gene3D	G3DSA:3.40.50.720	-	6	171	4.5E-39	T	17-03-2025	-	-	-	-
+GCA_024244195.1	8bb4ac338833644a25dfd79cf7bfb1db	308	Gene3D	G3DSA:3.40.50.720	-	241	305	1.7E-10	T	17-03-2025	-	-	-	-
+GCA_024244195.1	8bb4ac338833644a25dfd79cf7bfb1db	308	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	7	292	7.99E-34	T	17-03-2025	-	-	-	-
+GCA_019627735.1	8159691ab6bf85e9cf646c916d3434f6	202	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	10	142	2.56E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_019627735.1	8159691ab6bf85e9cf646c916d3434f6	202	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	150	1.7E-63	T	17-03-2025	-	-	-	-
+GCA_019627735.1	8159691ab6bf85e9cf646c916d3434f6	202	SMART	SM01002	AlaDh_PNT_C_2	5	139	3.0E-13	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_019627735.1	8159691ab6bf85e9cf646c916d3434f6	202	Gene3D	G3DSA:3.40.50.720	-	1	150	2.2E-58	T	17-03-2025	-	-	-	-
+GCA_019627735.1	8159691ab6bf85e9cf646c916d3434f6	202	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	14	192	9.0E-20	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_035927325.1	b8622306fd1ce6057cbbd8fad7525cbf	144	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	2	133	1.7E-11	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_035927325.1	b8622306fd1ce6057cbbd8fad7525cbf	144	Gene3D	G3DSA:3.40.50.720	-	1	90	9.8E-37	T	17-03-2025	-	-	-	-
+GCA_000827215.1	e20f62c8af684704f2e7cc03a2605805	155	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	3	146	4.2E-12	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000827215.1	e20f62c8af684704f2e7cc03a2605805	155	Gene3D	G3DSA:3.40.50.720	-	1	101	1.7E-39	T	17-03-2025	-	-	-	-
+GCA_000827215.1	e20f62c8af684704f2e7cc03a2605805	155	Pfam	PF01262	Alanine dehydrogenase/PNT, C-terminal domain	12	134	0.0042	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027578795.1	2a08d07e05e5f860cd8d6560d4ba2600	235	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	10	144	7.6E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578795.1	2a08d07e05e5f860cd8d6560d4ba2600	235	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	163	230	1.6E-55	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578795.1	2a08d07e05e5f860cd8d6560d4ba2600	235	Gene3D	G3DSA:3.40.50.720	-	7	140	1.6E-16	T	17-03-2025	-	-	-	-
+GCA_027578795.1	2a08d07e05e5f860cd8d6560d4ba2600	235	Gene3D	G3DSA:3.40.50.720	-	141	235	9.1E-30	T	17-03-2025	-	-	-	-
+GCA_027578795.1	2a08d07e05e5f860cd8d6560d4ba2600	235	SMART	SM01003	AlaDh_PNT_N_2	9	145	1.8E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578795.1	2a08d07e05e5f860cd8d6560d4ba2600	235	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	8	207	1.7E-29	T	17-03-2025	-	-	-	-
+GCA_900010015.1	41b1f6389f886469fa7145d653efb5c4	294	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	112	286	7.3E-34	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_900010015.1	41b1f6389f886469fa7145d653efb5c4	294	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	82	266	1.3E-75	T	17-03-2025	-	-	-	-
+GCA_900010015.1	41b1f6389f886469fa7145d653efb5c4	294	Gene3D	G3DSA:3.40.50.720	-	82	266	4.4E-68	T	17-03-2025	-	-	-	-
+GCA_900010015.1	41b1f6389f886469fa7145d653efb5c4	294	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	138	250	4.62E-10	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_900010015.1	41b1f6389f886469fa7145d653efb5c4	294	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	4	286	5.19E-17	T	17-03-2025	-	-	-	-
+GCA_900010015.1	41b1f6389f886469fa7145d653efb5c4	294	SMART	SM01002	AlaDh_PNT_C_2	130	258	1.6E-8	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_900010015.1	41b1f6389f886469fa7145d653efb5c4	294	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	4	67	3.8E-4	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_900010015.1	41b1f6389f886469fa7145d653efb5c4	294	Gene3D	G3DSA:3.40.50.720	-	3	68	2.8E-13	T	17-03-2025	-	-	-	-
+GCA_003709865.1	0f92a0da046282396cc3a763f1fed3d5	115	Gene3D	G3DSA:3.40.50.720	-	53	111	1.3E-11	T	17-03-2025	-	-	-	-
+GCA_027596045.1	23c41838ab5615cdfd6f4261f976288b	151	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	7	90	5.1E-16	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027596045.1	23c41838ab5615cdfd6f4261f976288b	151	SMART	SM01003	AlaDh_PNT_N_2	7	108	2.1E-5	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027596045.1	23c41838ab5615cdfd6f4261f976288b	151	Gene3D	G3DSA:3.40.50.720	-	5	104	1.8E-23	T	17-03-2025	-	-	-	-
+GCA_027596045.1	23c41838ab5615cdfd6f4261f976288b	151	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	92	6.72E-19	T	17-03-2025	-	-	-	-
+GCA_027596045.1	23c41838ab5615cdfd6f4261f976288b	151	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	7	97	6.5E-14	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027579035.1	36db2350e2c78a629b3b3305e6d3bc03	250	Gene3D	G3DSA:3.40.50.720	-	141	250	2.9E-39	T	17-03-2025	-	-	-	-
+GCA_027579035.1	36db2350e2c78a629b3b3305e6d3bc03	250	Gene3D	G3DSA:3.40.50.720	-	7	140	1.8E-16	T	17-03-2025	-	-	-	-
+GCA_027579035.1	36db2350e2c78a629b3b3305e6d3bc03	250	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	10	144	9.0E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027579035.1	36db2350e2c78a629b3b3305e6d3bc03	250	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	8	207	2.13E-29	T	17-03-2025	-	-	-	-
+GCA_027579035.1	36db2350e2c78a629b3b3305e6d3bc03	250	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	163	248	3.3E-60	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027579035.1	36db2350e2c78a629b3b3305e6d3bc03	250	SMART	SM01003	AlaDh_PNT_N_2	9	145	1.8E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_030270505.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270505.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270505.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270505.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_030270465.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270465.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270465.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270465.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_030270525.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270525.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270525.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270525.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_030270545.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270545.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270545.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270545.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_030270485.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	71	-	T	17-03-2025	-	-	-	-
+GCA_030270485.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	72	88	-	T	17-03-2025	-	-	-	-
+GCA_030270485.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	89	89	-	T	17-03-2025	-	-	-	-
+GCA_030270485.1	e7b6600c91aeaf739834d7c845a2e6fb	89	Gene3D	G3DSA:3.40.50.720	-	16	79	1.7E-11	T	17-03-2025	-	-	-	-
+GCA_027579345.1	7c4c8ccdc2bbd998f5ae6e477ada2159	188	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	8	185	5.3E-20	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027579345.1	7c4c8ccdc2bbd998f5ae6e477ada2159	188	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	13	115	2.81E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027579345.1	7c4c8ccdc2bbd998f5ae6e477ada2159	188	Pfam	PF01262	Alanine dehydrogenase/PNT, C-terminal domain	58	172	0.13	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027579345.1	7c4c8ccdc2bbd998f5ae6e477ada2159	188	SMART	SM01002	AlaDh_PNT_C_2	2	133	2.6E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027579345.1	7c4c8ccdc2bbd998f5ae6e477ada2159	188	Gene3D	G3DSA:3.40.50.720	-	1	142	1.9E-59	T	17-03-2025	-	-	-	-
+GCA_027579345.1	7c4c8ccdc2bbd998f5ae6e477ada2159	188	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	142	3.9E-64	T	17-03-2025	-	-	-	-
+GCA_026025055.1	3234a454dfb5e4502cad6b1e33e958eb	84	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	1	84	3.4E-9	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_026025055.1	3234a454dfb5e4502cad6b1e33e958eb	84	Gene3D	G3DSA:3.40.50.720	-	1	84	6.1E-28	T	17-03-2025	-	-	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	3	202	1.5E-74	T	17-03-2025	-	-	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	43	245	3.1E-20	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	253	-	T	17-03-2025	-	-	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	7	15	-	T	17-03-2025	-	-	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	67	200	1.34E-10	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	17-03-2025	-	-	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	19	-	T	17-03-2025	-	-	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	Gene3D	G3DSA:3.40.50.720	-	4	202	2.0E-67	T	17-03-2025	-	-	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	SMART	SM01002	AlaDh_PNT_C_2	56	194	7.5E-14	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_003316975.2	c58453060c52c9319811181636be1f03	253	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	6	-	T	17-03-2025	-	-	-	-
+GCA_027575375.1	366e19d1ae733eece26d6fed522ce86f	115	Gene3D	G3DSA:3.40.50.720	-	1	69	2.2E-23	T	17-03-2025	-	-	-	-
+GCA_027575665.1	264229ec358ec11eb6964e936a208d4c	273	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	2	112	7.06E-12	T	17-03-2025	-	-	-	-
+GCA_027575665.1	264229ec358ec11eb6964e936a208d4c	273	Gene3D	G3DSA:3.40.50.720	-	43	227	9.6E-72	T	17-03-2025	-	-	-	-
+GCA_027575665.1	264229ec358ec11eb6964e936a208d4c	273	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	98	200	9.19E-8	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027575665.1	264229ec358ec11eb6964e936a208d4c	273	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	68	269	1.5E-45	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575665.1	264229ec358ec11eb6964e936a208d4c	273	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	43	227	2.5E-77	T	17-03-2025	-	-	-	-
+GCA_027575665.1	264229ec358ec11eb6964e936a208d4c	273	SMART	SM01002	AlaDh_PNT_C_2	82	218	1.1E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCF_022605165.1	a520f55395b7c46e5f5903ed6677240c	293	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	184	266	1.4E-40	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCF_022605165.1	a520f55395b7c46e5f5903ed6677240c	293	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	10	145	4.4E-14	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCF_022605165.1	a520f55395b7c46e5f5903ed6677240c	293	SMART	SM01003	AlaDh_PNT_N_2	8	146	2.2E-18	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCF_022605165.1	a520f55395b7c46e5f5903ed6677240c	293	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	7	169	4.59E-25	T	17-03-2025	-	-	-	-
+GCF_022605165.1	a520f55395b7c46e5f5903ed6677240c	293	Gene3D	G3DSA:3.40.50.720	-	139	283	5.9E-35	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	1	841	1.5E-208	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	530	797	3.73E-58	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	408	584	9.24E-27	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	SMART	SM01002	AlaDh_PNT_C_2	147	335	9.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	531	666	6.4E-46	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	658	757	1.6E-152	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	SMART	SM01003	AlaDh_PNT_N_2	1	100	1.7E-4	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	410	525	5.4E-19	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	2	100	1.1E-8	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	408	540	1.7E-41	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	CDD	cd12189	LKR_SDH_like	1	392	0.0	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	Gene3D	G3DSA:3.40.50.720	-	96	343	8.5E-25	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	Gene3D	G3DSA:3.40.50.720	-	1	95	1.3E-7	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	531	797	1.6E-152	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	Gene3D	G3DSA:3.40.50.720	-	408	840	1.6E-152	T	17-03-2025	-	-	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	529	841	8.7E-74	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027575465.1	775f579e44edbf9fbcddb142dacf65fc	841	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	2	174	1.36E-19	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	SMART	SM01002	AlaDh_PNT_C_2	184	357	0.0047	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	218	1.62E-25	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	673	797	1.2E-82	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	873	906	4.9E-19	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	550	722	3.12E-12	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	671	957	4.2E-59	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	798	832	1.2E-82	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	850	872	4.9E-19	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Gene3D	G3DSA:3.30.70.2690	LOR/SDH bifunctional enzyme, conserved domain	451	550	1.1E-12	T	17-03-2025	IPR043009	LOR/SDH bifunctional enzyme, conserved domain superfamily	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	7	960	3.9E-172	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Gene3D	G3DSA:3.40.50.720	-	5	151	3.9E-38	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	672	902	7.85E-44	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	5	151	1.2E-50	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Gene3D	G3DSA:3.40.50.720	-	552	672	1.2E-82	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Gene3D	G3DSA:3.40.50.720	-	907	957	4.9E-19	T	17-03-2025	-	-	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	553	664	5.1E-9	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	7	137	1.5E-19	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	Pfam	PF04455	LOR/SDH bifunctional enzyme conserved region	453	540	1.7E-8	T	17-03-2025	IPR007545	LOR/SDH bifunctional enzyme, conserved domain	-	-
+GCA_021556665.1	54b95a7c9def60f186c394ba5f855611	964	SMART	SM01003	AlaDh_PNT_N_2	7	139	5.5E-15	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_023646395.1	b862b874d0d4d78acff269bd5e7938f8	103	Gene3D	G3DSA:3.40.50.720	-	9	103	2.7E-25	T	17-03-2025	-	-	-	-
+GCA_027604305.1	4a015121b680ed65d5fd32d298137212	221	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	88	214	1.11E-25	T	17-03-2025	-	-	-	-
+GCA_027604305.1	4a015121b680ed65d5fd32d298137212	221	Gene3D	G3DSA:3.40.50.720	-	87	218	6.1E-39	T	17-03-2025	-	-	-	-
+GCA_027604305.1	4a015121b680ed65d5fd32d298137212	221	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	90	212	2.8E-33	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027604305.1	4a015121b680ed65d5fd32d298137212	221	SMART	SM01003	AlaDh_PNT_N_2	90	215	2.6E-19	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604305.1	4a015121b680ed65d5fd32d298137212	221	Gene3D	G3DSA:3.30.310.50	-	1	73	4.2E-28	T	17-03-2025	-	-	-	-
+GCA_027604305.1	4a015121b680ed65d5fd32d298137212	221	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	90	212	2.7E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604305.1	4a015121b680ed65d5fd32d298137212	221	SUPERFAMILY	SSF55957	Phosphoglucomutase, C-terminal domain	1	72	1.23E-25	T	17-03-2025	IPR036900	Alpha-D-phosphohexomutase, C-terminal domain superfamily	GO:0016868(InterPro)	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	17-03-2025	-	-	-	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	MobiDBLite	mobidb-lite	consensus disorder prediction	1	26	-	T	17-03-2025	-	-	-	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	154	174	-	T	17-03-2025	-	-	-	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	29	169	2.7E-45	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	175	273	-	T	17-03-2025	-	-	-	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	28	164	6.8E-28	T	17-03-2025	-	-	-	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	SMART	SM01003	AlaDh_PNT_N_2	29	164	2.3E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	Gene3D	G3DSA:3.40.50.720	-	26	185	2.8E-36	T	17-03-2025	-	-	-	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	29	164	3.2E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_030039215.1	1be4ca67a928922b4bc096de9b681e7e	273	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	153	-	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	SMART	SM01002	AlaDh_PNT_C_2	188	379	1.8E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	15	879	2.4E-240	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	451	581	2.0E-43	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	13	161	1.5E-54	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	572	876	2.0E-83	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	13	223	1.45E-32	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	SMART	SM01003	AlaDh_PNT_N_2	15	149	1.5E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	15	149	4.1E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	573	829	1.24E-72	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	Gene3D	G3DSA:3.40.50.720	-	11	161	1.1E-43	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	453	568	3.9E-17	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	574	826	6.9E-169	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	574	712	1.1E-52	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	Gene3D	G3DSA:3.40.50.720	-	451	876	6.9E-169	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	700	787	6.9E-169	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	CDD	cd12189	LKR_SDH_like	13	433	0.0	T	17-03-2025	-	-	-	-
+GCA_027604245.1	46672bb69fc97bff26778fa19600cba8	885	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	450	627	2.4E-27	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	476	608	7.2E-44	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	CDD	cd12189	LKR_SDH_like	39	455	0.0	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Gene3D	G3DSA:3.40.50.720	-	38	168	3.1E-25	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	FunFam	G3DSA:3.40.50.720:FF:000284	Lysine-ketoglutarate reductase/saccharopine dehydrogenase1	39	188	3.6E-62	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	SMART	SM01002	AlaDh_PNT_C_2	211	403	1.5E-10	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	598	868	1.37E-78	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Gene3D	G3DSA:3.40.50.720	-	477	890	8.0E-170	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	41	890	5.0E-238	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Pfam	PF01262	Alanine dehydrogenase/PNT, C-terminal domain	356	446	0.052	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	39	246	1.53E-34	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	41	172	4.1E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	597	889	2.1E-78	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	598	870	8.0E-170	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Gene3D	G3DSA:3.40.50.720	-	169	411	1.6E-23	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	ProSitePatterns	PS00028	Zinc finger C2H2 type domain signature.	892	912	-	T	17-03-2025	IPR013087	Zinc finger C2H2-type	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	SMART	SM01003	AlaDh_PNT_N_2	41	172	4.4E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	599	749	4.3E-52	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	475	652	6.01E-29	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	726	827	8.0E-170	T	17-03-2025	-	-	-	-
+GCA_025558075.1	4954787c0177b3a45f594c3d369f7c75	921	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	478	593	1.9E-18	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_019924775.1	0c92648481a67d5fae566578c9305725	260	Gene3D	G3DSA:3.40.50.720	-	20	211	1.8E-79	T	17-03-2025	-	-	-	-
+GCA_019924775.1	0c92648481a67d5fae566578c9305725	260	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	79	209	1.97E-6	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_019924775.1	0c92648481a67d5fae566578c9305725	260	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	52	256	1.3E-36	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_019924775.1	0c92648481a67d5fae566578c9305725	260	SMART	SM01002	AlaDh_PNT_C_2	68	195	2.8E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_019924775.1	0c92648481a67d5fae566578c9305725	260	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	20	211	2.7E-88	T	17-03-2025	-	-	-	-
+GCA_019924775.1	0c92648481a67d5fae566578c9305725	260	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	2	247	3.15E-7	T	17-03-2025	-	-	-	-
+GCA_027578175.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	9	148	8.5E-30	T	17-03-2025	-	-	-	-
+GCA_027578175.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	Gene3D	G3DSA:3.40.50.720	-	143	252	1.8E-38	T	17-03-2025	-	-	-	-
+GCA_027578175.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	165	250	7.8E-60	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578175.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	SMART	SM01003	AlaDh_PNT_N_2	11	147	1.2E-27	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578175.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	12	146	5.0E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578175.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	Gene3D	G3DSA:3.40.50.720	-	9	142	9.6E-19	T	17-03-2025	-	-	-	-
+GCA_027577215.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	9	148	8.5E-30	T	17-03-2025	-	-	-	-
+GCA_027577215.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	Gene3D	G3DSA:3.40.50.720	-	143	252	1.8E-38	T	17-03-2025	-	-	-	-
+GCA_027577215.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	165	250	7.8E-60	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577215.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	SMART	SM01003	AlaDh_PNT_N_2	11	147	1.2E-27	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577215.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	12	146	5.0E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577215.1	1f1b8ffcec15f3f9ecdbd22253df389e	252	Gene3D	G3DSA:3.40.50.720	-	9	142	9.6E-19	T	17-03-2025	-	-	-	-
+GCA_003614705.1	865a75b72f23099dd100e42bfdc3e94e	159	Gene3D	G3DSA:3.40.50.720	-	7	159	6.7E-56	T	17-03-2025	-	-	-	-
+GCA_003614705.1	865a75b72f23099dd100e42bfdc3e94e	159	SMART	SM01002	AlaDh_PNT_C_2	47	159	7.2E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_003614705.1	865a75b72f23099dd100e42bfdc3e94e	159	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	7	159	3.0E-59	T	17-03-2025	-	-	-	-
+GCA_003614705.1	865a75b72f23099dd100e42bfdc3e94e	159	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	34	155	1.3E-20	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_905219575.1	5cac1900855a905fa70fcac2df83f614	137	Gene3D	G3DSA:3.40.50.720	-	7	111	2.5E-35	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	SMART	SM01002	AlaDh_PNT_C_2	182	370	9.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	443	575	1.7E-41	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	565	832	3.66E-58	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	CDD	cd12189	LKR_SDH_like	2	427	0.0	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	Gene3D	G3DSA:3.40.50.720	-	443	839	1.1E-134	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	2	147	2.0E-55	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	SMART	SM01003	AlaDh_PNT_N_2	4	135	2.3E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	445	560	5.3E-19	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	4	839	6.5E-204	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	566	701	6.4E-46	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	443	619	9.34E-27	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	693	792	1.1E-134	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	564	839	8.4E-58	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	565	836	1.1E-134	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	Gene3D	G3DSA:3.40.50.720	-	131	378	8.5E-25	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	Gene3D	G3DSA:3.40.50.720	-	1	130	1.4E-21	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	1	209	1.11E-32	T	17-03-2025	-	-	-	-
+GCA_027575425.1	b10477672bbb15060574e5e4f2a40338	839	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	4	135	5.5E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_041438165.1	7e87ddf16aca0601c48148b361d315b0	138	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	137	1.3E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_041438165.1	7e87ddf16aca0601c48148b361d315b0	138	Gene3D	G3DSA:3.40.50.720	-	6	138	5.2E-42	T	17-03-2025	-	-	-	-
+GCA_041438165.1	7e87ddf16aca0601c48148b361d315b0	138	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	8	138	2.5E-40	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_041438165.1	7e87ddf16aca0601c48148b361d315b0	138	SMART	SM01003	AlaDh_PNT_N_2	8	135	6.0E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_041438165.1	7e87ddf16aca0601c48148b361d315b0	138	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	7	138	1.79E-31	T	17-03-2025	-	-	-	-
+GCA_027575335.1	1ed251f2bf64605f0bdf17f095748cb6	213	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	14	213	4.34E-30	T	17-03-2025	-	-	-	-
+GCA_027575335.1	1ed251f2bf64605f0bdf17f095748cb6	213	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	16	150	1.3E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575335.1	1ed251f2bf64605f0bdf17f095748cb6	213	Gene3D	G3DSA:3.40.50.720	-	12	156	3.1E-42	T	17-03-2025	-	-	-	-
+GCA_027575335.1	1ed251f2bf64605f0bdf17f095748cb6	213	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	15	165	2.5E-48	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575335.1	1ed251f2bf64605f0bdf17f095748cb6	213	SMART	SM01003	AlaDh_PNT_N_2	15	151	4.3E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575355.1	1ed251f2bf64605f0bdf17f095748cb6	213	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	14	213	4.34E-30	T	17-03-2025	-	-	-	-
+GCA_027575355.1	1ed251f2bf64605f0bdf17f095748cb6	213	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	16	150	1.3E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575355.1	1ed251f2bf64605f0bdf17f095748cb6	213	Gene3D	G3DSA:3.40.50.720	-	12	156	3.1E-42	T	17-03-2025	-	-	-	-
+GCA_027575355.1	1ed251f2bf64605f0bdf17f095748cb6	213	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	15	165	2.5E-48	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575355.1	1ed251f2bf64605f0bdf17f095748cb6	213	SMART	SM01003	AlaDh_PNT_N_2	15	151	4.3E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_023645955.1	bbb2b867fdfe43c0baea56a74ccdb229	179	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	2	91	3.5E-15	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_023645955.1	bbb2b867fdfe43c0baea56a74ccdb229	179	SMART	SM01002	AlaDh_PNT_C_2	2	126	3.5E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_023645955.1	bbb2b867fdfe43c0baea56a74ccdb229	179	Gene3D	G3DSA:3.40.50.720	-	1	134	5.7E-55	T	17-03-2025	-	-	-	-
+GCA_023645955.1	bbb2b867fdfe43c0baea56a74ccdb229	179	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	2	132	9.19E-8	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_023645955.1	bbb2b867fdfe43c0baea56a74ccdb229	179	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	134	4.0E-59	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	15	876	5.4E-243	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	154	-	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	SMART	SM01002	AlaDh_PNT_C_2	185	376	1.4E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	450	565	2.9E-16	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	FunFam	G3DSA:3.40.50.720:FF:000284	Lysine-ketoglutarate reductase/saccharopine dehydrogenase1	13	162	9.8E-62	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	15	146	2.3E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	155	177	-	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	570	826	7.19E-73	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	571	823	2.0E-168	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	CDD	cd12189	LKR_SDH_like	13	430	0.0	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	571	708	7.0E-53	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	13	220	2.38E-34	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	697	784	2.0E-168	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	178	882	-	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	448	578	8.6E-43	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Gene3D	G3DSA:3.40.50.720	-	11	156	1.6E-44	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Gene3D	G3DSA:3.40.50.720	-	448	873	2.0E-168	T	17-03-2025	-	-	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	SMART	SM01003	AlaDh_PNT_N_2	15	146	1.8E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	569	873	6.9E-84	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027603945.1	336fa634605a8d28ad6f9049e9994f14	882	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	447	624	7.81E-27	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_033119265.1	97196f852b68299fbd3e0acf4123e402	242	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	2	134	1.4E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_033119265.1	97196f852b68299fbd3e0acf4123e402	242	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	94	1.9E-40	T	17-03-2025	-	-	-	-
+GCA_033119265.1	97196f852b68299fbd3e0acf4123e402	242	Gene3D	G3DSA:3.40.50.720	-	1	149	2.6E-37	T	17-03-2025	-	-	-	-
+GCA_033119265.1	97196f852b68299fbd3e0acf4123e402	242	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	2	208	1.79E-27	T	17-03-2025	-	-	-	-
+GCA_033119265.1	97196f852b68299fbd3e0acf4123e402	242	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	2	240	1.8E-48	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_033119265.1	97196f852b68299fbd3e0acf4123e402	242	SMART	SM01003	AlaDh_PNT_N_2	1	134	7.9E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000183025.1	2ba6120666d1247ed3858a753a6835bf	279	Gene3D	G3DSA:3.40.50.720	-	81	215	4.8E-40	T	17-03-2025	-	-	-	-
+GCA_000183025.1	2ba6120666d1247ed3858a753a6835bf	279	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	1	267	4.51E-18	T	17-03-2025	-	-	-	-
+GCA_000183025.1	2ba6120666d1247ed3858a753a6835bf	279	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	1	93	1.5E-41	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000183025.1	2ba6120666d1247ed3858a753a6835bf	279	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	1	88	4.2E-4	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	14	-	T	17-03-2025	-	-	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	SMART	SM01002	AlaDh_PNT_C_2	47	189	1.9E-11	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	2	81	3.57E-7	T	17-03-2025	-	-	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	Gene3D	G3DSA:3.40.50.720	-	7	197	5.9E-78	T	17-03-2025	-	-	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	3	239	4.8E-31	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	7	197	5.1E-92	T	17-03-2025	-	-	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	19	-	T	17-03-2025	-	-	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	17-03-2025	-	-	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	17-03-2025	-	-	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	245	-	T	17-03-2025	-	-	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	66	195	2.96E-7	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_030267825.1	12c40d4928d538f8a9756f0ea6dd6562	245	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	17-03-2025	-	-	-	-
+GCA_027945495.1	9779ca7edf2392d0a83771f98f64dc2f	184	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	1	175	8.1E-17	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027945495.1	9779ca7edf2392d0a83771f98f64dc2f	184	SMART	SM01002	AlaDh_PNT_C_2	1	125	2.8E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027945495.1	9779ca7edf2392d0a83771f98f64dc2f	184	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	2	131	9.06E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027945495.1	9779ca7edf2392d0a83771f98f64dc2f	184	Gene3D	G3DSA:3.40.50.720	-	1	133	4.1E-55	T	17-03-2025	-	-	-	-
+GCA_027945495.1	9779ca7edf2392d0a83771f98f64dc2f	184	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	133	1.1E-61	T	17-03-2025	-	-	-	-
+GCA_032988465.1	8a6cdc9bee2003fedc1dc38908adff3b	256	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	53	251	3.9E-24	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_032988465.1	8a6cdc9bee2003fedc1dc38908adff3b	256	Gene3D	G3DSA:3.40.50.720	-	13	206	4.2E-77	T	17-03-2025	-	-	-	-
+GCA_032988465.1	8a6cdc9bee2003fedc1dc38908adff3b	256	SMART	SM01002	AlaDh_PNT_C_2	62	198	2.8E-9	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_032988465.1	8a6cdc9bee2003fedc1dc38908adff3b	256	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	12	206	7.3E-85	T	17-03-2025	-	-	-	-
+GCA_032988465.1	8a6cdc9bee2003fedc1dc38908adff3b	256	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	78	204	1.16E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_030267685.1	b9343081f7ce705356dff2f50e1a81ea	237	Gene3D	G3DSA:3.40.50.720	-	6	138	2.1E-19	T	17-03-2025	-	-	-	-
+GCA_030267685.1	b9343081f7ce705356dff2f50e1a81ea	237	Gene3D	G3DSA:3.40.50.720	-	139	237	1.9E-32	T	17-03-2025	-	-	-	-
+GCA_030267685.1	b9343081f7ce705356dff2f50e1a81ea	237	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	163	233	1.5E-53	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_030267685.1	b9343081f7ce705356dff2f50e1a81ea	237	SMART	SM01003	AlaDh_PNT_N_2	8	143	6.5E-29	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_030267685.1	b9343081f7ce705356dff2f50e1a81ea	237	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	5	210	6.38E-39	T	17-03-2025	-	-	-	-
+GCA_030267685.1	b9343081f7ce705356dff2f50e1a81ea	237	FunFam	G3DSA:3.40.50.720:FF:000423	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	6	138	1.9E-66	T	17-03-2025	-	-	-	-
+GCA_030267685.1	b9343081f7ce705356dff2f50e1a81ea	237	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	9	143	1.6E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577155.1	bcbca27baf9e97247525f00d6b108a6a	143	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	3	140	2.3E-10	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577155.1	bcbca27baf9e97247525f00d6b108a6a	143	Pfam	PF01262	Alanine dehydrogenase/PNT, C-terminal domain	11	126	0.11	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027577155.1	bcbca27baf9e97247525f00d6b108a6a	143	Gene3D	G3DSA:3.40.50.720	-	1	97	7.3E-40	T	17-03-2025	-	-	-	-
+GCA_019616345.1	272d4d26d1792a8b6db57278f01c5066	236	Gene3D	G3DSA:3.40.50.720	-	7	157	6.0E-41	T	17-03-2025	-	-	-	-
+GCA_019616345.1	272d4d26d1792a8b6db57278f01c5066	236	SMART	SM01003	AlaDh_PNT_N_2	9	143	7.8E-29	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_019616345.1	272d4d26d1792a8b6db57278f01c5066	236	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	8	145	1.28E-31	T	17-03-2025	-	-	-	-
+GCA_019616345.1	272d4d26d1792a8b6db57278f01c5066	236	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	9	143	2.5E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_019616345.1	272d4d26d1792a8b6db57278f01c5066	236	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	9	149	8.2E-50	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	SMART	SM01002	AlaDh_PNT_C_2	269	456	4.9E-9	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	89	234	1.3E-56	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	663	942	1.4E-171	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	664	815	1.7E-51	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	Gene3D	G3DSA:3.40.50.720	-	541	985	1.4E-171	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	92	222	1.1E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	792	899	1.4E-171	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	663	939	2.09E-64	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	543	658	7.1E-17	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	662	988	1.3E-81	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	91	991	3.9E-237	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	Gene3D	G3DSA:3.40.50.720	-	217	464	2.7E-25	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	541	717	8.24E-25	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	SMART	SM01003	AlaDh_PNT_N_2	91	222	5.3E-26	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	CDD	cd12189	LKR_SDH_like	89	509	0.0	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	Gene3D	G3DSA:3.40.50.720	-	89	216	6.9E-25	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	541	674	2.1E-44	T	17-03-2025	-	-	-	-
+GCA_015849305.1	1f354f2cd35fece6a0ad7c134925d006	1012	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	90	296	1.7E-35	T	17-03-2025	-	-	-	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	37	431	2.4E-86	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	SMART	SM01002	AlaDh_PNT_C_2	216	405	5.7E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	35	243	8.5E-34	T	17-03-2025	-	-	-	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	Gene3D	G3DSA:3.40.50.720	-	162	413	3.3E-26	T	17-03-2025	-	-	-	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	35	181	2.4E-55	T	17-03-2025	-	-	-	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	Gene3D	G3DSA:3.40.50.720	-	34	161	1.8E-20	T	17-03-2025	-	-	-	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	37	169	1.9E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	SMART	SM01003	AlaDh_PNT_N_2	37	169	2.8E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578475.1	63af80cc1b72a36efb5d159ddb1436b0	432	CDD	cd12189	LKR_SDH_like	35	432	0.0	T	17-03-2025	-	-	-	-
+GCA_000149815.1	9ae2bc360a0d5332b83d76883d41555b	78	Gene3D	G3DSA:3.40.50.720	-	1	78	3.2E-30	T	17-03-2025	-	-	-	-
+GCA_018994065.1	793168c1c6b18c744da628940e49b128	165	SMART	SM01003	AlaDh_PNT_N_2	35	136	3.7E-8	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_018994065.1	793168c1c6b18c744da628940e49b128	165	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	38	129	1.6E-46	T	17-03-2025	-	-	-	-
+GCA_018994065.1	793168c1c6b18c744da628940e49b128	165	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	35	136	1.0E-22	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_018994065.1	793168c1c6b18c744da628940e49b128	165	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	34	137	1.11E-22	T	17-03-2025	-	-	-	-
+GCA_018994065.1	793168c1c6b18c744da628940e49b128	165	MobiDBLite	mobidb-lite	consensus disorder prediction	145	165	-	T	17-03-2025	-	-	-	-
+GCA_018994065.1	793168c1c6b18c744da628940e49b128	165	Gene3D	G3DSA:3.40.50.720	-	31	142	2.5E-30	T	17-03-2025	-	-	-	-
+GCA_018994065.1	793168c1c6b18c744da628940e49b128	165	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	36	132	6.3E-15	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_032989685.1	feea55992ebf673f1082d729b3f5cd70	204	Gene3D	G3DSA:3.40.50.720	-	4	165	1.1E-38	T	17-03-2025	-	-	-	-
+GCA_032989685.1	feea55992ebf673f1082d729b3f5cd70	204	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	148	5.44E-28	T	17-03-2025	-	-	-	-
+GCA_032989685.1	feea55992ebf673f1082d729b3f5cd70	204	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	8	160	3.2E-38	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_032989685.1	feea55992ebf673f1082d729b3f5cd70	204	SMART	SM01003	AlaDh_PNT_N_2	7	147	1.1E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_032989685.1	feea55992ebf673f1082d729b3f5cd70	204	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	10	107	6.4E-41	T	17-03-2025	-	-	-	-
+GCA_032989685.1	feea55992ebf673f1082d729b3f5cd70	204	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	147	1.1E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_033220425.1	c5a894b77287b8c977371e51bc0fa852	260	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	143	1.79E-33	T	17-03-2025	-	-	-	-
+GCA_033220425.1	c5a894b77287b8c977371e51bc0fa852	260	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	141	8.6E-27	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_033220425.1	c5a894b77287b8c977371e51bc0fa852	260	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	7	153	7.2E-49	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_033220425.1	c5a894b77287b8c977371e51bc0fa852	260	Coils	Coil	Coil	168	188	-	T	17-03-2025	-	-	-	-
+GCA_033220425.1	c5a894b77287b8c977371e51bc0fa852	260	Gene3D	G3DSA:3.40.50.720	-	3	171	2.2E-44	T	17-03-2025	-	-	-	-
+GCA_033220425.1	c5a894b77287b8c977371e51bc0fa852	260	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	10	101	1.8E-44	T	17-03-2025	-	-	-	-
+GCA_033220425.1	c5a894b77287b8c977371e51bc0fa852	260	SMART	SM01003	AlaDh_PNT_N_2	7	141	3.0E-32	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578455.1	63ed6a65fc6590034973ff53a3063ca7	213	Gene3D	G3DSA:3.40.50.720	-	7	152	1.1E-43	T	17-03-2025	-	-	-	-
+GCA_027578455.1	63ed6a65fc6590034973ff53a3063ca7	213	SMART	SM01003	AlaDh_PNT_N_2	11	147	4.4E-27	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578455.1	63ed6a65fc6590034973ff53a3063ca7	213	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	9	148	2.98E-29	T	17-03-2025	-	-	-	-
+GCA_027578455.1	63ed6a65fc6590034973ff53a3063ca7	213	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	11	168	6.8E-51	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578455.1	63ed6a65fc6590034973ff53a3063ca7	213	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	12	146	1.1E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	44	538	1.4E-102	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	12	-	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	42	249	4.59E-34	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	CDD	cd12189	LKR_SDH_like	42	467	0.0	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	44	175	3.3E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	483	540	0.03	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	481	541	7.16E-6	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	7	-	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Gene3D	G3DSA:3.40.50.720	-	481	541	1.6E-12	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	13	541	-	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Gene3D	G3DSA:3.40.50.720	-	41	168	5.3E-23	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	SMART	SM01003	AlaDh_PNT_N_2	44	175	2.5E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	42	187	3.3E-57	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	8	12	-	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	SMART	SM01002	AlaDh_PNT_C_2	226	410	1.7E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	17-03-2025	-	-	-	-
+GCA_027577075.1	75eaf3079c3fa9fe077caefa63c5c5d9	541	Gene3D	G3DSA:3.40.50.720	-	169	418	4.6E-24	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	32	240	2.89E-31	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	32	178	2.3E-56	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	18	-	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	15	-	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	16	23	-	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	597	869	1.7E-59	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	SMART	SM01003	AlaDh_PNT_N_2	34	166	1.8E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	477	592	4.4E-17	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	475	607	8.9E-40	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Gene3D	G3DSA:3.40.50.720	-	31	161	3.0E-22	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	725	830	2.8E-157	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	598	870	2.8E-157	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	34	165	9.5E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Gene3D	G3DSA:3.40.50.720	-	162	409	3.4E-24	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	28	-	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	29	941	-	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	475	652	2.2E-26	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	596	920	1.6E-77	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	598	734	1.0E-46	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	CDD	cd12189	LKR_SDH_like	32	459	0.0	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	34	920	1.4E-223	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	24	28	-	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	Gene3D	G3DSA:3.40.50.720	-	475	920	2.8E-157	T	17-03-2025	-	-	-	-
+GCA_027579115.1	4d3df2a82fa7e5760d75b987f542b2e4	941	SMART	SM01002	AlaDh_PNT_C_2	217	401	9.0E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCF_021365365.1	8650042421cf613fd958542a35a97db5	269	SMART	SM01003	AlaDh_PNT_N_2	7	145	3.6E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCF_021365365.1	8650042421cf613fd958542a35a97db5	269	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	8	159	9.8E-41	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCF_021365365.1	8650042421cf613fd958542a35a97db5	269	Gene3D	G3DSA:3.40.50.720	-	138	265	4.2E-36	T	17-03-2025	-	-	-	-
+GCF_021365365.1	8650042421cf613fd958542a35a97db5	269	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	9	144	3.0E-14	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCF_021365365.1	8650042421cf613fd958542a35a97db5	269	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	166	2.55E-23	T	17-03-2025	-	-	-	-
+GCA_015484515.1	24d29cb6f47dfb4e977537efe42ed592	200	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	9	129	2.13E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_015484515.1	24d29cb6f47dfb4e977537efe42ed592	200	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	2	150	1.8E-64	T	17-03-2025	-	-	-	-
+GCA_015484515.1	24d29cb6f47dfb4e977537efe42ed592	200	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	13	197	1.1E-21	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_015484515.1	24d29cb6f47dfb4e977537efe42ed592	200	SMART	SM01002	AlaDh_PNT_C_2	5	142	2.6E-11	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_015484515.1	24d29cb6f47dfb4e977537efe42ed592	200	Gene3D	G3DSA:3.40.50.720	-	1	150	1.0E-58	T	17-03-2025	-	-	-	-
+GCA_027578075.1	5dd0cb09240fbcb4e6c41e5e0a1dee97	153	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	8	151	1.7E-27	T	17-03-2025	-	-	-	-
+GCA_027578075.1	5dd0cb09240fbcb4e6c41e5e0a1dee97	153	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	10	144	1.5E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578075.1	5dd0cb09240fbcb4e6c41e5e0a1dee97	153	SMART	SM01003	AlaDh_PNT_N_2	9	145	9.6E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578075.1	5dd0cb09240fbcb4e6c41e5e0a1dee97	153	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	9	151	1.2E-41	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578075.1	5dd0cb09240fbcb4e6c41e5e0a1dee97	153	Gene3D	G3DSA:3.40.50.720	-	6	149	1.4E-41	T	17-03-2025	-	-	-	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	128	-	T	17-03-2025	-	-	-	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	129	150	-	T	17-03-2025	-	-	-	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	6	152	4.1E-42	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	Gene3D	G3DSA:3.40.50.720	-	3	154	2.1E-39	T	17-03-2025	-	-	-	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	SMART	SM01003	AlaDh_PNT_N_2	6	139	2.5E-26	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	7	139	1.3E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	9	100	7.0E-48	T	17-03-2025	-	-	-	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	5	141	1.02E-31	T	17-03-2025	-	-	-	-
+GCA_000193285.1	b00e379a71c7f98a0de7acacf2aa3db4	157	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	151	157	-	T	17-03-2025	-	-	-	-
+GCA_027579315.1	5b252505eae9d9280a20a5411aa43726	115	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	11	115	3.5E-27	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027579315.1	5b252505eae9d9280a20a5411aa43726	115	SMART	SM01003	AlaDh_PNT_N_2	11	115	7.6E-7	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027579315.1	5b252505eae9d9280a20a5411aa43726	115	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	12	107	1.0E-16	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027579315.1	5b252505eae9d9280a20a5411aa43726	115	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	9	114	4.59E-19	T	17-03-2025	-	-	-	-
+GCA_027579315.1	5b252505eae9d9280a20a5411aa43726	115	Gene3D	G3DSA:3.40.50.720	-	8	115	1.6E-34	T	17-03-2025	-	-	-	-
+GCA_026027315.1	25cfde425907821fce5cd0aa41cffa42	259	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	69	198	5.35E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_026027315.1	25cfde425907821fce5cd0aa41cffa42	259	Gene3D	G3DSA:3.40.50.720	-	10	200	2.2E-78	T	17-03-2025	-	-	-	-
+GCA_026027315.1	25cfde425907821fce5cd0aa41cffa42	259	SMART	SM01002	AlaDh_PNT_C_2	56	184	1.3E-10	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_026027315.1	25cfde425907821fce5cd0aa41cffa42	259	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	35	242	1.8E-32	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_026027315.1	25cfde425907821fce5cd0aa41cffa42	259	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	10	200	1.6E-87	T	17-03-2025	-	-	-	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	46	192	1.1E-54	T	17-03-2025	-	-	-	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	Gene3D	G3DSA:3.40.50.720	-	45	172	2.2E-21	T	17-03-2025	-	-	-	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	SMART	SM01002	AlaDh_PNT_C_2	227	415	4.8E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	Gene3D	G3DSA:3.40.50.720	-	173	423	6.5E-26	T	17-03-2025	-	-	-	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	45	254	8.08E-33	T	17-03-2025	-	-	-	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	48	180	3.7E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	48	518	2.9E-95	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	SMART	SM01003	AlaDh_PNT_N_2	48	180	2.7E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575855.1	ca58935a1a30e682267e2dbd6c69bd5c	520	CDD	cd12189	LKR_SDH_like	46	474	0.0	T	17-03-2025	-	-	-	-
+GCA_022627105.1	933a0702104f06a0e7c98f329051d3c5	163	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	2	154	4.1E-11	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_022627105.1	933a0702104f06a0e7c98f329051d3c5	163	SMART	SM01002	AlaDh_PNT_C_2	4	104	0.0097	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_022627105.1	933a0702104f06a0e7c98f329051d3c5	163	Gene3D	G3DSA:3.40.50.720	-	1	112	8.3E-41	T	17-03-2025	-	-	-	-
+GCA_016098025.1	50aa67e37672f2fd260c25e574c9a359	183	Gene3D	G3DSA:3.40.50.720	-	1	145	1.1E-43	T	17-03-2025	-	-	-	-
+GCA_016098025.1	50aa67e37672f2fd260c25e574c9a359	183	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	8	100	4.2E-40	T	17-03-2025	-	-	-	-
+GCA_016098025.1	50aa67e37672f2fd260c25e574c9a359	183	SMART	SM01003	AlaDh_PNT_N_2	5	140	6.0E-26	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_016098025.1	50aa67e37672f2fd260c25e574c9a359	183	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	3	142	1.19E-30	T	17-03-2025	-	-	-	-
+GCA_016098025.1	50aa67e37672f2fd260c25e574c9a359	183	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	5	140	1.9E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_016098025.1	50aa67e37672f2fd260c25e574c9a359	183	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	5	161	9.3E-47	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	SMART	SM01002	AlaDh_PNT_C_2	183	371	3.0E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	441	557	4.6E-20	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	703	817	2.0E-151	T	17-03-2025	-	-	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	5	135	1.6E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	SMART	SM01003	AlaDh_PNT_N_2	5	136	2.4E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	Gene3D	G3DSA:3.40.50.720	-	2	146	1.6E-40	T	17-03-2025	-	-	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	439	570	4.1E-41	T	17-03-2025	-	-	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	CDD	cd12189	LKR_SDH_like	3	428	0.0	T	17-03-2025	-	-	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	561	911	4.5E-72	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	5	915	7.3E-220	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	Gene3D	G3DSA:3.40.50.720	-	439	911	2.0E-151	T	17-03-2025	-	-	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	437	612	1.08E-25	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	3	211	1.11E-29	T	17-03-2025	-	-	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	562	859	7.85E-62	T	17-03-2025	-	-	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	3	148	2.2E-52	T	17-03-2025	-	-	-	-
+GCA_027604065.1	16c8c4c4dacc9cf7cebbf6dfabe1c263	918	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	563	856	2.0E-151	T	17-03-2025	-	-	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	33	53	-	T	17-03-2025	-	-	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	SMART	SM01002	AlaDh_PNT_C_2	86	225	5.6E-9	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	32	-	T	17-03-2025	-	-	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	54	284	-	T	17-03-2025	-	-	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	Gene3D	G3DSA:3.40.50.720	-	36	233	1.7E-70	T	17-03-2025	-	-	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	36	233	1.2E-75	T	17-03-2025	-	-	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	1	269	2.64E-9	T	17-03-2025	-	-	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	97	230	2.36E-7	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_019633405.1	ad1d358eb11b5495a564cbf99a1bee1c	284	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	71	280	4.4E-34	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_023646365.1	e8e4f4d35e338f1ca32d3ddcc5d38be4	267	SMART	SM01002	AlaDh_PNT_C_2	58	207	1.4E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_023646365.1	e8e4f4d35e338f1ca32d3ddcc5d38be4	267	Gene3D	G3DSA:3.40.50.720	-	8	215	4.3E-64	T	17-03-2025	-	-	-	-
+GCA_023646365.1	e8e4f4d35e338f1ca32d3ddcc5d38be4	267	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	34	262	9.9E-23	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_023646365.1	e8e4f4d35e338f1ca32d3ddcc5d38be4	267	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	67	213	1.31E-7	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_023646365.1	e8e4f4d35e338f1ca32d3ddcc5d38be4	267	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	7	215	1.1E-69	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	625	925	4.7E-145	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	35	975	7.5E-185	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	624	971	4.3E-61	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Gene3D	G3DSA:3.40.50.720	-	31	186	1.6E-42	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	SMART	SM01003	AlaDh_PNT_N_2	35	173	1.8E-15	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	CDD	cd12189	LKR_SDH_like	33	470	0.0	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	502	678	6.78E-25	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	921	941	-	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	625	888	1.11E-46	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	920	-	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	505	618	3.0E-19	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	754	871	4.7E-145	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Gene3D	G3DSA:3.40.50.720	-	503	969	4.7E-145	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	942	996	-	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	SMART	SM01002	AlaDh_PNT_C_2	210	404	0.0078	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	503	634	8.6E-43	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	33	247	4.25E-25	T	17-03-2025	-	-	-	-
+GCA_019623665.1	90ddf45251635f4e3f0870251ba4721e	996	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	35	173	3.2E-15	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577795.1	0d182b3b9e74485892543a7fdf485427	174	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	1	170	1.1E-16	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577795.1	0d182b3b9e74485892543a7fdf485427	174	Gene3D	G3DSA:3.40.50.720	-	1	128	8.0E-55	T	17-03-2025	-	-	-	-
+GCA_027577795.1	0d182b3b9e74485892543a7fdf485427	174	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	2	100	2.28E-7	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027577795.1	0d182b3b9e74485892543a7fdf485427	174	SMART	SM01002	AlaDh_PNT_C_2	1	119	7.9E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027577795.1	0d182b3b9e74485892543a7fdf485427	174	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	128	4.7E-60	T	17-03-2025	-	-	-	-
+GCA_027577235.1	5d771d8a6e3f466ae19ff8e1885935bc	185	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	139	2.4E-64	T	17-03-2025	-	-	-	-
+GCA_027577235.1	5d771d8a6e3f466ae19ff8e1885935bc	185	Gene3D	G3DSA:3.40.50.720	-	1	139	9.8E-59	T	17-03-2025	-	-	-	-
+GCA_027577235.1	5d771d8a6e3f466ae19ff8e1885935bc	185	SMART	SM01002	AlaDh_PNT_C_2	1	130	6.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027577235.1	5d771d8a6e3f466ae19ff8e1885935bc	185	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	6	182	3.7E-22	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577235.1	5d771d8a6e3f466ae19ff8e1885935bc	185	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	10	98	6.3E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027578015.1	8bf6a688b57d8389d55307198575806f	184	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	5	181	8.0E-20	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578015.1	8bf6a688b57d8389d55307198575806f	184	Gene3D	G3DSA:3.40.50.720	-	1	138	4.8E-59	T	17-03-2025	-	-	-	-
+GCA_027578015.1	8bf6a688b57d8389d55307198575806f	184	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	138	9.2E-64	T	17-03-2025	-	-	-	-
+GCA_027578015.1	8bf6a688b57d8389d55307198575806f	184	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	9	111	3.61E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027578015.1	8bf6a688b57d8389d55307198575806f	184	SMART	SM01002	AlaDh_PNT_C_2	1	129	5.8E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027578015.1	8bf6a688b57d8389d55307198575806f	184	Pfam	PF01262	Alanine dehydrogenase/PNT, C-terminal domain	54	169	0.11	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027945505.1	0dfdf27db793028de64cf6df17ac8b29	279	Coils	Coil	Coil	68	88	-	T	17-03-2025	-	-	-	-
+GCA_027945505.1	0dfdf27db793028de64cf6df17ac8b29	279	Gene3D	G3DSA:3.40.50.720	-	28	228	1.7E-72	T	17-03-2025	-	-	-	-
+GCA_027945505.1	0dfdf27db793028de64cf6df17ac8b29	279	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	70	270	1.6E-21	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027945505.1	0dfdf27db793028de64cf6df17ac8b29	279	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	93	226	4.53E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027945505.1	0dfdf27db793028de64cf6df17ac8b29	279	SMART	SM01002	AlaDh_PNT_C_2	74	220	5.4E-14	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027945505.1	0dfdf27db793028de64cf6df17ac8b29	279	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	28	228	1.6E-78	T	17-03-2025	-	-	-	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Pfam	PF00809	Pterin binding enzyme	158	322	1.4E-45	T	17-03-2025	IPR000489	Pterin-binding domain	GO:0042558(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	SUPERFAMILY	SSF51717	Dihydropteroate synthetase-like	156	323	9.03E-54	T	17-03-2025	IPR011005	Dihydropteroate synthase-like superfamily	GO:0044237(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	ProSitePatterns	PS00794	7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase signature.	62	73	-	T	17-03-2025	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	GO:0003848(InterPro)|GO:0009396(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	SUPERFAMILY	SSF55083	6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase, HPPK	5	112	3.66E-36	T	17-03-2025	IPR035907	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase HPPK superfamily	-	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Gene3D	G3DSA:3.20.20.20	-	133	340	9.0E-63	T	17-03-2025	IPR011005	Dihydropteroate synthase-like superfamily	GO:0044237(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Gene3D	G3DSA:3.30.70.560	-	1	130	1.4E-40	T	17-03-2025	IPR035907	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase HPPK superfamily	-	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	ProSitePatterns	PS00792	Dihydropteroate synthase signature 1.	157	172	-	T	17-03-2025	IPR000489	Pterin-binding domain	GO:0042558(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	ProSiteProfiles	PS50972	Pterin-binding domain profile.	155	455	38.989735	T	17-03-2025	IPR000489	Pterin-binding domain	GO:0042558(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	PANTHER	PTHR20941	FOLATE SYNTHESIS PROTEINS	2	322	2.4E-101	T	17-03-2025	IPR045031	Dihydropteroate synthase-like	GO:0004156(PANTHER)|GO:0005740(PANTHER)|GO:0009396(InterPro)|GO:0046654(PANTHER)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	ProSitePatterns	PS00793	Dihydropteroate synthase signature 2.	190	203	-	T	17-03-2025	IPR000489	Pterin-binding domain	GO:0042558(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Pfam	PF01288	7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase (HPPK)	6	107	3.9E-26	T	17-03-2025	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	GO:0003848(InterPro)|GO:0009396(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	NCBIfam	TIGR01498	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	4	107	5.3E-28	T	17-03-2025	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	GO:0003848(InterPro)|GO:0009396(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	CDD	cd00483	HPPK	5	105	1.23027E-49	T	17-03-2025	IPR000550	7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK	GO:0003848(InterPro)|GO:0009396(InterPro)	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	Gene3D	G3DSA:3.40.50.720	-	393	455	2.8E-8	T	17-03-2025	-	-	-	-
+GCA_027627215.1	d35ff63bab9776e54fd947d863f1da22	455	NCBIfam	TIGR01496	dihydropteroate synthase	156	322	1.3E-46	T	17-03-2025	IPR006390	Dihydropteroate synthase domain	GO:0004156(InterPro)|GO:0009396(InterPro)	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	Gene3D	G3DSA:3.40.50.720	-	166	414	2.7E-24	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	37	183	1.2E-54	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	479	655	9.31E-29	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	SMART	SM01003	AlaDh_PNT_N_2	39	171	5.0E-27	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	481	596	2.9E-17	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	729	833	3.9E-157	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	Gene3D	G3DSA:3.40.50.720	-	479	922	3.9E-157	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	479	613	1.5E-40	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	39	923	7.1E-225	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	602	739	5.9E-46	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	36	245	3.06E-33	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	CDD	cd12189	LKR_SDH_like	37	465	0.0	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	SMART	SM01002	AlaDh_PNT_C_2	222	406	3.2E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	Gene3D	G3DSA:3.40.50.720	-	36	165	1.3E-24	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	602	873	3.9E-157	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	39	171	3.1E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	601	872	1.24E-58	T	17-03-2025	-	-	-	-
+GCA_027577535.1	a75802ecf1a29c267e5f8b19c89de252	944	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	600	922	1.1E-77	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027575875.1	3dae341bedfcc14beb02aae02da186d5	201	Gene3D	G3DSA:3.40.50.720	-	10	156	1.2E-41	T	17-03-2025	-	-	-	-
+GCA_027575875.1	3dae341bedfcc14beb02aae02da186d5	201	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	13	170	1.3E-44	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575875.1	3dae341bedfcc14beb02aae02da186d5	201	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	14	148	4.9E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575875.1	3dae341bedfcc14beb02aae02da186d5	201	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	11	150	3.57E-27	T	17-03-2025	-	-	-	-
+GCA_027575875.1	3dae341bedfcc14beb02aae02da186d5	201	SMART	SM01003	AlaDh_PNT_N_2	13	149	1.4E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000313795.2	2213f5fff5cf589781b04aa7523ce820	262	Gene3D	G3DSA:3.40.50.720	-	10	95	7.0E-9	T	17-03-2025	-	-	-	-
+GCA_000313795.2	2213f5fff5cf589781b04aa7523ce820	262	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	157	245	1.3E-48	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000313795.2	2213f5fff5cf589781b04aa7523ce820	262	Gene3D	G3DSA:3.40.50.720	-	132	259	1.2E-42	T	17-03-2025	-	-	-	-
+GCA_000313795.2	2213f5fff5cf589781b04aa7523ce820	262	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	10	99	1.8E-41	T	17-03-2025	-	-	-	-
+GCA_000313795.2	2213f5fff5cf589781b04aa7523ce820	262	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	137	2.4E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000313795.2	2213f5fff5cf589781b04aa7523ce820	262	SMART	SM01003	AlaDh_PNT_N_2	7	138	7.1E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000313795.2	2213f5fff5cf589781b04aa7523ce820	262	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	137	4.25E-28	T	17-03-2025	-	-	-	-
+GCA_027627325.1	809974bdce98afe03a8a057c16f7b3e3	148	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	7	147	5.8E-42	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027627325.1	809974bdce98afe03a8a057c16f7b3e3	148	SMART	SM01003	AlaDh_PNT_N_2	7	141	1.1E-31	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027627325.1	809974bdce98afe03a8a057c16f7b3e3	148	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	141	1.19E-33	T	17-03-2025	-	-	-	-
+GCA_027627325.1	809974bdce98afe03a8a057c16f7b3e3	148	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	7	141	3.6E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027627325.1	809974bdce98afe03a8a057c16f7b3e3	148	Gene3D	G3DSA:3.40.50.720	-	5	146	6.7E-43	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	602	881	5.5E-170	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	Gene3D	G3DSA:3.40.50.720	-	480	924	5.5E-170	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	SMART	SM01002	AlaDh_PNT_C_2	212	399	1.0E-11	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	31	177	7.0E-52	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	Gene3D	G3DSA:3.40.50.720	-	159	407	4.9E-27	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	479	656	5.45E-30	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	482	597	7.5E-20	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	730	837	5.5E-170	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	603	735	7.7E-51	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	33	165	2.8E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	CDD	cd12189	LKR_SDH_like	31	458	0.0	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	601	927	1.6E-82	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	Gene3D	G3DSA:3.40.50.720	-	31	158	4.6E-22	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	SMART	SM01003	AlaDh_PNT_N_2	33	165	3.1E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	480	614	1.1E-45	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	31	239	1.45E-32	T	17-03-2025	-	-	-	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	33	929	7.4E-237	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_025201865.1	02ad2e27cfe3b0815f8158d569a6ee3c	954	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	602	874	1.5E-65	T	17-03-2025	-	-	-	-
+GCA_022814085.1	9f02edf2e3e8f1689f354b60b4652c1b	289	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	176	281	2.1E-42	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_022814085.1	9f02edf2e3e8f1689f354b60b4652c1b	289	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	206	281	7.72E-7	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_022814085.1	9f02edf2e3e8f1689f354b60b4652c1b	289	Gene3D	G3DSA:3.40.50.720	-	3	151	2.2E-31	T	17-03-2025	-	-	-	-
+GCA_022814085.1	9f02edf2e3e8f1689f354b60b4652c1b	289	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	122	2.4E-15	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_022814085.1	9f02edf2e3e8f1689f354b60b4652c1b	289	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	151	1.7E-24	T	17-03-2025	-	-	-	-
+GCA_022814085.1	9f02edf2e3e8f1689f354b60b4652c1b	289	Gene3D	G3DSA:3.40.50.720	-	152	289	2.7E-47	T	17-03-2025	-	-	-	-
+GCA_022814085.1	9f02edf2e3e8f1689f354b60b4652c1b	289	SMART	SM01003	AlaDh_PNT_N_2	7	116	9.3E-10	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_011763605.1	bed18f794cc1e5adad1c0cd419bec713	171	SMART	SM01002	AlaDh_PNT_C_2	1	118	3.3E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_011763605.1	bed18f794cc1e5adad1c0cd419bec713	171	Gene3D	G3DSA:3.40.50.720	-	1	126	2.4E-56	T	17-03-2025	-	-	-	-
+GCA_011763605.1	bed18f794cc1e5adad1c0cd419bec713	171	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	2	106	5.36E-7	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_011763605.1	bed18f794cc1e5adad1c0cd419bec713	171	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	126	9.9E-64	T	17-03-2025	-	-	-	-
+GCA_011763605.1	bed18f794cc1e5adad1c0cd419bec713	171	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	1	164	4.3E-17	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024761945.1	39f21f3f1aa463c676ca71cd61ab7495	610	MobiDBLite	mobidb-lite	consensus disorder prediction	591	610	-	T	17-03-2025	-	-	-	-
+GCA_024761945.1	39f21f3f1aa463c676ca71cd61ab7495	610	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	95	201	5.26E-8	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_024761945.1	39f21f3f1aa463c676ca71cd61ab7495	610	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	35	227	2.9E-85	T	17-03-2025	-	-	-	-
+GCA_024761945.1	39f21f3f1aa463c676ca71cd61ab7495	610	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	3	263	3.57E-10	T	17-03-2025	-	-	-	-
+GCA_024761945.1	39f21f3f1aa463c676ca71cd61ab7495	610	SMART	SM01002	AlaDh_PNT_C_2	75	219	1.6E-12	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_024761945.1	39f21f3f1aa463c676ca71cd61ab7495	610	Gene3D	G3DSA:3.40.50.720	-	35	227	1.9E-77	T	17-03-2025	-	-	-	-
+GCA_024761945.1	39f21f3f1aa463c676ca71cd61ab7495	610	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	62	269	1.6E-40	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_001683735.1	af11df97db8e48c8723705b6cc59a18f	164	Gene3D	G3DSA:3.40.50.720	-	1	116	1.7E-44	T	17-03-2025	-	-	-	-
+GCA_001683735.1	af11df97db8e48c8723705b6cc59a18f	164	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	8	160	1.3E-15	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_001683735.1	af11df97db8e48c8723705b6cc59a18f	164	SMART	SM01002	AlaDh_PNT_C_2	6	108	0.0081	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_004154745.1	0c2706adf63256c15f0e6031f307fd22	239	SMART	SM01002	AlaDh_PNT_C_2	49	180	1.2E-10	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_004154745.1	0c2706adf63256c15f0e6031f307fd22	239	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	2	188	1.9E-82	T	17-03-2025	-	-	-	-
+GCA_004154745.1	0c2706adf63256c15f0e6031f307fd22	239	Gene3D	G3DSA:3.40.50.720	-	2	188	1.4E-69	T	17-03-2025	-	-	-	-
+GCA_004154745.1	0c2706adf63256c15f0e6031f307fd22	239	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	32	230	5.9E-25	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_004154745.1	0c2706adf63256c15f0e6031f307fd22	239	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	59	185	6.3E-6	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	SMART	SM01003	AlaDh_PNT_N_2	32	163	1.4E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	583	841	7.8E-168	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	CDD	cd12189	LKR_SDH_like	30	450	0.0	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	32	163	1.4E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	460	592	2.0E-37	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	581	891	5.8E-85	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	Gene3D	G3DSA:3.40.50.720	-	160	399	1.8E-29	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	Gene3D	G3DSA:3.40.50.720	-	460	891	7.8E-168	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	707	803	7.8E-168	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	SMART	SM01002	AlaDh_PNT_C_2	210	391	1.8E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	Gene3D	G3DSA:3.40.50.720	-	29	159	8.1E-22	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	583	722	1.7E-57	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	462	576	1.0E-16	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	32	895	1.0E-234	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	582	844	1.05E-77	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	459	635	1.02E-22	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	FunFam	G3DSA:3.40.50.720:FF:000284	Lysine-ketoglutarate reductase/saccharopine dehydrogenase1	30	179	1.8E-60	T	17-03-2025	-	-	-	-
+GCA_003614725.1	2292974e6ebbc3fef00dbb24839fbc1e	898	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	30	237	7.57E-30	T	17-03-2025	-	-	-	-
+GCA_910591825.1	ec85ebad2d657d87e88183c4303c5bd4	119	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	1	119	9.6E-57	T	17-03-2025	-	-	-	-
+GCA_910591825.1	ec85ebad2d657d87e88183c4303c5bd4	119	Gene3D	G3DSA:3.40.50.720	-	1	119	1.2E-51	T	17-03-2025	-	-	-	-
+GCA_910591825.1	ec85ebad2d657d87e88183c4303c5bd4	119	SMART	SM01002	AlaDh_PNT_C_2	1	118	8.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_910591825.1	ec85ebad2d657d87e88183c4303c5bd4	119	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	4	118	4.1E-12	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_910591825.1	ec85ebad2d657d87e88183c4303c5bd4	119	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	6	116	1.0E-10	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027577315.1	b12cf31207a072b4616ba700cc3ee670	195	Gene3D	G3DSA:3.40.50.720	-	5	150	3.3E-43	T	17-03-2025	-	-	-	-
+GCA_027577315.1	b12cf31207a072b4616ba700cc3ee670	195	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	10	144	4.4E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577315.1	b12cf31207a072b4616ba700cc3ee670	195	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	8	181	2.64E-28	T	17-03-2025	-	-	-	-
+GCA_027577315.1	b12cf31207a072b4616ba700cc3ee670	195	SMART	SM01003	AlaDh_PNT_N_2	9	145	1.8E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577315.1	b12cf31207a072b4616ba700cc3ee670	195	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	9	166	2.7E-46	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	Gene3D	G3DSA:3.40.50.720	-	134	273	1.4E-51	T	17-03-2025	-	-	-	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	161	263	1.1E-53	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	143	2.04E-32	T	17-03-2025	-	-	-	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	134	273	6.1E-57	T	17-03-2025	-	-	-	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	SMART	SM01003	AlaDh_PNT_N_2	7	141	1.0E-27	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	Gene3D	G3DSA:3.40.50.720	-	8	85	1.8E-6	T	17-03-2025	-	-	-	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	194	266	3.73E-5	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	10	101	2.0E-43	T	17-03-2025	-	-	-	-
+GCA_024863865.1	dbba903333a87d77dfe133d624cc9025	273	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	141	3.2E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_024762025.1	f2eefc787794c123410235e81e31cd1a	285	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	3	263	3.57E-11	T	17-03-2025	-	-	-	-
+GCA_024762025.1	f2eefc787794c123410235e81e31cd1a	285	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	35	227	4.5E-86	T	17-03-2025	-	-	-	-
+GCA_024762025.1	f2eefc787794c123410235e81e31cd1a	285	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	95	202	6.17E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_024762025.1	f2eefc787794c123410235e81e31cd1a	285	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	62	269	9.7E-42	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024762025.1	f2eefc787794c123410235e81e31cd1a	285	SMART	SM01002	AlaDh_PNT_C_2	75	219	1.6E-12	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_024762025.1	f2eefc787794c123410235e81e31cd1a	285	Gene3D	G3DSA:3.40.50.720	-	35	227	2.9E-78	T	17-03-2025	-	-	-	-
+GCA_035927225.1	e90d355a4c481e6fe76b8b911b7d6831	156	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	3	142	1.2E-11	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_035927225.1	e90d355a4c481e6fe76b8b911b7d6831	156	Gene3D	G3DSA:3.40.50.720	-	1	98	3.9E-42	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	SMART	SM01002	AlaDh_PNT_C_2	182	370	9.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	1	209	1.19E-32	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	CDD	cd12189	LKR_SDH_like	2	427	0.0	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	4	876	8.2E-222	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	Gene3D	G3DSA:3.40.50.720	-	443	875	2.2E-152	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	693	792	2.2E-152	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	SMART	SM01003	AlaDh_PNT_N_2	4	135	2.3E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	4	135	5.8E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	564	876	9.9E-74	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	443	619	1.11E-26	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	Gene3D	G3DSA:3.40.50.720	-	131	378	9.2E-25	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	Gene3D	G3DSA:3.40.50.720	-	1	130	1.5E-21	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	445	560	5.7E-19	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	566	701	6.8E-46	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	566	832	2.2E-152	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	443	575	1.8E-41	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	2	147	2.1E-55	T	17-03-2025	-	-	-	-
+GCA_027575525.1	968758fe595bcf6458dc097400f1b18d	876	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	565	832	4.84E-58	T	17-03-2025	-	-	-	-
+GCA_027577555.1	93dc61d1a1850424f8b94fa976886ade	257	Gene3D	G3DSA:3.40.50.720	-	7	140	2.0E-16	T	17-03-2025	-	-	-	-
+GCA_027577555.1	93dc61d1a1850424f8b94fa976886ade	257	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	163	248	3.5E-58	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027577555.1	93dc61d1a1850424f8b94fa976886ade	257	Gene3D	G3DSA:3.40.50.720	-	141	257	2.0E-37	T	17-03-2025	-	-	-	-
+GCA_027577555.1	93dc61d1a1850424f8b94fa976886ade	257	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	10	144	9.6E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027577555.1	93dc61d1a1850424f8b94fa976886ade	257	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	8	207	2.3E-29	T	17-03-2025	-	-	-	-
+GCA_027577555.1	93dc61d1a1850424f8b94fa976886ade	257	SMART	SM01003	AlaDh_PNT_N_2	9	145	1.8E-24	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	115	260	1.1E-52	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Gene3D	G3DSA:3.10.120.10	-	1	80	5.5E-31	T	17-03-2025	IPR036400	Cytochrome b5-like heme/steroid binding domain superfamily	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	115	322	7.82E-33	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	589	849	3.3E-155	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	715	810	3.3E-155	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	SUPERFAMILY	SSF55856	Cytochrome b5-like heme/steroid binding domain	2	79	9.68E-30	T	17-03-2025	IPR036400	Cytochrome b5-like heme/steroid binding domain superfamily	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	PRINTS	PR00363	Cytochrome B5 signature	37	51	3.7E-12	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	PRINTS	PR00363	Cytochrome B5 signature	52	59	3.7E-12	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	PRINTS	PR00363	Cytochrome B5 signature	65	77	3.7E-12	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	PRINTS	PR00363	Cytochrome B5 signature	27	37	3.7E-12	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	SMART	SM01003	AlaDh_PNT_N_2	117	248	3.1E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	ProSiteProfiles	PS50255	Cytochrome b5 family, heme-binding domain profile.	2	78	27.618868	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	589	725	2.5E-51	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	487	583	2.7E-7	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	CDD	cd12189	LKR_SDH_like	115	486	0.0	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Gene3D	G3DSA:3.40.50.720	-	492	899	3.3E-155	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Gene3D	G3DSA:3.40.50.720	-	114	261	5.5E-43	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	506	633	1.75E-5	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	588	852	2.62E-71	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	587	899	6.5E-82	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	117	902	1.5E-214	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	117	248	1.2E-21	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	Pfam	PF00173	Cytochrome b5-like Heme/Steroid binding domain	6	78	1.2E-23	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	FunFam	G3DSA:3.10.120.10:FF:000002	Cytochrome b5 type B	1	81	8.4E-31	T	17-03-2025	-	-	-	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	ProSitePatterns	PS00191	Cytochrome b5 family, heme-binding domain signature.	33	40	-	T	17-03-2025	IPR018506	Cytochrome b5, heme-binding site	GO:0020037(InterPro)	-
+GCA_027595885.1	5cfe890ca710dd3f73bead3dd002d53e	907	SMART	SM01117	Cyt_b5_2	5	78	7.4E-31	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_043643485.1	72445268cbf5ba4a65c73577b38df9fb	266	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	72	213	1.06E-6	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_043643485.1	72445268cbf5ba4a65c73577b38df9fb	266	Gene3D	G3DSA:3.40.50.720	-	7	215	1.7E-67	T	17-03-2025	-	-	-	-
+GCA_043643485.1	72445268cbf5ba4a65c73577b38df9fb	266	SMART	SM01002	AlaDh_PNT_C_2	61	207	9.6E-9	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_043643485.1	72445268cbf5ba4a65c73577b38df9fb	266	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	48	257	8.0E-21	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_043643485.1	72445268cbf5ba4a65c73577b38df9fb	266	Coils	Coil	Coil	47	67	-	T	17-03-2025	-	-	-	-
+GCA_043643485.1	72445268cbf5ba4a65c73577b38df9fb	266	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	7	215	2.7E-74	T	17-03-2025	-	-	-	-
+GCA_024761965.1	3fb92b3b13e2a012a34147bae0c5b6cf	285	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	62	269	9.5E-42	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_024761965.1	3fb92b3b13e2a012a34147bae0c5b6cf	285	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	3	263	3.57E-11	T	17-03-2025	-	-	-	-
+GCA_024761965.1	3fb92b3b13e2a012a34147bae0c5b6cf	285	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	35	227	4.5E-86	T	17-03-2025	-	-	-	-
+GCA_024761965.1	3fb92b3b13e2a012a34147bae0c5b6cf	285	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	95	202	6.17E-9	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_024761965.1	3fb92b3b13e2a012a34147bae0c5b6cf	285	SMART	SM01002	AlaDh_PNT_C_2	75	219	1.6E-12	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_024761965.1	3fb92b3b13e2a012a34147bae0c5b6cf	285	Gene3D	G3DSA:3.40.50.720	-	35	227	2.9E-78	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	94	218	2.21E-9	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	17	-	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	13	17	-	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	17	-	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	2	12	-	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	18	386	-	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	92	167	5.0E-35	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	204	295	2.69E-6	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	MobiDBLite	mobidb-lite	consensus disorder prediction	49	69	-	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	144	336	5.7E-64	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	SMART	SM01002	AlaDh_PNT_C_2	194	328	5.1E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	Gene3D	G3DSA:3.40.50.720	-	144	336	1.6E-63	T	17-03-2025	-	-	-	-
+GCA_000965225.2	3ee877ce6a81c4638b409b0df05196f7	386	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	1	-	T	17-03-2025	-	-	-	-
+GCA_035927305.1	cb86445f77e893aa22641418f4ada7a6	193	Gene3D	G3DSA:3.40.50.720	-	4	158	1.0E-34	T	17-03-2025	-	-	-	-
+GCA_035927305.1	cb86445f77e893aa22641418f4ada7a6	193	FunFam	G3DSA:3.40.50.720:FF:000627	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	10	101	2.9E-41	T	17-03-2025	-	-	-	-
+GCA_035927305.1	cb86445f77e893aa22641418f4ada7a6	193	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	7	151	1.0E-37	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_035927305.1	cb86445f77e893aa22641418f4ada7a6	193	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	6	140	1.62E-26	T	17-03-2025	-	-	-	-
+GCA_035927305.1	cb86445f77e893aa22641418f4ada7a6	193	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	8	138	5.9E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_035927305.1	cb86445f77e893aa22641418f4ada7a6	193	SMART	SM01003	AlaDh_PNT_N_2	7	138	6.7E-19	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604405.1	e374886e2df7f86e7a550d4fc02e8d15	161	Pfam	PF01262	Alanine dehydrogenase/PNT, C-terminal domain	40	152	2.5E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027604405.1	e374886e2df7f86e7a550d4fc02e8d15	161	SMART	SM01002	AlaDh_PNT_C_2	1	110	1.1E-4	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027604405.1	e374886e2df7f86e7a550d4fc02e8d15	161	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	2	94	3.48E-8	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027604405.1	e374886e2df7f86e7a550d4fc02e8d15	161	Gene3D	G3DSA:3.40.50.720	-	1	118	4.9E-48	T	17-03-2025	-	-	-	-
+GCA_027604405.1	e374886e2df7f86e7a550d4fc02e8d15	161	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	1	83	2.1E-15	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	35	918	4.5E-239	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	593	741	7.4E-53	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	33	178	4.1E-57	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	Gene3D	G3DSA:3.40.50.720	-	471	912	2.1E-170	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	36	166	6.0E-23	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	33	240	3.06E-34	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	Gene3D	G3DSA:3.40.50.720	-	32	178	3.9E-45	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	591	915	3.5E-85	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	472	587	3.7E-17	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	CDD	cd12189	LKR_SDH_like	33	457	0.0	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	592	869	2.1E-170	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	592	868	1.77E-77	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	471	647	9.24E-27	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	470	602	1.1E-40	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	SMART	SM01002	AlaDh_PNT_C_2	205	397	3.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	720	826	2.1E-170	T	17-03-2025	-	-	-	-
+GCA_027604105.1	90321b3c96760c4675c62731afa26744	922	SMART	SM01003	AlaDh_PNT_N_2	35	166	8.5E-26	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027578435.1	963f4612f06692a5269551b297e198ab	178	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	9	104	1.1E-7	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027578435.1	963f4612f06692a5269551b297e198ab	178	Gene3D	G3DSA:3.40.50.720	-	1	132	1.8E-49	T	17-03-2025	-	-	-	-
+GCA_027578435.1	963f4612f06692a5269551b297e198ab	178	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	5	174	3.3E-15	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578435.1	963f4612f06692a5269551b297e198ab	178	SMART	SM01002	AlaDh_PNT_C_2	2	123	0.0022	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	Gene3D	G3DSA:3.40.50.720	-	460	891	1.7E-167	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	SMART	SM01003	AlaDh_PNT_N_2	32	163	1.4E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	CDD	cd12189	LKR_SDH_like	30	450	0.0	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	32	163	1.4E-20	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	460	592	2.0E-37	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	30	237	3.06E-30	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	583	841	1.7E-167	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	462	576	1.0E-16	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	582	844	1.83E-76	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	Gene3D	G3DSA:3.40.50.720	-	29	159	8.1E-22	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	Gene3D	G3DSA:3.40.50.720	-	160	399	1.0E-29	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	583	722	1.7E-57	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	707	803	1.7E-167	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	581	891	4.0E-85	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	32	895	1.0E-234	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	459	635	1.02E-22	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	FunFam	G3DSA:3.40.50.720:FF:000284	Lysine-ketoglutarate reductase/saccharopine dehydrogenase1	30	179	1.8E-60	T	17-03-2025	-	-	-	-
+GCA_000442015.1	317ad85e892ef9b457ca5481d5f1cda7	898	SMART	SM01002	AlaDh_PNT_C_2	210	391	1.1E-5	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027578535.1	43a3d71089532fd3d9a93a2cd052811b	233	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	1	71	1.0E-38	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027578535.1	43a3d71089532fd3d9a93a2cd052811b	233	FunFam	G3DSA:3.40.50.720:FF:000217	Saccharopine dehydrogenase [NAD(+), L-lysine-forming]	43	227	5.6E-78	T	17-03-2025	-	-	-	-
+GCA_027578535.1	43a3d71089532fd3d9a93a2cd052811b	233	Gene3D	G3DSA:3.40.50.720	-	43	227	1.5E-72	T	17-03-2025	-	-	-	-
+GCA_027578535.1	43a3d71089532fd3d9a93a2cd052811b	233	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	96	198	1.14E-8	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027578535.1	43a3d71089532fd3d9a93a2cd052811b	233	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	2	112	3.32E-11	T	17-03-2025	-	-	-	-
+GCA_027578535.1	43a3d71089532fd3d9a93a2cd052811b	233	SMART	SM01002	AlaDh_PNT_C_2	82	218	7.4E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	SMART	SM01002	AlaDh_PNT_C_2	239	418	0.0054	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	Gene3D	G3DSA:3.40.50.720	-	527	981	2.2E-132	T	17-03-2025	-	-	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	526	676	3.74E-17	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	657	933	1.24E-50	T	17-03-2025	-	-	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	59	190	1.3E-10	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	528	650	2.7E-13	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	Gene3D	G3DSA:3.40.50.720	-	190	441	4.5E-25	T	17-03-2025	-	-	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	656	982	1.5E-61	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	Gene3D	G3DSA:3.40.50.720	-	62	173	5.6E-6	T	17-03-2025	-	-	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	795	892	2.2E-132	T	17-03-2025	-	-	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	52	983	6.2E-160	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	59	464	9.35E-16	T	17-03-2025	-	-	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	658	930	2.2E-132	T	17-03-2025	-	-	-	-
+GCA_025869475.1	2f581a7ca96cef22a88b676beaa3a3de	1041	SMART	SM01003	AlaDh_PNT_N_2	51	189	1.3E-5	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	4	839	1.5E-203	T	17-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	SMART	SM01002	AlaDh_PNT_C_2	182	370	9.5E-6	T	17-03-2025	IPR007698	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, NAD(H)-binding domain	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	443	575	1.7E-41	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	CDD	cd12189	LKR_SDH_like	2	427	0.0	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	564	839	8.7E-58	T	17-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	Gene3D	G3DSA:3.40.50.720	-	443	839	1.5E-134	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	FunFam	G3DSA:3.40.50.720:FF:000087	alpha-aminoadipic semialdehyde synthase, mitochondrial	2	147	2.0E-55	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	565	832	4.45E-58	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	SMART	SM01003	AlaDh_PNT_N_2	4	135	2.3E-25	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	565	836	1.5E-134	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	445	560	5.3E-19	T	17-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	693	792	1.5E-134	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	566	701	6.4E-46	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	443	619	9.34E-27	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	Gene3D	G3DSA:3.40.50.720	-	1	130	1.4E-21	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	Gene3D	G3DSA:3.40.50.720	-	131	378	8.5E-25	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	SUPERFAMILY	SSF52283	Formate/glycerate dehydrogenase catalytic domain-like	1	209	1.11E-32	T	17-03-2025	-	-	-	-
+GCA_027575545.1	a87f7b626ef3a6726e83ee9d37dbd364	839	Pfam	PF05222	Alanine dehydrogenase/PNT, N-terminal domain	4	135	5.5E-22	T	17-03-2025	IPR007886	Alanine dehydrogenase/pyridine nucleotide transhydrogenase, N-terminal	-	-

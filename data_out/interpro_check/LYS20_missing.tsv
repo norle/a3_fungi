@@ -1,0 +1,924 @@
+GCA_027627275.1	a93a2e7d891d309eecf3fad1b3dc94f4	559	CDD	cd07948	DRE_TIM_HCS	246	487	8.86453E-167	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-.1
+GCA_027578195.1	e042aefd69124b45b37fccbb668f56fe	312	Gene3D	G3DSA:3.20.20.70	Aldolase class I	11	310	3.4E-122	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_027578195.1	e042aefd69124b45b37fccbb668f56fe	312	Pfam	PF00682	HMGL-like	17	288	1.8E-59	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027578195.1	e042aefd69124b45b37fccbb668f56fe	312	CDD	cd07938	DRE_TIM_HMGL	19	292	0.0	T	17-03-2025	-	-	-	-
+GCA_027578195.1	e042aefd69124b45b37fccbb668f56fe	312	SUPERFAMILY	SSF51569	Aldolase	14	305	8.35E-77	T	17-03-2025	-	-	-	-
+GCA_027578195.1	e042aefd69124b45b37fccbb668f56fe	312	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	17	284	37.818306	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027578195.1	e042aefd69124b45b37fccbb668f56fe	312	FunFam	G3DSA:3.20.20.70:FF:000201	Hydroxymethylglutaryl-CoA lyase	12	310	1.8E-148	T	17-03-2025	-	-	-	-
+GCA_027578195.1	e042aefd69124b45b37fccbb668f56fe	312	ProSitePatterns	PS01062	Hydroxymethylglutaryl-coenzyme A lyase active site.	243	252	-	T	17-03-2025	IPR000138	Hydroxymethylglutaryl-CoA lyase, active site	GO:0004419(InterPro)	-
+GCA_027578195.1	e042aefd69124b45b37fccbb668f56fe	312	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	11	310	3.5E-153	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_002240705.1	81a4373ffa044547607496eb1f575c1c	373	Gene3D	G3DSA:3.20.20.70	Aldolase class I	48	371	3.0E-103	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_002240705.1	81a4373ffa044547607496eb1f575c1c	373	CDD	cd07938	DRE_TIM_HMGL	55	352	1.02705E-147	T	17-03-2025	-	-	-	-
+GCA_002240705.1	81a4373ffa044547607496eb1f575c1c	373	FunFam	G3DSA:3.20.20.70:FF:000071	Hydroxymethylglutaryl-CoA lyase	48	371	8.8E-130	T	17-03-2025	-	-	-	-
+GCA_002240705.1	81a4373ffa044547607496eb1f575c1c	373	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	53	345	32.527866	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_002240705.1	81a4373ffa044547607496eb1f575c1c	373	SUPERFAMILY	SSF51569	Aldolase	50	361	7.69E-58	T	17-03-2025	-	-	-	-
+GCA_002240705.1	81a4373ffa044547607496eb1f575c1c	373	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	47	370	2.5E-121	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_002240705.1	81a4373ffa044547607496eb1f575c1c	373	Pfam	PF00682	HMGL-like	53	349	1.5E-40	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000827465.1	48a68b32b040caaa4af01a8465c78195	358	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	22	339	5.5E-135	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_000827465.1	48a68b32b040caaa4af01a8465c78195	358	FunFam	G3DSA:3.20.20.70:FF:000201	Hydroxymethylglutaryl-CoA lyase	24	336	5.0E-135	T	17-03-2025	-	-	-	-
+GCA_000827465.1	48a68b32b040caaa4af01a8465c78195	358	SUPERFAMILY	SSF51569	Aldolase	26	327	1.12E-67	T	17-03-2025	-	-	-	-
+GCA_000827465.1	48a68b32b040caaa4af01a8465c78195	358	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	29	310	34.644043	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000827465.1	48a68b32b040caaa4af01a8465c78195	358	CDD	cd07938	DRE_TIM_HMGL	31	318	1.15688E-166	T	17-03-2025	-	-	-	-
+GCA_000827465.1	48a68b32b040caaa4af01a8465c78195	358	Gene3D	G3DSA:3.20.20.70	Aldolase class I	24	336	1.0E-112	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_000827465.1	48a68b32b040caaa4af01a8465c78195	358	Pfam	PF00682	HMGL-like	29	313	2.8E-47	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000827465.1	48a68b32b040caaa4af01a8465c78195	358	ProSitePatterns	PS01062	Hydroxymethylglutaryl-coenzyme A lyase active site.	269	278	-	T	17-03-2025	IPR000138	Hydroxymethylglutaryl-CoA lyase, active site	GO:0004419(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	309	420	1.1E-57	T	17-03-2025	-	-	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	Gene3D	G3DSA:3.20.20.70	Aldolase class I	32	308	1.8E-80	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	NCBIfam	TIGR02146	homocitrate synthase	44	391	6.7E-147	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	SUPERFAMILY	SSF51569	Aldolase	41	318	2.93E-65	T	17-03-2025	-	-	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	Gene3D	G3DSA:1.10.238.260	-	309	423	1.8E-39	T	17-03-2025	-	-	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	42	296	31.46978	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	Pfam	PF01532	Glycosyl hydrolase family 47	524	995	1.7E-148	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	229	242	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	32	308	1.8E-161	T	17-03-2025	-	-	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	Pfam	PF00682	HMGL-like	42	302	2.6E-77	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	CDD	cd07948	DRE_TIM_HCS	42	304	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	MobiDBLite	mobidb-lite	consensus disorder prediction	1	29	-	T	17-03-2025	-	-	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	316	396	9.0E-35	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	SUPERFAMILY	SSF48225	Seven-hairpin glycosidases	512	996	9.55E-158	T	17-03-2025	IPR036026	Seven-hairpin glycosidases	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	Gene3D	G3DSA:1.50.10.10	-	504	997	1.4E-159	T	17-03-2025	IPR012341	Six-hairpin glycosidase-like superfamily	GO:0005975(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	Hamap	MF_02222	Homocitrate synthase.	43	400	68.872406	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	49	65	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	FunFam	G3DSA:1.50.10.10:FF:000037	alpha-1,2-Mannosidase	504	997	3.5E-209	T	17-03-2025	-	-	-	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PRINTS	PR00747	Glycosyl hydrolase family 47 signature	731	748	1.5E-50	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PRINTS	PR00747	Glycosyl hydrolase family 47 signature	633	652	1.5E-50	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PRINTS	PR00747	Glycosyl hydrolase family 47 signature	594	612	1.5E-50	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PRINTS	PR00747	Glycosyl hydrolase family 47 signature	556	570	1.5E-50	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PRINTS	PR00747	Glycosyl hydrolase family 47 signature	800	816	1.5E-50	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PRINTS	PR00747	Glycosyl hydrolase family 47 signature	896	920	1.5E-50	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PRINTS	PR00747	Glycosyl hydrolase family 47 signature	959	979	1.5E-50	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PRINTS	PR00747	Glycosyl hydrolase family 47 signature	523	543	1.5E-50	T	17-03-2025	IPR001382	Glycoside hydrolase family 47	GO:0004571(InterPro)|GO:0005509(InterPro)|GO:0016020(InterPro)	-
+GCA_029168975.1	a6a63f17d8e00337e904d183b89fe967	997	PANTHER	PTHR11742	MANNOSYL-OLIGOSACCHARIDE ALPHA-1,2-MANNOSIDASE-RELATED	456	996	1.3E-140	T	17-03-2025	IPR050749	Glycosyl Hydrolase Family 47	GO:0004571(PANTHER)|GO:0005783(PANTHER)|GO:0016020(PANTHER)|GO:1904382(PANTHER)	-
+GCA_001014755.1	54a405e449b8435cb8adb76caf0c6bec	100	Gene3D	G3DSA:1.10.238.260	-	1	73	1.6E-15	T	17-03-2025	-	-	-	-
+GCA_001014755.1	54a405e449b8435cb8adb76caf0c6bec	100	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	1	47	3.1E-11	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	57	332	16.92107	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	Pfam	PF22615	Alpha-isopropylmalate synthase, post-catalytic domain-like	355	420	9.4E-27	T	17-03-2025	IPR054692	2-isopropylmalate synthase-like, post-catalytic domain	-	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	SUPERFAMILY	SSF110921	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	472	585	1.57E-30	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	Gene3D	G3DSA:3.20.20.70	Aldolase class I	36	403	2.8E-154	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	SMART	SM00917	LeuA_dimer_2	449	586	8.2E-24	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	NCBIfam	TIGR00970	2-isopropylmalate synthase	31	585	4.2E-266	T	17-03-2025	IPR005668	2-isopropylmalate synthase	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	PANTHER	PTHR46911	-	25	588	4.2E-283	T	17-03-2025	-	-	GO:0003852(PANTHER)|GO:0005739(PANTHER)|GO:0009098(PANTHER)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	SUPERFAMILY	SSF51569	Aldolase	47	355	1.26E-94	T	17-03-2025	-	-	-	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	64	80	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	268	281	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	CDD	cd07942	DRE_TIM_LeuA	56	340	0.0	T	17-03-2025	IPR039371	LeuA, N-terminal catalytic TIM barrel domain	-	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	Pfam	PF08502	LeuA allosteric (dimerisation) domain	449	585	2.0E-20	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	Hamap	MF_00572	2-isopropylmalate synthase [leuA].	32	587	50.007427	T	17-03-2025	IPR005668	2-isopropylmalate synthase	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	FunFam	G3DSA:3.20.20.70:FF:000045	2-isopropylmalate synthase	35	403	5.6E-195	T	17-03-2025	-	-	-	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	Pfam	PF00682	HMGL-like	58	338	5.3E-83	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	Gene3D	G3DSA:3.30.160.270	-	404	584	9.0E-53	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_000412225.2	453c756fed296c8811a4a56ac2987767	595	SUPERFAMILY	SSF89000	post-HMGL domain-like	415	463	5.89E-13	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	367	1376	-	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Coils	Coil	Coil	1300	1320	-	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	CDD	cd07948	DRE_TIM_HCS	1041	1229	4.30161E-117	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	325	344	-	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	1241	1321	1.4E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	324	-	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Pfam	PF00682	HMGL-like	1042	1227	4.9E-50	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Gene3D	G3DSA:1.10.238.260	-	1234	1350	2.3E-40	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Pfam	PF14027	Questin oxidase-like	560	950	1.2E-83	T	17-03-2025	IPR025337	Questin oxidase-like	GO:0016491(InterPro)	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Pfam	PF14027	Questin oxidase-like	60	434	3.4E-80	T	17-03-2025	IPR025337	Questin oxidase-like	GO:0016491(InterPro)	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	351	366	-	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	1110	1221	21.964622	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Gene3D	G3DSA:3.20.20.70	Aldolase class I	1037	1233	4.6E-54	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	345	350	-	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	1154	1167	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	SUPERFAMILY	SSF51569	Aldolase	1051	1243	4.58E-45	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	MobiDBLite	mobidb-lite	consensus disorder prediction	1356	1376	-	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	1234	1347	1.1E-56	T	17-03-2025	-	-	-	-
+GCA_027627405.1	bac4cc11ac5935b8d5719571ccae7531	1376	PANTHER	PTHR35870	PROTEIN, PUTATIVE (AFU_ORTHOLOGUE AFUA_5G03330)-RELATED	29	478	6.0E-166	T	17-03-2025	IPR025337	Questin oxidase-like	GO:0016491(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF51569	Aldolase	2480	2757	9.71E-70	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	CDD	cd02440	AdoMet_MTases	1358	1473	9.37814E-11	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:3.90.180.10	-	1749	2080	7.9E-78	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SMART	SM00823	Phosphopantetheine attachment site	2403	2474	1.8E-10	T	17-03-2025	IPR020806	Polyketide synthase, phosphopantetheine-binding domain	GO:0031177(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	CDD	cd05195	enoyl_red	1787	2080	6.94249E-98	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	1217	1530	7.5E-52	T	17-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:3.40.366.10	-	572	832	2.5E-78	T	17-03-2025	IPR001227	Acyl transferase domain superfamily	GO:0016740(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF00109	Beta-ketoacyl synthase, N-terminal domain	16	262	1.4E-63	T	17-03-2025	IPR014030	Beta-ketoacyl synthase-like, N-terminal	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SMART	SM00829	PKS_ER_names_mod	1769	2080	2.3E-95	T	17-03-2025	IPR020843	Polyketide synthase, enoylreductase domain	GO:0016491(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	1292	1528	8.13E-29	T	17-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF50129	GroES-like	1782	1898	3.3E-24	T	17-03-2025	IPR011032	GroES-like superfamily	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	2472	2747	3.1E-149	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	ProSiteProfiles	PS50075	Carrier protein (CP) domain profile.	2397	2474	11.903941	T	17-03-2025	IPR009081	Phosphopantetheine binding ACP domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:3.40.47.10	-	15	542	9.8E-142	T	17-03-2025	IPR016039	Thiolase-like	GO:0016746(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SMART	SM00826	PKS_DH	867	1056	0.0039	T	17-03-2025	IPR020807	Polyketide synthase, dehydratase domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	CDD	cd07948	DRE_TIM_HCS	2482	2743	2.14586E-165	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF08242	Methyltransferase domain	1360	1471	1.3E-13	T	17-03-2025	IPR013217	Methyltransferase type 12	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF08659	KR domain	2104	2282	2.8E-54	T	17-03-2025	IPR013968	Polyketide synthase, ketoreductase domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF00107	Zinc-binding dehydrogenase	1910	1995	3.4E-6	T	17-03-2025	IPR013149	Alcohol dehydrogenase-like, C-terminal	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SMART	SM00825	Beta-ketoacyl synthase	18	413	6.0E-149	T	17-03-2025	IPR020841	Polyketide synthase, beta-ketoacyl synthase domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	MobiDBLite	mobidb-lite	consensus disorder prediction	466	479	-	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	MobiDBLite	mobidb-lite	consensus disorder prediction	449	479	-	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF55048	Probable ACP-binding domain of malonyl-CoA ACP transacylase	701	766	3.92E-7	T	17-03-2025	IPR016036	Malonyl-CoA ACP transacylase, ACP-binding	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	ProSitePatterns	PS00012	Phosphopantetheine attachment site.	2429	2444	-	T	17-03-2025	IPR006162	Phosphopantetheine attachment site	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	2755	2835	6.6E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SMART	SM00822	This enzymatic domain is part of bacterial polyketide synthases and catalyses the first step in the reductive modification of the beta-carbonyl centres in the growing polyketide chain. It uses NADPH to reduce the keto group to a hydroxy group.	2104	2284	3.7E-34	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	ProSiteProfiles	PS52004	Ketosynthase family 3 (KS3) domain profile.	15	410	69.468781	T	17-03-2025	IPR020841	Polyketide synthase, beta-ketoacyl synthase domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	CDD	cd00833	PKS	16	408	3.37759E-164	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF02801	Beta-ketoacyl synthase, C-terminal domain	316	359	1.0E-9	T	17-03-2025	IPR014031	Beta-ketoacyl synthase, C-terminal	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF00550	Phosphopantetheine attachment site	2406	2470	0.0042	T	17-03-2025	IPR009081	Phosphopantetheine binding ACP domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:1.10.1200.10	-	2402	2475	3.5E-10	T	17-03-2025	IPR036736	ACP-like superfamily	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF52151	FabD/lysophospholipase-like	572	828	4.45E-43	T	17-03-2025	IPR016035	Acyl transferase/acyl hydrolase/lysophospholipase	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	2489	2505	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:3.20.20.70	Aldolase class I	2476	2747	5.9E-85	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Hamap	MF_02222	Homocitrate synthase.	2483	2851	70.478485	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF00698	Acyl transferase domain	574	787	1.5E-37	T	17-03-2025	IPR014043	Acyl transferase domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	2101	2300	4.81E-33	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF47336	ACP-like	2400	2470	3.4E-10	T	17-03-2025	IPR036736	ACP-like superfamily	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	NCBIfam	TIGR02146	homocitrate synthase	2484	2830	1.7E-146	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF53901	Thiolase-like	12	408	3.3E-70	T	17-03-2025	IPR016039	Thiolase-like	GO:0016746(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	1869	2029	4.27E-26	T	17-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	SMART	SM00827	Acyl transferase domain in polyketide synthase (PKS) enzymes.	575	885	1.7E-64	T	17-03-2025	IPR014043	Acyl transferase domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:3.40.50.720	-	2081	2338	9.2E-56	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	ProSitePatterns	PS00606	Ketosynthase family 3 (KS3) active site signature.	177	193	-	T	17-03-2025	IPR018201	Beta-ketoacyl synthase, active site	GO:0004315(InterPro)|GO:0006633(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	2748	2856	3.1E-56	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF00682	HMGL-like	2482	2741	1.1E-77	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF14765	Polyketide synthase dehydratase N-terminal domain	1026	1180	1.0E-9	T	17-03-2025	IPR049551	Polyketide synthase, dehydratase domain, C-terminal	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	PANTHER	PTHR43775	FATTY ACID SYNTHASE	821	2517	0.0	T	17-03-2025	IPR050091	Polyketide and Nonribosomal Peptide Biosynthesis Enzymes	GO:0004312(PANTHER)|GO:0006633(PANTHER)|GO:0044550(PANTHER)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF08240	Alcohol dehydrogenase GroES-like domain	1786	1852	1.8E-5	T	17-03-2025	IPR013154	Alcohol dehydrogenase-like, N-terminal	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:3.10.129.110	Polyketide synthase dehydratase	871	1183	2.9E-36	T	17-03-2025	IPR042104	Polyketide synthase, dehydratase domain superfamily	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	ProSiteProfiles	PS52019	Polyketide and metazoan fatty acid synthase dehydratase (PKS/mFAS DH) domain profile.	864	1182	20.698984	T	17-03-2025	IPR049900	Polyketide/metazoan fatty acid synthase, dehydratase domain	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	2482	2735	31.610859	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Gene3D	G3DSA:1.10.238.260	-	2748	2856	1.0E-40	T	17-03-2025	-	-	-	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	2668	2681	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_020647705.1	5f56c97ed09a156ebd618501b78ddba3	2856	Pfam	PF21089	Polyketide synthase dehydratase domain	886	961	0.0083	T	17-03-2025	IPR049552	Polyketide synthase, dehydratase domain, N-terminal	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Gene3D	G3DSA:2.130.10.10	-	1	331	3.7E-114	T	17-03-2025	IPR015943	WD40/YVTN repeat-like-containing domain superfamily	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	SUPERFAMILY	SSF50978	WD40 repeat-like	12	329	9.3E-46	T	17-03-2025	IPR036322	WD40-repeat-containing domain superfamily	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Gene3D	G3DSA:1.10.238.260	-	1584	1697	4.5E-40	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	FunFam	G3DSA:2.130.10.10:FF:000193	Protein transport protein SEC31, putative	1	331	5.6E-182	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	NCBIfam	TIGR02146	homocitrate synthase	1320	1666	3.0E-150	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Gene3D	G3DSA:1.20.940.10	Functional domain of the splicing factor Prp18	1129	1235	7.2E-28	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	SMART	SM00320	WD40_4	111	150	0.061	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	SMART	SM00320	WD40_4	199	242	0.2	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	SMART	SM00320	WD40_4	289	329	55.0	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	SMART	SM00320	WD40_4	58	101	210.0	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	SMART	SM00320	WD40_4	156	196	0.35	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	SMART	SM00320	WD40_4	246	286	1.1E-6	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	1591	1671	2.4E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Pfam	PF12931	Sec23-binding domain of Sec16	532	751	8.9E-5	T	17-03-2025	IPR024298	Ancestral coatomer element 1, Sec16/Sec31	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Hamap	MF_02222	Homocitrate synthase.	1319	1675	68.488091	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	1325	1341	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	1043	1062	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	971	994	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	1102	1117	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	1064	1079	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	767	1128	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	817	826	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	944	960	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	1252	1303	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	836	855	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	1080	1101	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	1257	1285	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	MobiDBLite	mobidb-lite	consensus disorder prediction	1020	1042	-	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Gene3D	G3DSA:1.25.40.1030	-	361	768	6.6E-111	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	ProSiteProfiles	PS50082	Trp-Asp (WD) repeats profile.	253	295	10.575287	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	FunFam	G3DSA:1.20.940.10:FF:000007	Protein transport protein (SEC31), putative	1130	1234	6.4E-40	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	ProSiteProfiles	PS50082	Trp-Asp (WD) repeats profile.	163	205	9.004632	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	1318	1571	30.058994	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Pfam	PF00400	WD domain, G-beta repeat	249	286	0.53	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	1308	1583	5.0E-169	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	PANTHER	PTHR13923	SEC31-RELATED PROTEIN	3	1055	1.1E-294	T	17-03-2025	IPR040251	Protein transport protein SEC31-like	GO:0005198(PANTHER)|GO:0006888(InterPro)|GO:0007029(PANTHER)|GO:0030127(PANTHER)|GO:0070971(PANTHER)|GO:0090110(PANTHER)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	1584	1697	1.5E-63	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Pfam	PF07304	Steroid receptor RNA activator (SRA1)	1099	1231	1.1E-5	T	17-03-2025	IPR009917	SRA1/Sec31	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	CDD	cd07948	DRE_TIM_HCS	1318	1579	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Pfam	PF00682	HMGL-like	1318	1577	9.9E-80	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	SUPERFAMILY	SSF51569	Aldolase	1316	1593	2.56E-67	T	17-03-2025	-	-	-	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	1504	1517	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_013054445.1	28422c2a6da47bd01d870b033f98d16a	1741	Gene3D	G3DSA:3.20.20.70	Aldolase class I	1308	1583	3.5E-81	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	Gene3D	G3DSA:3.20.20.70	Aldolase class I	38	344	5.2E-105	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	SUPERFAMILY	SSF51569	Aldolase	40	335	1.83E-63	T	17-03-2025	-	-	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	44	318	31.399242	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	FunFam	G3DSA:3.20.20.70:FF:000201	Hydroxymethylglutaryl-CoA lyase	39	344	9.9E-126	T	17-03-2025	-	-	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	30	346	1.0E-131	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	Gene3D	G3DSA:3.90.226.10	-	370	636	2.1E-52	T	17-03-2025	-	-	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	Pfam	PF00378	Enoyl-CoA hydratase/isomerase	381	624	6.0E-36	T	17-03-2025	IPR001753	Enoyl-CoA hydratase/isomerase	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	CDD	cd07938	DRE_TIM_HMGL	46	326	2.45358E-158	T	17-03-2025	-	-	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	CDD	cd06558	crotonase-like	375	569	1.8638E-43	T	17-03-2025	-	-	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	SUPERFAMILY	SSF52096	ClpP/crotonase	366	624	6.1E-48	T	17-03-2025	IPR029045	ClpP/crotonase-like domain superfamily	-	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	ProSitePatterns	PS01062	Hydroxymethylglutaryl-coenzyme A lyase active site.	277	286	-	T	17-03-2025	IPR000138	Hydroxymethylglutaryl-CoA lyase, active site	GO:0004419(InterPro)	-
+GCA_022627105.1	500d940a28dedc89182bc884940baa8c	643	Pfam	PF00682	HMGL-like	44	323	1.6E-47	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Hamap	MF_02222	Homocitrate synthase.	672	1028	69.233772	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	SUPERFAMILY	SSF56672	DNA/RNA polymerases	2	260	2.85E-58	T	17-03-2025	IPR043502	DNA/RNA polymerase superfamily	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Gene3D	G3DSA:3.40.1170.60	-	7	64	3.0E-19	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	NCBIfam	TIGR02146	homocitrate synthase	673	1019	1.4E-151	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	671	924	32.01646	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Pfam	PF00817	impB/mucB/samB family	3	210	3.3E-33	T	17-03-2025	IPR001126	UmuC domain	GO:0006281(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Gene3D	G3DSA:3.20.20.70	Aldolase class I	661	936	5.2E-83	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	937	1050	2.1E-63	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	SUPERFAMILY	SSF51569	Aldolase	669	946	9.71E-68	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Pfam	PF00682	HMGL-like	671	930	1.7E-80	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Gene3D	G3DSA:3.30.70.270	-	65	222	4.4E-29	T	17-03-2025	IPR043128	Reverse transcriptase/Diguanylate cyclase domain	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	MobiDBLite	mobidb-lite	consensus disorder prediction	530	572	-	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	MobiDBLite	mobidb-lite	consensus disorder prediction	377	436	-	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	MobiDBLite	mobidb-lite	consensus disorder prediction	401	411	-	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	MobiDBLite	mobidb-lite	consensus disorder prediction	632	655	-	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	MobiDBLite	mobidb-lite	consensus disorder prediction	549	563	-	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Gene3D	G3DSA:1.10.238.260	-	937	1050	3.6E-40	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	FunFam	G3DSA:3.40.1170.60:FF:000006	DNA polymerase iota	7	64	3.0E-30	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	CDD	cd07948	DRE_TIM_HCS	671	932	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	661	936	2.0E-169	T	17-03-2025	-	-	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	857	870	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	678	694	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	PANTHER	PTHR46404	DNA POLYMERASE IOTA	3	686	1.6E-133	T	17-03-2025	-	-	GO:0003887(PANTHER)|GO:0019985(PANTHER)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Gene3D	G3DSA:3.30.1490.100	-	335	496	3.3E-29	T	17-03-2025	IPR036775	DNA polymerase, Y-family, little finger domain superfamily	GO:0003684(InterPro)|GO:0006281(InterPro)	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	944	1024	2.7E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_026025795.1	787f9bce09428d2d45ed6cb6d26efd6d	1100	ProSiteProfiles	PS50173	UmuC domain profile.	1	252	33.044624	T	17-03-2025	IPR001126	UmuC domain	GO:0006281(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	NCBIfam	TIGR01123	branched-chain-amino-acid transaminase	898	1222	6.3E-74	T	17-03-2025	IPR005786	Branched-chain amino acid aminotransferase II	GO:0004084(InterPro)|GO:0009081(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Pfam	PF00682	HMGL-like	2657	2915	2.4E-81	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:3.10.20.90	-	2487	2587	3.8E-7	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSiteProfiles	PS50011	Protein kinase domain profile.	1478	1746	40.131386	T	17-03-2025	IPR000719	Protein kinase domain	GO:0004672(InterPro)|GO:0005524(InterPro)|GO:0006468(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSitePatterns	PS00108	Serine/Threonine protein kinases active-site signature.	1601	1613	-	T	17-03-2025	IPR008271	Serine/threonine-protein kinase, active site	GO:0004672(InterPro)|GO:0006468(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	FunFam	G3DSA:3.30.200.20:FF:000040	Dual specificity mitogen-activated protein kinase kinase	1464	1558	9.3E-14	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:3.20.20.70	Aldolase class I	2646	2916	5.0E-82	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Pfam	PF13926	Domain of unknown function (DUF4211)	580	715	3.1E-18	T	17-03-2025	IPR025451	Domain of unknown function DUF4211	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:1.10.238.260	-	2917	2994	1.3E-16	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	251	270	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	2184	2240	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1306	1315	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1763	1780	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	2418	2427	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	193	584	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1994	2076	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	73	82	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	305	318	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1	15	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	384	394	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	2185	2202	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1306	1334	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	89	111	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	2413	2475	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	454	463	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	62	72	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1318	1327	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1349	1414	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1725	1795	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	3007	3029	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	711	733	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	286	304	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	558	579	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1219	1282	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1252	1261	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1	177	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	492	501	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1268	1279	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	2213	2230	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	2038	2068	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	2453	2475	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	2005	2025	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	469	491	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1731	1742	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	363	374	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	723	733	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	333	359	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	MobiDBLite	mobidb-lite	consensus disorder prediction	1371	1380	-	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Pfam	PF00018	SH3 domain	2082	2130	1.1E-7	T	17-03-2025	IPR001452	SH3 domain	GO:0005515(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Pfam	PF00018	SH3 domain	1934	1981	1.0E-5	T	17-03-2025	IPR001452	SH3 domain	GO:0005515(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	FunFam	G3DSA:2.30.30.40:FF:000093	Protein kinase activator Bem1	2079	2163	1.4E-42	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:2.30.30.40	SH3 Domains	1929	1987	1.5E-9	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Pfam	PF01063	Amino-transferase class IV	924	1176	1.4E-18	T	17-03-2025	IPR001544	Aminotransferase class IV	GO:0003824(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:3.30.1520.10	-	2245	2387	7.4E-37	T	17-03-2025	IPR036871	PX domain superfamily	GO:0035091(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	2646	2921	1.5E-162	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	CDD	cd06890	PX_Bem1p	2260	2375	1.17937E-33	T	17-03-2025	IPR035550	Bem1/Scd2, PX domain	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:3.30.200.20	Phosphorylase Kinase; domain 1	1456	1559	2.9E-27	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	PANTHER	PTHR42825	AMINO ACID AMINOTRANSFERASE	870	1223	1.8E-91	T	17-03-2025	IPR005786	Branched-chain amino acid aminotransferase II	GO:0004084(InterPro)|GO:0004084(PANTHER)|GO:0009081(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Pfam	PF00787	PX domain	2289	2373	0.49	T	17-03-2025	IPR001683	Phox homology	GO:0035091(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SUPERFAMILY	SSF56112	Protein kinase-like (PK-like)	1481	1735	2.16E-62	T	17-03-2025	IPR011009	Protein kinase-like domain superfamily	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SUPERFAMILY	SSF56752	D-aminoacid aminotransferase-like PLP-dependent enzymes	868	1222	2.75E-77	T	17-03-2025	IPR036038	Aminotransferase-like, PLP-dependent enzymes	GO:0003824(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SUPERFAMILY	SSF54277	CAD & PB1 domains	2488	2585	8.53E-10	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:3.20.10.10	-	1040	1224	1.3E-48	T	17-03-2025	IPR043132	Branched-chain-amino-acid aminotransferase-like, C-terminal	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SUPERFAMILY	SSF51569	Aldolase	2655	2928	2.75E-66	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	CDD	cd01557	BCAT_beta_family	910	1213	1.86979E-93	T	17-03-2025	IPR033939	Branched-chain aminotransferase	GO:0004084(InterPro)|GO:0009081(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Pfam	PF00069	Protein kinase domain	1481	1683	1.3E-50	T	17-03-2025	IPR000719	Protein kinase domain	GO:0004672(InterPro)|GO:0005524(InterPro)|GO:0006468(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	CDD	cd11879	SH3_Bem1p_2	2080	2135	4.20682E-31	T	17-03-2025	IPR035549	Bem1/Scd2, SH3 domain 2	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	2842	2855	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SMART	SM00220	serkin_6	1478	1954	4.7E-51	T	17-03-2025	IPR000719	Protein kinase domain	GO:0004672(InterPro)|GO:0005524(InterPro)|GO:0006468(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	2920	2970	1.2E-11	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSiteProfiles	PS50195	PX domain profile.	2254	2379	10.197992	T	17-03-2025	IPR001683	Phox homology	GO:0035091(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:3.30.470.10	-	852	1039	2.0E-45	T	17-03-2025	IPR043131	Branched-chain-amino-acid aminotransferase-like, N-terminal	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSiteProfiles	PS50002	Src homology 3 (SH3) domain profile.	2076	2138	17.957987	T	17-03-2025	IPR001452	SH3 domain	GO:0005515(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSiteProfiles	PS50002	Src homology 3 (SH3) domain profile.	1927	1989	20.06562	T	17-03-2025	IPR001452	SH3 domain	GO:0005515(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SUPERFAMILY	SSF50044	SH3-domain	2057	2136	4.73E-13	T	17-03-2025	IPR036028	SH3-like domain superfamily	GO:0005515(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	2656	2909	31.540318	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	CDD	cd07948	DRE_TIM_HCS	2656	2917	3.67368E-180	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SUPERFAMILY	SSF50044	SH3-domain	1920	1993	3.68E-12	T	17-03-2025	IPR036028	SH3-like domain superfamily	GO:0005515(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:1.10.510.10	Transferase(Phosphotransferase) domain 1	1561	1751	1.4E-38	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSitePatterns	PS00107	Protein kinases ATP-binding region signature.	1484	1507	-	T	17-03-2025	IPR017441	Protein kinase, ATP binding site	GO:0005524(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SMART	SM00326	SH3_2	2079	2137	9.1E-11	T	17-03-2025	IPR001452	SH3 domain	GO:0005515(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SMART	SM00326	SH3_2	1930	1988	1.5E-9	T	17-03-2025	IPR001452	SH3 domain	GO:0005515(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Gene3D	G3DSA:2.30.30.40	SH3 Domains	2079	2163	5.9E-18	T	17-03-2025	-	-	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	2663	2679	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	CDD	cd11878	SH3_Bem1p_1	1931	1984	1.0178E-25	T	17-03-2025	IPR035548	Bem1/Scd2, SH3 domain 1	-	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	SUPERFAMILY	SSF64268	PX domain	2259	2386	8.76E-22	T	17-03-2025	IPR036871	PX domain superfamily	GO:0035091(InterPro)	-
+GCA_034509285.1	652fbff128b3c2bc2022de64a2cfb95b	3029	Coils	Coil	Coil	439	466	-	T	17-03-2025	-	-	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	Pfam	PF00682	HMGL-like	9	173	4.8E-39	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	PANTHER	PTHR10293	GLUTAREDOXIN FAMILY MEMBER	186	302	1.0E-48	T	17-03-2025	IPR004480	Monothiol glutaredoxin-related	GO:0005759(PANTHER)	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	FunFam	G3DSA:3.40.30.10:FF:000005	Glutaredoxin 5	204	306	1.7E-43	T	17-03-2025	-	-	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	Pfam	PF00462	Glutaredoxin	214	281	3.5E-14	T	17-03-2025	IPR002109	Glutaredoxin	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	Gene3D	G3DSA:3.20.20.70	Aldolase class I	8	178	4.2E-38	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	Gene3D	G3DSA:3.40.30.10	Glutaredoxin	204	304	1.1E-37	T	17-03-2025	-	-	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	SUPERFAMILY	SSF52833	Thioredoxin-like	200	305	1.57E-31	T	17-03-2025	IPR036249	Thioredoxin-like superfamily	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	CDD	cd03028	GRX_PICOT_like	205	296	1.18625E-53	T	17-03-2025	IPR033658	Glutaredoxin, PICOT-like	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	NCBIfam	TIGR00365	Grx4 family monothiol glutaredoxin	203	300	5.0E-36	T	17-03-2025	IPR004480	Monothiol glutaredoxin-related	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	ProSiteProfiles	PS51354	Glutaredoxin domain profile.	202	307	26.550142	T	17-03-2025	-	-	-	-
+GCA_027596045.1	47db6b45d0088f528122863745f598ec	324	SUPERFAMILY	SSF51569	Aldolase	9	175	4.83E-27	T	17-03-2025	-	-	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	CDD	cd07948	DRE_TIM_HCS	697	958	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	883	896	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	697	950	32.757122	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	MobiDBLite	mobidb-lite	consensus disorder prediction	149	169	-	T	17-03-2025	-	-	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	MobiDBLite	mobidb-lite	consensus disorder prediction	478	501	-	T	17-03-2025	-	-	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	Gene3D	G3DSA:3.20.20.70	Aldolase class I	688	962	5.5E-85	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	NCBIfam	TIGR02146	homocitrate synthase	699	1044	9.4E-150	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	PANTHER	PTHR47708	-	4	610	9.4E-179	T	17-03-2025	-	-	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	704	720	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	963	1075	4.4E-55	T	17-03-2025	-	-	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	SUPERFAMILY	SSF51569	Aldolase	694	972	1.76E-70	T	17-03-2025	-	-	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	Gene3D	G3DSA:1.10.238.260	-	963	1075	1.3E-39	T	17-03-2025	-	-	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	687	962	9.4E-160	T	17-03-2025	-	-	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	Pfam	PF07287	Acyclic terpene utilisation family protein AtuA	9	361	8.3E-104	T	17-03-2025	IPR010839	Acyclic terpene utilisation	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	970	1050	1.7E-33	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	Pfam	PF00682	HMGL-like	697	956	6.6E-82	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_002261195.1	0852f58627d3fd5785ef22c5b92983c9	1092	Hamap	MF_02222	Homocitrate synthase.	698	1066	68.620018	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	19	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	27	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Pfam	PF00682	HMGL-like	24	77	1.0E-5	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	404	422	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Pfam	PF00487	Fatty acid desaturase	390	664	2.3E-24	T	17-03-2025	IPR005804	Fatty acid desaturase domain	GO:0006629(InterPro)	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	442	528	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	529	550	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	ProSiteProfiles	PS50255	Cytochrome b5 family, heme-binding domain profile.	252	328	15.679597	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	SMART	SM01117	Cyt_b5_2	255	328	3.7E-17	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	84	196	2.1E-56	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Pfam	PF00173	Cytochrome b5-like Heme/Steroid binding domain	256	328	1.7E-13	T	17-03-2025	IPR001199	Cytochrome b5-like heme/steroid binding domain	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	360	379	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	28	359	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	SUPERFAMILY	SSF51569	Aldolase	25	100	3.42E-11	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Gene3D	G3DSA:1.10.238.260	-	84	196	3.0E-39	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	386	403	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	PANTHER	PTHR19353	FATTY ACID DESATURASE 2	252	685	3.6E-123	T	17-03-2025	IPR012171	Fatty acid desaturase	GO:0006629(PANTHER)|GO:0016020(PANTHER)|GO:0016491(InterPro)|GO:0016717(PANTHER)	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Gene3D	G3DSA:3.20.20.70	Aldolase class I	12	83	2.6E-10	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	551	555	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	CDD	cd03506	Delta6-FADS-like	390	659	4.92809E-61	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	423	441	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	380	385	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	556	575	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	16	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	SUPERFAMILY	SSF55856	Cytochrome b5-like heme/steroid binding domain	250	333	9.55E-23	T	17-03-2025	IPR036400	Cytochrome b5-like heme/steroid binding domain superfamily	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	20	27	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	576	698	-	T	17-03-2025	-	-	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Gene3D	G3DSA:3.10.120.10	-	250	335	4.2E-19	T	17-03-2025	IPR036400	Cytochrome b5-like heme/steroid binding domain superfamily	-	-
+GCA_002006685.2	900509c8bc0649506f637f78288d0a1a	698	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	91	171	8.3E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	1592	1672	4.7E-35	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	SUPERFAMILY	SSF50978	WD40 repeat-like	14	329	3.53E-45	T	17-03-2025	IPR036322	WD40-repeat-containing domain superfamily	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Gene3D	G3DSA:1.10.238.260	-	1585	1698	9.0E-41	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Gene3D	G3DSA:1.20.940.10	Functional domain of the splicing factor Prp18	1145	1243	1.4E-21	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Gene3D	G3DSA:3.20.20.70	Aldolase class I	1309	1584	6.5E-80	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Gene3D	G3DSA:2.130.10.10	-	1	331	1.9E-114	T	17-03-2025	IPR015943	WD40/YVTN repeat-like-containing domain superfamily	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	1505	1518	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Hamap	MF_02222	Homocitrate synthase.	1320	1676	68.293068	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	NCBIfam	TIGR02146	homocitrate synthase	1321	1667	8.2E-151	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	FunFam	G3DSA:2.130.10.10:FF:000193	Protein transport protein SEC31, putative	1	331	2.2E-180	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	PANTHER	PTHR13923	SEC31-RELATED PROTEIN	3	1068	0.0	T	17-03-2025	IPR040251	Protein transport protein SEC31-like	GO:0005198(PANTHER)|GO:0006888(InterPro)|GO:0007029(PANTHER)|GO:0030127(PANTHER)|GO:0070971(PANTHER)|GO:0090110(PANTHER)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	1585	1698	2.0E-63	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	ProSiteProfiles	PS50082	Trp-Asp (WD) repeats profile.	253	295	10.909469	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Pfam	PF12931	Sec23-binding domain of Sec16	553	772	2.4E-6	T	17-03-2025	IPR024298	Ancestral coatomer element 1, Sec16/Sec31	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Gene3D	G3DSA:1.25.40.1030	-	361	789	6.0E-123	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	ProSiteProfiles	PS50082	Trp-Asp (WD) repeats profile.	163	205	9.004632	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	860	871	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	1264	1305	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	802	815	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	789	1146	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	1023	1032	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	1092	1124	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	961	972	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	1054	1072	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	886	907	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	1266	1286	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	MobiDBLite	mobidb-lite	consensus disorder prediction	1073	1088	-	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	CDD	cd07948	DRE_TIM_HCS	1319	1580	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Pfam	PF00682	HMGL-like	1319	1578	4.0E-78	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	SMART	SM00320	WD40_4	58	101	160.0	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	SMART	SM00320	WD40_4	199	242	0.24	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	SMART	SM00320	WD40_4	289	329	15.0	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	SMART	SM00320	WD40_4	111	150	0.038	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	SMART	SM00320	WD40_4	156	196	0.35	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	SMART	SM00320	WD40_4	246	286	1.1E-6	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	1326	1342	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	Pfam	PF00400	WD domain, G-beta repeat	249	286	0.53	T	17-03-2025	IPR001680	WD40 repeat	GO:0005515(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	1319	1572	30.235344	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	SUPERFAMILY	SSF51569	Aldolase	1318	1594	1.3E-66	T	17-03-2025	-	-	-	-
+GCA_009613015.1	f0b31a43e2539e50f9a3ffb20899d9f6	1742	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	1309	1584	1.8E-167	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	MobiDBLite	mobidb-lite	consensus disorder prediction	1341	1359	-	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	MobiDBLite	mobidb-lite	consensus disorder prediction	1329	1359	-	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	1141	1154	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:2.60.40.10	Immunoglobulins	770	878	2.3E-32	T	17-03-2025	IPR013783	Immunoglobulin-like fold	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SUPERFAMILY	SSF49303	beta-Galactosidase/glucuronidase domain	246	356	1.4E-14	T	17-03-2025	IPR036156	Beta-Galactosidase/glucuronidase domain superfamily	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	946	1220	2.4E-152	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	NCBIfam	NF041463	beta-galactosidase GalB	66	869	0.0	T	17-03-2025	IPR048229	Beta-galactosidase GalB-like	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SUPERFAMILY	SSF51569	Aldolase	953	1230	4.21E-68	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Hamap	MF_02222	Homocitrate synthase.	956	1324	67.530182	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	26	-	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	955	1208	31.046543	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	1221	1333	7.1E-60	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF00703	Glycosyl hydrolases family 2	248	356	2.8E-12	T	17-03-2025	IPR006102	Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SUPERFAMILY	SSF51445	(Trans)glycosidases	353	680	5.44E-71	T	17-03-2025	IPR017853	Glycoside hydrolase superfamily	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	1228	1308	1.2E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	27	1359	-	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF16355	Domain of unknown function (DUF4982)	700	759	1.8E-16	T	17-03-2025	IPR032311	Domain of unknown function DUF4982	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF00682	HMGL-like	955	1214	1.1E-76	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	12	-	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	NCBIfam	TIGR02146	homocitrate synthase	957	1303	2.0E-144	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PRINTS	PR00132	Glycosyl hydrolase family 2 signature	399	417	2.6E-11	T	17-03-2025	IPR006101	Glycoside hydrolase, family 2	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PRINTS	PR00132	Glycosyl hydrolase family 2 signature	169	184	2.6E-11	T	17-03-2025	IPR006101	Glycoside hydrolase, family 2	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PRINTS	PR00132	Glycosyl hydrolase family 2 signature	469	484	2.6E-11	T	17-03-2025	IPR006101	Glycoside hydrolase, family 2	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PRINTS	PR00132	Glycosyl hydrolase family 2 signature	368	382	2.6E-11	T	17-03-2025	IPR006101	Glycoside hydrolase, family 2	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PANTHER	PTHR42732	BETA-GALACTOSIDASE	38	879	1.8E-223	T	17-03-2025	IPR051913	Glycosyl Hydrolase 2 Domain-Containing Protein	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF02837	Glycosyl hydrolases family 2, sugar binding domain	112	234	1.5E-12	T	17-03-2025	IPR006104	Glycosyl hydrolases family 2, sugar binding domain	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	962	978	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:3.20.20.80	Glycosidases	359	682	3.4E-100	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	26	-	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:2.60.40.10	Immunoglobulins	238	356	2.2E-24	T	17-03-2025	IPR013783	Immunoglobulin-like fold	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	13	20	-	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:3.20.20.70	Aldolase class I	949	1220	2.6E-81	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF02836	Glycosyl hydrolases family 2, TIM barrel domain	364	549	4.1E-22	T	17-03-2025	IPR006103	Glycoside hydrolase family 2, catalytic domain	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:2.60.120.260	-	36	237	8.3E-40	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	21	26	-	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	CDD	cd07948	DRE_TIM_HCS	955	1216	8.14311E-175	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:1.10.238.260	-	1221	1334	1.2E-40	T	17-03-2025	-	-	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF18565	Glycoside hydrolase family 2 C-terminal domain 5	772	873	4.5E-29	T	17-03-2025	IPR040605	Glycoside hydrolase family 2, domain 5	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SUPERFAMILY	SSF49785	Galactose-binding domain-like	43	258	3.04E-45	T	17-03-2025	IPR008979	Galactose-binding-like domain superfamily	-	-
+GCA_040143875.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:2.60.40.10	Immunoglobulins	686	766	5.5E-20	T	17-03-2025	IPR013783	Immunoglobulin-like fold	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	MobiDBLite	mobidb-lite	consensus disorder prediction	1341	1359	-	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	MobiDBLite	mobidb-lite	consensus disorder prediction	1329	1359	-	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	1141	1154	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:2.60.40.10	Immunoglobulins	770	878	2.3E-32	T	17-03-2025	IPR013783	Immunoglobulin-like fold	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SUPERFAMILY	SSF49303	beta-Galactosidase/glucuronidase domain	246	356	1.4E-14	T	17-03-2025	IPR036156	Beta-Galactosidase/glucuronidase domain superfamily	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	946	1220	2.4E-152	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	NCBIfam	NF041463	beta-galactosidase GalB	66	869	0.0	T	17-03-2025	IPR048229	Beta-galactosidase GalB-like	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SUPERFAMILY	SSF51569	Aldolase	953	1230	4.21E-68	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Hamap	MF_02222	Homocitrate synthase.	956	1324	67.530182	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	26	-	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	955	1208	31.046543	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	1221	1333	7.1E-60	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF00703	Glycosyl hydrolases family 2	248	356	2.8E-12	T	17-03-2025	IPR006102	Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SUPERFAMILY	SSF51445	(Trans)glycosidases	353	680	5.44E-71	T	17-03-2025	IPR017853	Glycoside hydrolase superfamily	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	1228	1308	1.2E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	27	1359	-	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF16355	Domain of unknown function (DUF4982)	700	759	1.8E-16	T	17-03-2025	IPR032311	Domain of unknown function DUF4982	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF00682	HMGL-like	955	1214	1.1E-76	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	12	-	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	NCBIfam	TIGR02146	homocitrate synthase	957	1303	2.0E-144	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PRINTS	PR00132	Glycosyl hydrolase family 2 signature	399	417	2.6E-11	T	17-03-2025	IPR006101	Glycoside hydrolase, family 2	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PRINTS	PR00132	Glycosyl hydrolase family 2 signature	169	184	2.6E-11	T	17-03-2025	IPR006101	Glycoside hydrolase, family 2	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PRINTS	PR00132	Glycosyl hydrolase family 2 signature	469	484	2.6E-11	T	17-03-2025	IPR006101	Glycoside hydrolase, family 2	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PRINTS	PR00132	Glycosyl hydrolase family 2 signature	368	382	2.6E-11	T	17-03-2025	IPR006101	Glycoside hydrolase, family 2	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	PANTHER	PTHR42732	BETA-GALACTOSIDASE	38	879	1.8E-223	T	17-03-2025	IPR051913	Glycosyl Hydrolase 2 Domain-Containing Protein	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF02837	Glycosyl hydrolases family 2, sugar binding domain	112	234	1.5E-12	T	17-03-2025	IPR006104	Glycosyl hydrolases family 2, sugar binding domain	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	962	978	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:3.20.20.80	Glycosidases	359	682	3.4E-100	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	26	-	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:2.60.40.10	Immunoglobulins	238	356	2.2E-24	T	17-03-2025	IPR013783	Immunoglobulin-like fold	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	13	20	-	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:3.20.20.70	Aldolase class I	949	1220	2.6E-81	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF02836	Glycosyl hydrolases family 2, TIM barrel domain	364	549	4.1E-22	T	17-03-2025	IPR006103	Glycoside hydrolase family 2, catalytic domain	GO:0004553(InterPro)|GO:0005975(InterPro)	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:2.60.120.260	-	36	237	8.3E-40	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	21	26	-	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	CDD	cd07948	DRE_TIM_HCS	955	1216	8.14311E-175	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:1.10.238.260	-	1221	1334	1.2E-40	T	17-03-2025	-	-	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Pfam	PF18565	Glycoside hydrolase family 2 C-terminal domain 5	772	873	4.5E-29	T	17-03-2025	IPR040605	Glycoside hydrolase family 2, domain 5	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	SUPERFAMILY	SSF49785	Galactose-binding domain-like	43	258	3.04E-45	T	17-03-2025	IPR008979	Galactose-binding-like domain superfamily	-	-
+GCA_040143865.1	808703d8f1cd9d6c43e48f20e3a8f799	1359	Gene3D	G3DSA:2.60.40.10	Immunoglobulins	686	766	5.5E-20	T	17-03-2025	IPR013783	Immunoglobulin-like fold	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	427	437	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	398	402	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	FunFam	G3DSA:3.20.20.70:FF:000071	Hydroxymethylglutaryl-CoA lyase	13	294	2.7E-110	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Pfam	PF00487	Fatty acid desaturase	401	640	1.6E-22	T	17-03-2025	IPR005804	Fatty acid desaturase domain	GO:0006629(InterPro)	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	294	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	403	426	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	502	521	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Pfam	PF08557	Sphingolipid Delta4-desaturase (DES)	350	375	5.4E-7	T	17-03-2025	IPR013866	Sphingolipid delta4-desaturase, N-terminal	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	147	290	2.7E-113	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	18	269	25.174156	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Pfam	PF00682	HMGL-like	18	275	6.7E-42	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	295	317	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	457	501	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	SMART	SM01269	Lipid_DES_2	338	378	6.5E-7	T	17-03-2025	IPR013866	Sphingolipid delta4-desaturase, N-terminal	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	380	397	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Gene3D	G3DSA:3.20.20.70	Aldolase class I	12	294	6.1E-95	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	438	456	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	522	688	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	318	379	-	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	SUPERFAMILY	SSF51569	Aldolase	15	297	2.2E-60	T	17-03-2025	-	-	-	-
+GCA_003614725.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	CDD	cd07938	DRE_TIM_HMGL	20	275	8.30238E-157	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	427	437	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	398	402	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	FunFam	G3DSA:3.20.20.70:FF:000071	Hydroxymethylglutaryl-CoA lyase	13	294	2.7E-110	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Pfam	PF00487	Fatty acid desaturase	401	640	1.6E-22	T	17-03-2025	IPR005804	Fatty acid desaturase domain	GO:0006629(InterPro)	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	294	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	403	426	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	502	521	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Pfam	PF08557	Sphingolipid Delta4-desaturase (DES)	350	375	5.4E-7	T	17-03-2025	IPR013866	Sphingolipid delta4-desaturase, N-terminal	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	147	290	2.7E-113	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	18	269	25.174156	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Pfam	PF00682	HMGL-like	18	275	6.7E-42	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	295	317	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	457	501	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	SMART	SM01269	Lipid_DES_2	338	378	6.5E-7	T	17-03-2025	IPR013866	Sphingolipid delta4-desaturase, N-terminal	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	380	397	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Gene3D	G3DSA:3.20.20.70	Aldolase class I	12	294	6.1E-95	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	438	456	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	522	688	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	318	379	-	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	SUPERFAMILY	SSF51569	Aldolase	15	297	2.2E-60	T	17-03-2025	-	-	-	-
+GCA_000442015.1	f148ffced73e3a9c7c81bb5c3b5f9a30	688	CDD	cd07938	DRE_TIM_HMGL	20	275	8.30238E-157	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	MobiDBLite	mobidb-lite	consensus disorder prediction	1224	1252	-	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	MobiDBLite	mobidb-lite	consensus disorder prediction	1224	1246	-	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Gene3D	G3DSA:1.10.287.600	Helix hairpin bin	384	436	1.1E-27	T	17-03-2025	IPR023123	Tubulin, C-terminal	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	108	132	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	153	174	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	380	408	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	10	30	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	192	212	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	134	152	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	95	106	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	53	72	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01161	Tubulin signature	178	191	1.0E-81	T	17-03-2025	IPR000217	Tubulin	GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	484	778	31.452145	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	CDD	cd01135	V_A-ATPase_B	830	1123	0.0	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Gene3D	G3DSA:3.30.1330.20	-	269	383	5.8E-55	T	17-03-2025	IPR037103	Tubulin/FtsZ-like, C-terminal domain	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Pfam	PF00682	HMGL-like	483	782	2.7E-37	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	FunFam	G3DSA:3.40.50.1440:FF:000008	Tubulin alpha chain	1	268	1.4E-175	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	FunFam	G3DSA:1.10.287.600:FF:000001	Tubulin alpha chain	384	436	8.2E-32	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	SUPERFAMILY	SSF55307	Tubulin C-terminal domain-like	246	436	5.49E-79	T	17-03-2025	IPR008280	Tubulin/FtsZ, C-terminal	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	CDD	cd02186	alpha_tubulin	2	435	0.0	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Gene3D	G3DSA:3.20.20.70	Aldolase class I	481	790	5.8E-101	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Hamap	MF_00310	V-type ATP synthase beta chain [atpB].	750	1224	49.746029	T	17-03-2025	IPR022879	V-type ATP synthase regulatory subunit B/beta	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Gene3D	G3DSA:3.40.50.12240	-	791	1227	1.7E-154	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	FunFam	G3DSA:3.20.20.70:FF:000071	Hydroxymethylglutaryl-CoA lyase	479	802	2.7E-123	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	SUPERFAMILY	SSF51569	Aldolase	479	793	5.68E-57	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Coils	Coil	Coil	567	587	-	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	SMART	SM00864	Tubulin_4	49	246	5.9E-72	T	17-03-2025	IPR003008	Tubulin/FtsZ, GTPase domain	GO:0005525(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	ProSitePatterns	PS00227	Tubulin subunits alpha, beta, and gamma signature.	142	148	-	T	17-03-2025	IPR017975	Tubulin, conserved site	GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	ProSitePatterns	PS00152	ATP synthase alpha and beta subunits signature.	1106	1115	-	T	17-03-2025	IPR020003	ATPase, alpha/beta subunit, nucleotide-binding domain, active site	GO:0005524(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Gene3D	G3DSA:3.40.50.1440	Tubulin/FtsZ, GTPase domain	1	268	2.0E-128	T	17-03-2025	IPR036525	Tubulin/FtsZ, GTPase domain superfamily	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	SMART	SM00865	Tubulin_C_4	248	393	1.2E-47	T	17-03-2025	IPR018316	Tubulin/FtsZ, 2-layer sandwich domain	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Pfam	PF00006	ATP synthase alpha/beta family, nucleotide-binding domain	885	1115	5.9E-71	T	17-03-2025	IPR000194	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain	GO:0005524(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Coils	Coil	Coil	418	445	-	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	FunFam	G3DSA:3.30.1330.20:FF:000001	Tubulin alpha chain	269	383	1.8E-63	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	832	1121	5.31E-80	T	17-03-2025	IPR027417	P-loop containing nucleoside triphosphate hydrolase	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	CDD	cd07938	DRE_TIM_HMGL	486	784	2.54595E-141	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Pfam	PF03953	Tubulin C-terminal domain	263	391	4.2E-46	T	17-03-2025	IPR018316	Tubulin/FtsZ, 2-layer sandwich domain	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	360	379	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	214	226	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	385	401	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	422	438	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	18	33	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	88	101	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	120	128	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	274	289	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	347	360	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	148	160	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	45	58	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	161	172	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PRINTS	PR01162	Alpha-tubulin signature	321	342	5.9E-91	T	17-03-2025	IPR002452	Alpha tubulin	GO:0005200(InterPro)|GO:0005525(InterPro)|GO:0005874(InterPro)|GO:0007017(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	CDD	cd18112	ATP-synt_V_A-type_beta_C	1125	1219	9.09658E-56	T	17-03-2025	-	-	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Pfam	PF22919	C-terminal domain of V and A type ATP synthase	1121	1220	1.6E-28	T	17-03-2025	IPR055190	ATP synthase A/B type, C-terminal domain	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	SUPERFAMILY	SSF52490	Tubulin nucleotide-binding domain-like	1	244	1.57E-94	T	17-03-2025	IPR036525	Tubulin/FtsZ, GTPase domain superfamily	-	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	NCBIfam	TIGR01040	V-type ATPase subunit B	818	1225	5.3E-244	T	17-03-2025	IPR005723	ATPase, V1 complex, subunit B	GO:0033180(InterPro)|GO:0046961(InterPro)|GO:1902600(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	Pfam	PF00091	Tubulin/FtsZ family, GTPase domain	3	213	3.4E-57	T	17-03-2025	IPR003008	Tubulin/FtsZ, GTPase domain	GO:0005525(InterPro)	-
+GCA_003339415.1	82bb64e3526775c077b31e5b920c8d8e	1252	PANTHER	PTHR43389	V-TYPE PROTON ATPASE SUBUNIT B	820	1225	9.5E-228	T	17-03-2025	IPR022879	V-type ATP synthase regulatory subunit B/beta	GO:0007035(PANTHER)|GO:0046961(PANTHER)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	Gene3D	G3DSA:3.30.160.270	-	629	868	1.4E-22	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	SUPERFAMILY	SSF89000	post-HMGL domain-like	404	453	2.75E-11	T	17-03-2025	-	-	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	SUPERFAMILY	SSF110921	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	741	869	1.44E-18	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	Pfam	PF00682	HMGL-like	33	319	1.2E-67	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	SUPERFAMILY	SSF110921	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	502	605	5.49E-29	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	33	313	16.215679	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	Pfam	PF08502	LeuA allosteric (dimerisation) domain	489	605	2.8E-16	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	Pfam	PF08502	LeuA allosteric (dimerisation) domain	740	798	2.6E-5	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	Gene3D	G3DSA:3.20.20.70	Aldolase class I	11	392	9.5E-156	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	CDD	cd07942	DRE_TIM_LeuA	32	321	0.0	T	17-03-2025	IPR039371	LeuA, N-terminal catalytic TIM barrel domain	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	40	56	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	Pfam	PF22615	Alpha-isopropylmalate synthase, post-catalytic domain-like	336	409	1.5E-27	T	17-03-2025	IPR054692	2-isopropylmalate synthase-like, post-catalytic domain	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	Hamap	MF_00572	2-isopropylmalate synthase [leuA].	8	607	49.168613	T	17-03-2025	IPR005668	2-isopropylmalate synthase	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	249	262	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	PANTHER	PTHR46911	-	1	610	1.1E-285	T	17-03-2025	-	-	GO:0003852(PANTHER)|GO:0005739(PANTHER)|GO:0009098(PANTHER)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	SUPERFAMILY	SSF51569	Aldolase	22	336	7.33E-88	T	17-03-2025	-	-	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	Gene3D	G3DSA:3.30.160.270	-	393	605	3.7E-55	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	SMART	SM00917	LeuA_dimer_2	438	606	2.7E-24	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_019616975.1	576f74ebc70e92b9258e99659382a0db	874	SMART	SM00917	LeuA_dimer_2	674	870	4.6E-5	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_004917745.1	6b9762d1663385b1afabe0aa054562b4	330	Gene3D	G3DSA:3.20.20.70	Aldolase class I	2	302	5.2E-115	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_004917745.1	6b9762d1663385b1afabe0aa054562b4	330	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	4	305	5.1E-140	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_004917745.1	6b9762d1663385b1afabe0aa054562b4	330	SUPERFAMILY	SSF51569	Aldolase	4	289	2.49E-71	T	17-03-2025	-	-	-	-
+GCA_004917745.1	6b9762d1663385b1afabe0aa054562b4	330	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	6	276	35.331799	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_004917745.1	6b9762d1663385b1afabe0aa054562b4	330	FunFam	G3DSA:3.20.20.70:FF:000071	Hydroxymethylglutaryl-CoA lyase	1	302	8.4E-134	T	17-03-2025	-	-	-	-
+GCA_004917745.1	6b9762d1663385b1afabe0aa054562b4	330	CDD	cd07938	DRE_TIM_HMGL	8	284	4.49592E-174	T	17-03-2025	-	-	-	-
+GCA_004917745.1	6b9762d1663385b1afabe0aa054562b4	330	Pfam	PF00682	HMGL-like	6	281	2.7E-50	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	FunFam	G3DSA:3.20.20.70:FF:000071	Hydroxymethylglutaryl-CoA lyase	43	371	1.0E-127	T	17-03-2025	-	-	-	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	40	372	1.4E-119	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	CDD	cd07938	DRE_TIM_HMGL	50	351	1.82108E-141	T	17-03-2025	-	-	-	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	48	345	31.046543	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	15	-	T	17-03-2025	-	-	-	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	Pfam	PF00682	HMGL-like	48	350	2.6E-39	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	MobiDBLite	mobidb-lite	consensus disorder prediction	1	45	-	T	17-03-2025	-	-	-	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	MobiDBLite	mobidb-lite	consensus disorder prediction	9	21	-	T	17-03-2025	-	-	-	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	Gene3D	G3DSA:3.20.20.70	Aldolase class I	44	370	2.0E-103	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_022225965.2	4df7c7b51097ea72c36af78a934b8c86	378	SUPERFAMILY	SSF51569	Aldolase	45	358	2.2E-57	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	NCBIfam	TIGR02146	homocitrate synthase	62	408	8.7E-151	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Gene3D	G3DSA:6.10.140.2150	-	569	1026	1.0E-194	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Gene3D	G3DSA:3.20.20.70	Aldolase class I	50	325	2.6E-83	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	SUPERFAMILY	SSF53383	PLP-dependent transferases	564	974	4.37E-105	T	17-03-2025	IPR015424	Pyridoxal phosphate-dependent transferase	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Hamap	MF_02222	Homocitrate synthase.	61	429	68.849457	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	PANTHER	PTHR42735	-	472	1026	2.1E-146	T	17-03-2025	IPR050477	Group II Amino Acid Decarboxylases	GO:0005783(PANTHER)|GO:0008117(PANTHER)|GO:0030149(PANTHER)	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	MobiDBLite	mobidb-lite	consensus disorder prediction	31	41	-	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	MobiDBLite	mobidb-lite	consensus disorder prediction	1	44	-	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Gene3D	G3DSA:3.90.1150.10	Aspartate Aminotransferase, domain 1	577	978	1.0E-194	T	17-03-2025	IPR015422	Pyridoxal phosphate-dependent transferase, small domain	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	67	83	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	60	313	32.01646	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	FunFam	G3DSA:6.10.140.2150:FF:000002	Sphinganine-1-phosphate aldolase Bst1	974	1026	6.0E-25	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Gene3D	G3DSA:1.10.238.260	-	326	439	9.1E-41	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	FunFam	G3DSA:3.40.640.10:FF:000020	sphingosine-1-phosphate lyase 1	608	873	2.3E-128	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	333	413	6.7E-35	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Pfam	PF00282	Pyridoxal-dependent decarboxylase conserved domain	595	920	1.0E-14	T	17-03-2025	IPR002129	Pyridoxal phosphate-dependent decarboxylase	GO:0016830(InterPro)|GO:0019752(InterPro)|GO:0030170(InterPro)	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	246	259	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Pfam	PF00682	HMGL-like	60	319	1.7E-80	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	SUPERFAMILY	SSF51569	Aldolase	58	335	3.3E-68	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	50	325	1.1E-171	T	17-03-2025	-	-	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	CDD	cd07948	DRE_TIM_HCS	60	321	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	Gene3D	G3DSA:3.40.640.10	-	608	873	1.0E-194	T	17-03-2025	IPR015421	Pyridoxal phosphate-dependent transferase, major domain	-	-
+GCA_000769765.1	32f23d46ddc322d6072b559a2abf6456	1027	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	326	439	7.2E-66	T	17-03-2025	-	-	-	-
+GCA_027604685.1	369c6621e55f35326d02647544fb60e3	316	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	15	315	2.8E-145	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_027604685.1	369c6621e55f35326d02647544fb60e3	316	Gene3D	G3DSA:3.20.20.70	Aldolase class I	15	316	2.6E-116	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_027604685.1	369c6621e55f35326d02647544fb60e3	316	FunFam	G3DSA:3.20.20.70:FF:000201	Hydroxymethylglutaryl-CoA lyase	16	316	9.7E-139	T	17-03-2025	-	-	-	-
+GCA_027604685.1	369c6621e55f35326d02647544fb60e3	316	Pfam	PF00682	HMGL-like	21	296	5.0E-53	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027604685.1	369c6621e55f35326d02647544fb60e3	316	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	21	290	35.367069	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027604685.1	369c6621e55f35326d02647544fb60e3	316	SUPERFAMILY	SSF51569	Aldolase	17	302	8.2E-71	T	17-03-2025	-	-	-	-
+GCA_027604685.1	369c6621e55f35326d02647544fb60e3	316	CDD	cd07938	DRE_TIM_HMGL	23	297	2.84884E-178	T	17-03-2025	-	-	-	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	Gene3D	G3DSA:3.20.20.70	Aldolase class I	270	430	2.6E-27	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	ProSiteProfiles	PS51083	Zinc finger HIT-type profile.	134	168	8.709669	T	17-03-2025	IPR007529	Zinc finger, HIT-type	-	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	PANTHER	PTHR13093	ZINC FINGER HIT DOMAIN CONTAINING PROTEIN 1	14	172	1.1E-21	T	17-03-2025	IPR039723	Vps71/ZNHIT1	GO:0006338(InterPro)	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	SUPERFAMILY	SSF51569	Aldolase	309	427	2.2E-19	T	17-03-2025	-	-	-	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	Pfam	PF00682	HMGL-like	309	425	9.9E-28	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	MobiDBLite	mobidb-lite	consensus disorder prediction	188	230	-	T	17-03-2025	-	-	-	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	MobiDBLite	mobidb-lite	consensus disorder prediction	1	68	-	T	17-03-2025	-	-	-	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	MobiDBLite	mobidb-lite	consensus disorder prediction	19	39	-	T	17-03-2025	-	-	-	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	MobiDBLite	mobidb-lite	consensus disorder prediction	191	216	-	T	17-03-2025	-	-	-	-
+GCA_027627325.1	ebea8ba33df9301c9088ca55e433b739	432	Pfam	PF04438	HIT zinc finger	130	157	2.3E-4	T	17-03-2025	IPR007529	Zinc finger, HIT-type	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Gene3D	G3DSA:1.25.10.10	-	2233	2503	2.4E-72	T	17-03-2025	IPR011989	Armadillo-like helical	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	342	422	3.5E-33	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	608	630	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Coils	Coil	Coil	1296	1316	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	CDD	cd07948	DRE_TIM_HCS	69	330	1.39623E-176	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Hamap	MF_02222	Homocitrate synthase.	70	442	66.578003	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	863	873	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	969	1129	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	255	268	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Gene3D	G3DSA:1.25.10.10	-	1270	1501	1.1E-48	T	17-03-2025	IPR011989	Armadillo-like helical	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	NCBIfam	TIGR02146	homocitrate synthase	71	416	7.1E-149	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2842	2853	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2946	2955	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1580	1605	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1855	1872	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1505	1607	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1506	1521	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2507	2528	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1229	1267	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	14	29	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1531	1552	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1873	1883	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1	44	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2529	2544	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2167	2230	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2838	2859	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2545	2557	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2121	2230	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2142	2166	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2501	2560	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2927	2938	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2927	3002	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	2959	2973	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1567	1579	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	MobiDBLite	mobidb-lite	consensus disorder prediction	1846	1883	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	631	649	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	774	808	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	937	947	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Pfam	PF02133	Permease for cytosine/purines, uracil, thiamine, allantoin	527	957	2.1E-21	T	17-03-2025	IPR001248	Purine-cytosine permease	GO:0016020(InterPro)|GO:0022857(InterPro)|GO:0055085(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	874	896	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	809	831	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	FunFam	G3DSA:1.25.10.10:FF:000050	Cytoskeleton-associated protein 5 isoform X1	2232	2503	2.9E-72	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	741	748	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	69	322	32.457329	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Gene3D	G3DSA:1.10.238.260	-	335	451	1.4E-39	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	76	92	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Gene3D	G3DSA:3.20.20.70	Aldolase class I	59	334	5.8E-83	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	FunFam	G3DSA:1.25.10.10:FF:000019	Cytoskeleton-associated protein 5	1273	1503	8.2E-58	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	1130	1146	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	749	773	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1147	3002	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	597	607	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	650	669	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	PANTHER	PTHR12609	MICROTUBULE ASSOCIATED PROTEIN XMAP215	989	2939	0.0	T	17-03-2025	IPR045110	XMAP215	GO:0007051(InterPro)|GO:0030951(InterPro)|GO:0046785(InterPro)|GO:0051010(InterPro)|GO:0061863(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	SMART	SM01349	TOG_3	1893	2125	2.3E-44	T	17-03-2025	IPR034085	TOG domain	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	SMART	SM01349	TOG_3	1615	1848	5.1E-42	T	17-03-2025	IPR034085	TOG domain	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	SMART	SM01349	TOG_3	981	1217	1.7E-41	T	17-03-2025	IPR034085	TOG domain	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	SMART	SM01349	TOG_3	1273	1509	2.0E-53	T	17-03-2025	IPR034085	TOG domain	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	SMART	SM01349	TOG_3	2259	2508	6.2E-44	T	17-03-2025	IPR034085	TOG domain	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Pfam	PF00682	HMGL-like	69	328	4.5E-81	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Gene3D	G3DSA:1.25.10.10	-	1615	1859	3.1E-48	T	17-03-2025	IPR011989	Armadillo-like helical	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	ProSiteProfiles	PS50077	HEAT repeat profile.	2446	2484	9.5618	T	17-03-2025	IPR021133	HEAT, type 2	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	697	715	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	ProSiteProfiles	PS50077	HEAT repeat profile.	1985	2022	9.4494	T	17-03-2025	IPR021133	HEAT, type 2	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	59	334	4.0E-164	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	716	740	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	335	448	4.5E-55	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Pfam	PF21041	XMAP215/Dis1/CLASP, TOG domain	1634	1838	9.2E-9	T	17-03-2025	IPR048491	XMAP215/Dis1/CLASP, TOG domain	GO:0015631(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Pfam	PF21041	XMAP215/Dis1/CLASP, TOG domain	989	1208	5.3E-67	T	17-03-2025	IPR048491	XMAP215/Dis1/CLASP, TOG domain	GO:0015631(InterPro)	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	SUPERFAMILY	SSF51569	Aldolase	68	344	1.04E-68	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Gene3D	G3DSA:1.25.10.10	-	1887	2122	7.9E-44	T	17-03-2025	IPR011989	Armadillo-like helical	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Gene3D	G3DSA:1.10.4160.10	Hydantoin permease	516	958	3.3E-76	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	897	916	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	SUPERFAMILY	SSF48371	ARM repeat	1288	2742	3.65E-49	T	17-03-2025	IPR016024	Armadillo-type fold	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	678	696	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	670	677	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	843	862	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	948	968	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	572	596	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	571	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	SUPERFAMILY	SSF48371	ARM repeat	1015	1191	9.05E-6	T	17-03-2025	IPR016024	Armadillo-type fold	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	917	936	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	832	842	-	T	17-03-2025	-	-	-	-
+GCA_029542945.1	1bfbdf48597bddb01da6c877e67283ea	3002	Gene3D	G3DSA:1.25.10.10	-	986	1238	4.2E-61	T	17-03-2025	IPR011989	Armadillo-like helical	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	NCBIfam	TIGR02146	homocitrate synthase	1235	1580	1.3E-157	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	324	342	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	362	1634	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	1419	1432	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	ProSiteProfiles	PS50069	Cullin family profile.	843	1080	38.753143	T	17-03-2025	IPR016158	Cullin homology domain	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	SUPERFAMILY	SSF46785	Winged helix DNA-binding domain	1122	1201	3.08E-18	T	17-03-2025	IPR036390	Winged helix DNA-binding domain superfamily	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.20.1310.10	Cullin Repeats	690	834	4.9E-24	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.20.1310.10	Cullin Repeats	568	689	7.1E-22	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	SMART	SM00182	cul_2	868	1026	6.2E-27	T	17-03-2025	IPR016158	Cullin homology domain	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	293	303	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	1223	1498	8.2E-166	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	SUPERFAMILY	SSF74788	Cullin repeat-like	417	833	1.1E-87	T	17-03-2025	IPR016159	Cullin repeat-like-containing domain superfamily	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	SUPERFAMILY	SSF75632	Cullin homology domain	843	1117	4.05E-56	T	17-03-2025	IPR036317	Cullin homology domain superfamily	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.20.1310.10	Cullin Repeats	417	567	4.8E-34	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	PANTHER	PTHR11932	CULLIN	418	1201	4.7E-118	T	17-03-2025	IPR045093	Cullin	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.20.1310.10	Cullin Repeats	842	951	8.4E-23	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	1506	1586	2.9E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	304	323	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	1233	1492	32.563137	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	343	361	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:3.20.20.70	Aldolase class I	1222	1498	5.2E-83	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	1240	1256	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	269	292	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	34	43	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	754	780	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	754	768	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	1	12	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	1	44	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	203	232	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Pfam	PF10557	Cullin protein neddylation domain	1143	1200	6.6E-17	T	17-03-2025	IPR019559	Cullin protein, neddylation domain	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Hamap	MF_02222	Homocitrate synthase.	1234	1590	70.839851	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Coils	Coil	Coil	651	671	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	268	-	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	SUPERFAMILY	SSF51569	Aldolase	1232	1508	9.89E-69	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:3.30.230.130	Cullin; Chain C, Domain 2	961	1122	1.6E-29	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	CDD	cd07948	DRE_TIM_HCS	1233	1494	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.10.238.260	-	1499	1613	5.9E-41	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	1499	1612	6.9E-61	T	17-03-2025	-	-	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	SMART	SM00884	Cullin_Nedd8_2	1137	1203	9.6E-23	T	17-03-2025	IPR019559	Cullin protein, neddylation domain	-	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Pfam	PF00888	Cullin family	421	1107	1.5E-133	T	17-03-2025	IPR001373	Cullin, N-terminal	GO:0006511(InterPro)|GO:0031625(InterPro)	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Pfam	PF00682	HMGL-like	1233	1492	5.0E-84	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCF_011074865.1	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.10.10.10	-	1123	1205	9.4E-22	T	17-03-2025	IPR036388	Winged helix-like DNA-binding domain superfamily	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	NCBIfam	TIGR02146	homocitrate synthase	1235	1580	1.3E-157	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	324	342	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	362	1634	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	1419	1432	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	ProSiteProfiles	PS50069	Cullin family profile.	843	1080	38.753143	T	17-03-2025	IPR016158	Cullin homology domain	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	SUPERFAMILY	SSF46785	Winged helix DNA-binding domain	1122	1201	3.08E-18	T	17-03-2025	IPR036390	Winged helix DNA-binding domain superfamily	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.20.1310.10	Cullin Repeats	690	834	4.9E-24	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.20.1310.10	Cullin Repeats	568	689	7.1E-22	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	SMART	SM00182	cul_2	868	1026	6.2E-27	T	17-03-2025	IPR016158	Cullin homology domain	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	293	303	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	1223	1498	8.2E-166	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	SUPERFAMILY	SSF74788	Cullin repeat-like	417	833	1.1E-87	T	17-03-2025	IPR016159	Cullin repeat-like-containing domain superfamily	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	SUPERFAMILY	SSF75632	Cullin homology domain	843	1117	4.05E-56	T	17-03-2025	IPR036317	Cullin homology domain superfamily	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.20.1310.10	Cullin Repeats	417	567	4.8E-34	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	PANTHER	PTHR11932	CULLIN	418	1201	4.7E-118	T	17-03-2025	IPR045093	Cullin	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.20.1310.10	Cullin Repeats	842	951	8.4E-23	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	1506	1586	2.9E-34	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	304	323	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	1233	1492	32.563137	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	343	361	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:3.20.20.70	Aldolase class I	1222	1498	5.2E-83	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	1240	1256	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	269	292	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	34	43	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	754	780	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	754	768	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	1	12	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	1	44	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	MobiDBLite	mobidb-lite	consensus disorder prediction	203	232	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Pfam	PF10557	Cullin protein neddylation domain	1143	1200	6.6E-17	T	17-03-2025	IPR019559	Cullin protein, neddylation domain	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Hamap	MF_02222	Homocitrate synthase.	1234	1590	70.839851	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Coils	Coil	Coil	651	671	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	268	-	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	SUPERFAMILY	SSF51569	Aldolase	1232	1508	9.89E-69	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:3.30.230.130	Cullin; Chain C, Domain 2	961	1122	1.6E-29	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	CDD	cd07948	DRE_TIM_HCS	1233	1494	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.10.238.260	-	1499	1613	5.9E-41	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	1499	1612	6.9E-61	T	17-03-2025	-	-	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	SMART	SM00884	Cullin_Nedd8_2	1137	1203	9.6E-23	T	17-03-2025	IPR019559	Cullin protein, neddylation domain	-	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Pfam	PF00888	Cullin family	421	1107	1.5E-133	T	17-03-2025	IPR001373	Cullin, N-terminal	GO:0006511(InterPro)|GO:0031625(InterPro)	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Pfam	PF00682	HMGL-like	1233	1492	5.0E-84	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_011074865.2	ec135a73d9bb46a141e9b9acf33098cf	1634	Gene3D	G3DSA:1.10.10.10	-	1123	1205	9.4E-22	T	17-03-2025	IPR036388	Winged helix-like DNA-binding domain superfamily	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	Gene3D	G3DSA:3.30.160.270	-	388	581	7.1E-57	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	FunFam	G3DSA:3.20.20.70:FF:000045	2-isopropylmalate synthase	11	387	5.0E-192	T	17-03-2025	-	-	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	PANTHER	PTHR46911	-	1	588	2.0E-279	T	17-03-2025	-	-	GO:0003852(PANTHER)|GO:0005739(PANTHER)|GO:0009098(PANTHER)	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	FunFam	G3DSA:3.30.160.270:FF:000002	2-isopropylmalate synthase	388	581	6.3E-74	T	17-03-2025	-	-	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	Pfam	PF00682	HMGL-like	33	318	8.7E-68	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	33	312	13.852615	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	Gene3D	G3DSA:3.20.20.70	Aldolase class I	11	387	2.2E-152	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	SUPERFAMILY	SSF110921	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	482	581	1.2E-30	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	SMART	SM00917	LeuA_dimer_2	433	583	3.9E-23	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	NCBIfam	TIGR00970	2-isopropylmalate synthase	7	581	1.4E-242	T	17-03-2025	IPR005668	2-isopropylmalate synthase	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	CDD	cd07942	DRE_TIM_LeuA	32	319	0.0	T	17-03-2025	IPR039371	LeuA, N-terminal catalytic TIM barrel domain	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	Pfam	PF22615	Alpha-isopropylmalate synthase, post-catalytic domain-like	336	404	3.9E-24	T	17-03-2025	IPR054692	2-isopropylmalate synthase-like, post-catalytic domain	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	40	56	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	248	261	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	SUPERFAMILY	SSF51569	Aldolase	22	335	1.03E-88	T	17-03-2025	-	-	-	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	Pfam	PF08502	LeuA allosteric (dimerisation) domain	494	582	2.0E-16	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_021365345.1	9c2d7321d58a9b2f0e778b4dae05fa9e	600	SUPERFAMILY	SSF89000	post-HMGL domain-like	400	448	5.49E-12	T	17-03-2025	-	-	-	-
+GCA_027577475.1	8f76dfc716d7fcb53f5540895d3f92bf	173	SUPERFAMILY	SSF51569	Aldolase	1	166	3.37E-46	T	17-03-2025	-	-	-	-
+GCA_027577475.1	8f76dfc716d7fcb53f5540895d3f92bf	173	Gene3D	G3DSA:3.20.20.70	Aldolase class I	1	171	3.2E-68	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_027577475.1	8f76dfc716d7fcb53f5540895d3f92bf	173	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	1	145	35.314167	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027577475.1	8f76dfc716d7fcb53f5540895d3f92bf	173	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	2	171	2.2E-81	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_027577475.1	8f76dfc716d7fcb53f5540895d3f92bf	173	Pfam	PF00682	HMGL-like	14	149	2.1E-33	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027577475.1	8f76dfc716d7fcb53f5540895d3f92bf	173	ProSitePatterns	PS01062	Hydroxymethylglutaryl-coenzyme A lyase active site.	104	113	-	T	17-03-2025	IPR000138	Hydroxymethylglutaryl-CoA lyase, active site	GO:0004419(InterPro)	-
+GCA_027604065.1	f4f7bb5c466e39d67c1a50310d30e224	280	Gene3D	G3DSA:3.20.20.70	Aldolase class I	1	280	2.8E-106	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_027604065.1	f4f7bb5c466e39d67c1a50310d30e224	280	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	1	254	29.371239	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_027604065.1	f4f7bb5c466e39d67c1a50310d30e224	280	SUPERFAMILY	SSF51569	Aldolase	3	266	2.49E-62	T	17-03-2025	-	-	-	-
+GCA_027604065.1	f4f7bb5c466e39d67c1a50310d30e224	280	CDD	cd07938	DRE_TIM_HMGL	3	261	4.77483E-165	T	17-03-2025	-	-	-	-
+GCA_027604065.1	f4f7bb5c466e39d67c1a50310d30e224	280	PANTHER	PTHR42738	HYDROXYMETHYLGLUTARYL-COA LYASE	3	279	1.9E-131	T	17-03-2025	IPR043594	HMG-CoA lyase	GO:0004419(PANTHER)|GO:0006552(PANTHER)|GO:0016833(InterPro)|GO:0046951(PANTHER)	-
+GCA_027604065.1	f4f7bb5c466e39d67c1a50310d30e224	280	FunFam	G3DSA:3.20.20.70:FF:000201	Hydroxymethylglutaryl-CoA lyase	1	280	2.5E-126	T	17-03-2025	-	-	-	-
+GCA_027604065.1	f4f7bb5c466e39d67c1a50310d30e224	280	Pfam	PF00682	HMGL-like	4	260	1.4E-46	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	NCBIfam	TIGR00970	2-isopropylmalate synthase	27	601	4.4E-227	T	17-03-2025	IPR005668	2-isopropylmalate synthase	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	SUPERFAMILY	SSF51569	Aldolase	42	359	2.75E-88	T	17-03-2025	-	-	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	Pfam	PF00682	HMGL-like	54	342	5.4E-73	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	Pfam	PF22615	Alpha-isopropylmalate synthase, post-catalytic domain-like	359	422	5.6E-29	T	17-03-2025	IPR054692	2-isopropylmalate synthase-like, post-catalytic domain	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	53	336	15.59846	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	FunFam	G3DSA:3.20.20.70:FF:000045	2-isopropylmalate synthase	31	405	1.4E-188	T	17-03-2025	-	-	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	SUPERFAMILY	SSF89000	post-HMGL domain-like	417	466	7.45E-13	T	17-03-2025	-	-	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	Gene3D	G3DSA:3.20.20.70	Aldolase class I	32	405	3.2E-156	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	MobiDBLite	mobidb-lite	consensus disorder prediction	17	44	-	T	17-03-2025	-	-	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	SUPERFAMILY	SSF110921	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	505	599	8.24E-29	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	Pfam	PF08502	LeuA allosteric (dimerisation) domain	452	599	5.2E-20	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	Hamap	MF_00572	2-isopropylmalate synthase [leuA].	28	602	48.755821	T	17-03-2025	IPR005668	2-isopropylmalate synthase	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	FunFam	G3DSA:3.30.160.270:FF:000002	2-isopropylmalate synthase	406	599	2.3E-79	T	17-03-2025	-	-	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	PANTHER	PTHR46911	-	22	607	5.2E-274	T	17-03-2025	-	-	GO:0003852(PANTHER)|GO:0005739(PANTHER)|GO:0009098(PANTHER)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	SMART	SM00917	LeuA_dimer_2	451	601	2.8E-24	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	60	76	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	272	285	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	Gene3D	G3DSA:3.30.160.270	-	406	600	3.2E-58	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_002873125.1	a64073dd506332c61890ca3cd4e09bf6	621	CDD	cd07942	DRE_TIM_LeuA	53	344	0.0	T	17-03-2025	IPR039371	LeuA, N-terminal catalytic TIM barrel domain	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	245	258	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	59	312	32.01646	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	FunFam	G3DSA:3.20.20.70:FF:000032	Homocitrate synthase, mitochondrial	49	324	1.1E-171	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	FunFam	G3DSA:3.40.640.10:FF:000020	sphingosine-1-phosphate lyase 1	608	873	4.6E-128	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	FunFam	G3DSA:1.10.238.260:FF:000002	Homocitrate synthase, mitochondrial	325	438	7.2E-66	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	PANTHER	PTHR42735	-	466	1026	5.7E-147	T	17-03-2025	IPR050477	Group II Amino Acid Decarboxylases	GO:0005783(PANTHER)|GO:0008117(PANTHER)|GO:0030149(PANTHER)	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	SUPERFAMILY	SSF51569	Aldolase	57	334	3.3E-68	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	FunFam	G3DSA:6.10.140.2150:FF:000002	Sphinganine-1-phosphate aldolase Bst1	974	1026	6.5E-25	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Gene3D	G3DSA:3.90.1150.10	Aspartate Aminotransferase, domain 1	577	978	2.4E-196	T	17-03-2025	IPR015422	Pyridoxal phosphate-dependent transferase, small domain	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	66	82	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Pfam	PF22617	Homocitrate synthase post-HMGL domain-like	332	412	6.7E-35	T	17-03-2025	IPR054691	2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Hamap	MF_02222	Homocitrate synthase.	60	428	68.849457	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	MobiDBLite	mobidb-lite	consensus disorder prediction	30	40	-	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	MobiDBLite	mobidb-lite	consensus disorder prediction	1	44	-	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Gene3D	G3DSA:3.20.20.70	Aldolase class I	49	324	2.6E-83	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Gene3D	G3DSA:6.10.140.2150	-	569	1026	2.4E-196	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	SUPERFAMILY	SSF53383	PLP-dependent transferases	565	974	5.68E-107	T	17-03-2025	IPR015424	Pyridoxal phosphate-dependent transferase	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	CDD	cd07948	DRE_TIM_HCS	59	320	0.0	T	17-03-2025	IPR048253	Homocitrate synthase, catalytic TIM barrel domain, fungi/bacteria	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Gene3D	G3DSA:1.10.238.260	-	325	438	9.1E-41	T	17-03-2025	-	-	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	NCBIfam	TIGR02146	homocitrate synthase	61	407	8.7E-151	T	17-03-2025	IPR011872	Homocitrate synthase	GO:0004410(InterPro)|GO:0019752(InterPro)|GO:0019878(InterPro)|GO:0046912(InterPro)	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Pfam	PF00682	HMGL-like	59	318	1.7E-80	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Gene3D	G3DSA:3.40.640.10	-	608	873	2.4E-196	T	17-03-2025	IPR015421	Pyridoxal phosphate-dependent transferase, major domain	-	-
+GCF_001561935.1	778b6351d8b77058ca123dcba25ef941	1027	Pfam	PF00282	Pyridoxal-dependent decarboxylase conserved domain	604	920	3.3E-14	T	17-03-2025	IPR002129	Pyridoxal phosphate-dependent decarboxylase	GO:0016830(InterPro)|GO:0019752(InterPro)|GO:0030170(InterPro)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	CDD	cd07942	DRE_TIM_LeuA	32	320	0.0	T	17-03-2025	IPR039371	LeuA, N-terminal catalytic TIM barrel domain	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	Pfam	PF22615	Alpha-isopropylmalate synthase, post-catalytic domain-like	337	405	5.9E-24	T	17-03-2025	IPR054692	2-isopropylmalate synthase-like, post-catalytic domain	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	NCBIfam	TIGR00970	2-isopropylmalate synthase	7	580	3.1E-242	T	17-03-2025	IPR005668	2-isopropylmalate synthase	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	ProSiteProfiles	PS50991	Pyruvate carboxyltransferase domain.	33	313	15.316303	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	Pfam	PF08502	LeuA allosteric (dimerisation) domain	491	580	6.5E-17	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	FunFam	G3DSA:3.20.20.70:FF:000045	2-isopropylmalate synthase	11	388	2.6E-193	T	17-03-2025	-	-	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	MobiDBLite	mobidb-lite	consensus disorder prediction	585	604	-	T	17-03-2025	-	-	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	Pfam	PF00682	HMGL-like	33	319	8.4E-70	T	17-03-2025	IPR000891	Pyruvate carboxyltransferase	GO:0003824(InterPro)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	Hamap	MF_00572	2-isopropylmalate synthase [leuA].	8	583	47.260777	T	17-03-2025	IPR005668	2-isopropylmalate synthase	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	PANTHER	PTHR46911	-	1	587	5.8E-280	T	17-03-2025	-	-	GO:0003852(PANTHER)|GO:0005739(PANTHER)|GO:0009098(PANTHER)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	Gene3D	G3DSA:3.20.20.70	Aldolase class I	12	388	4.7E-154	T	17-03-2025	IPR013785	Aldolase-type TIM barrel	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	SUPERFAMILY	SSF110921	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	479	580	4.84E-31	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	FunFam	G3DSA:3.30.160.270:FF:000002	2-isopropylmalate synthase	389	580	1.1E-78	T	17-03-2025	-	-	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	SUPERFAMILY	SSF89000	post-HMGL domain-like	401	449	2.12E-11	T	17-03-2025	-	-	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	Gene3D	G3DSA:3.30.160.270	-	389	580	2.8E-58	T	17-03-2025	IPR036230	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	SUPERFAMILY	SSF51569	Aldolase	22	336	1.37E-90	T	17-03-2025	-	-	-	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	ProSitePatterns	PS00815	Alpha-isopropylmalate and homocitrate synthases signature 1.	40	56	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	SMART	SM00917	LeuA_dimer_2	434	582	2.6E-22	T	17-03-2025	IPR013709	2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain	GO:0003852(InterPro)|GO:0009098(InterPro)	-
+GCA_022627115.1	5ba6c39eb7e7631b8f233f1416cb37fd	616	ProSitePatterns	PS00816	Alpha-isopropylmalate and homocitrate synthases signature 2.	249	262	-	T	17-03-2025	IPR002034	Alpha-isopropylmalate/homocitrate synthase, conserved site	GO:0019752(InterPro)|GO:0046912(InterPro)	-

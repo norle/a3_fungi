@@ -1,0 +1,496 @@
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	PANTHER	PTHR11133	SACCHAROPINE DEHYDROGENASE	7	446	9.1E-154	T	18-03-2025	IPR051168	Alpha-aminoadipic semialdehyde synthase	GO:0004753(PANTHER)|GO:0005737(PANTHER)|GO:0019878(PANTHER)	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	FunFam	G3DSA:1.10.1870.10:FF:000002	Saccharopine dehydrogenase Lys9	254	353	2.1E-42	T	18-03-2025	-	-	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	129	396	4.9E-194	T	18-03-2025	-	-	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	Gene3D	G3DSA:3.40.50.720	-	8	439	4.9E-194	T	18-03-2025	-	-	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	8	140	3.2E-48	T	18-03-2025	-	-	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	130	271	2.8E-60	T	18-03-2025	-	-	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	10	124	6.3E-23	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	7	184	5.35E-36	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	254	353	4.9E-194	T	18-03-2025	-	-	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	128	443	2.9E-95	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_001014755.1	f48def07b9d958a3b2d253fb7bf848a7	450	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	129	394	2.42E-100	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	68	286	2.1E-78	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	311	445	1.8E-46	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	9	284	1.41E-89	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	313	428	1.6E-21	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Gene3D	G3DSA:2.30.140.10	Spermidine synthase, tetramerisation domain	3	66	3.7E-27	T	18-03-2025	IPR037163	Spermidine synthase, tetramerisation domain superfamily	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	FunFam	G3DSA:2.30.140.10:FF:000001	SPE3p Spermidine synthase	2	66	1.3E-35	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Hamap	MF_00198	Polyamine aminopropyltransferase [speE].	12	285	35.133064	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	434	567	7.9E-56	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	ProSitePatterns	PS01330	Polyamine biosynthesis (PABS) domain signature.	90	103	-	T	18-03-2025	IPR030373	Polyamine biosynthesis domain, conserved site	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Pfam	PF17284	Spermidine synthase tetramerisation domain	12	66	1.3E-20	T	18-03-2025	IPR035246	Spermidine synthase, tetramerisation domain	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	310	487	7.63E-30	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	432	589	2.6E-56	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	NCBIfam	TIGR00417	spermidine synthase	13	279	2.3E-106	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	FunFam	G3DSA:3.40.50.150:FF:000013	Spermidine synthase	66	286	2.6E-105	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	ProSiteProfiles	PS51006	Polyamine biosynthesis (PABS) domain profile.	11	246	103.581413	T	18-03-2025	IPR030374	Polyamine biosynthesis domain	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Pfam	PF01564	Spermine/spermidine synthase domain	69	251	1.7E-70	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	433	601	2.29E-62	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	433	557	5.7E-127	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	558	601	5.7E-127	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	PANTHER	PTHR11558	SPERMIDINE/SPERMINE SYNTHASE	6	285	1.6E-121	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)|GO:0004766(PANTHER)|GO:0005829(PANTHER)|GO:0008295(PANTHER)	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	Gene3D	G3DSA:3.40.50.720	-	311	432	5.7E-127	T	18-03-2025	-	-	-	-
+GCA_000827275.1	97c92f8c842a7356f820d4c86af1e2db	602	CDD	cd02440	AdoMet_MTases	111	196	4.5193E-9	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.30.230.10:FF:000008	DNA topoisomerase 2	390	513	1.7E-54	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.40.50.670:FF:000001	DNA topoisomerase 2	542	691	1.3E-69	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Pfam	PF00521	DNA gyrase/topoisomerase IV, subunit A	800	1249	9.9E-111	T	18-03-2025	IPR002205	DNA topoisomerase, type IIA, domain A	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	SUPERFAMILY	SSF54211	Ribosomal protein S5 domain 2-like	360	518	8.54E-39	T	18-03-2025	IPR020568	Ribosomal protein uS5 domain 2-type superfamily	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:3.30.1490.30	-	675	722	2.4E-114	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.30.1490.30:FF:000001	DNA topoisomerase 2	675	722	1.6E-17	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.30.565.10:FF:000004	DNA topoisomerase 2	135	382	1.8E-111	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Pfam	PF00204	DNA gyrase B	371	527	7.5E-26	T	18-03-2025	IPR013506	DNA topoisomerase, type IIA, subunit B, domain 2	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:1.10.268.10	Topoisomerase, domain 3	1095	1271	6.3E-46	T	18-03-2025	IPR013757	DNA topoisomerase, type IIA, alpha-helical domain superfamily	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Coils	Coil	Coil	1118	1138	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	CDD	cd03481	TopoIIA_Trans_ScTopoIIA	369	519	5.19205E-78	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PANTHER	PTHR10169	DNA TOPOISOMERASE/GYRASE	94	1479	0.0	T	18-03-2025	IPR050634	DNA Topoisomerase II	GO:0000712(PANTHER)|GO:0000819(PANTHER)|GO:0005634(PANTHER)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:3.30.1360.40	-	977	1078	4.9E-138	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	1009	1023	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	900	920	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	823	846	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	870	892	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	719	731	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	541	551	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	1087	1113	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	556	563	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	604	617	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	668	679	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR01158	Topoisomerase II signature	647	662	1.4E-86	T	18-03-2025	IPR001154	DNA topoisomerase II, eukaryotic-type	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	1725	1866	1.1E-54	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	1724	1991	8.5E-83	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Pfam	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	185	327	3.1E-5	T	18-03-2025	IPR003594	Histidine kinase/HSP90-like ATPase domain	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Pfam	PF01751	Toprim domain	557	656	1.6E-5	T	18-03-2025	IPR006171	TOPRIM domain	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	122	131	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1482	1493	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1178	1191	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1382	1554	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1272	1332	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1298	1317	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1397	1406	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	77	89	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1	22	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	70	131	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1508	1527	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1407	1416	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	MobiDBLite	mobidb-lite	consensus disorder prediction	1165	1196	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Coils	Coil	Coil	1219	1239	-	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:3.40.50.720	-	1602	2039	3.1E-177	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	ProSiteProfiles	PS50880	Toprim domain profile.	556	670	17.477623	T	18-03-2025	IPR006171	TOPRIM domain	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	1602	1732	3.2E-45	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.90.199.10:FF:000002	DNA topoisomerase 2	797	975	1.1E-86	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	1723	2039	1.9E-88	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	SUPERFAMILY	SSF56719	Type II DNA topoisomerase	532	1260	3.4E-230	T	18-03-2025	IPR013760	DNA topoisomerase, type IIA-like domain superfamily	GO:0003918(InterPro)|GO:0005524(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	CDD	cd16930	HATPase_TopII-like	181	326	5.40848E-87	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:3.30.230.10	-	390	513	1.1E-43	T	18-03-2025	IPR014721	Small ribosomal subunit protein uS5 domain 2-type fold, subgroup	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	SMART	SM00434	topIV4	784	1247	2.7E-173	T	18-03-2025	IPR002205	DNA topoisomerase, type IIA, domain A	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.30.1360.40:FF:000003	DNA topoisomerase 2	977	1083	7.1E-35	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	CDD	cd00187	TOP4c	800	1252	5.84531E-147	T	18-03-2025	IPR002205	DNA topoisomerase, type IIA, domain A	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	SMART	SM00433	topII5	184	773	6.1E-294	T	18-03-2025	IPR001241	DNA topoisomerase, type IIA	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:3.40.50.670	-	542	799	2.4E-114	T	18-03-2025	IPR013759	DNA topoisomerase, type IIA, subunit B, C-terminal	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	SMART	SM00387	HKATPase_4	184	329	0.0053	T	18-03-2025	IPR003594	Histidine kinase/HSP90-like ATPase domain	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	SUPERFAMILY	SSF55874	ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase	132	366	6.97E-60	T	18-03-2025	IPR036890	Histidine kinase/HSP90-like ATPase superfamily	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	CDD	cd03365	TOPRIM_TopoIIA	556	674	6.71764E-78	T	18-03-2025	IPR034157	DNA topoisomerase 2, TOPRIM domain	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	ProSitePatterns	PS00177	DNA topoisomerase II signature.	560	568	-	T	18-03-2025	IPR018522	DNA topoisomerase, type IIA, conserved site	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	1602	1778	1.12E-30	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:3.90.199.10	Topoisomerase II, domain 5	801	1092	4.9E-138	T	18-03-2025	IPR013758	DNA topoisomerase, type IIA, domain A, alpha-beta	GO:0003677(InterPro)|GO:0003918(InterPro)|GO:0005524(InterPro)|GO:0006259(InterPro)|GO:0006265(InterPro)	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	1604	1718	2.6E-23	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	646	663	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	221	234	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	667	679	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	558	572	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	414	427	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	264	278	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	713	729	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	184	199	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	PRINTS	PR00418	DNA topoisomerase II family signature	628	644	1.9E-55	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Pfam	PF16898	C-terminal associated domain of TOPRIM	672	799	2.2E-46	T	18-03-2025	IPR031660	C-terminal associated domain of TOPRIM	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	FunFam	G3DSA:3.40.50.670:FF:000001	DNA topoisomerase 2	713	803	4.2E-21	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	1725	1989	3.1E-177	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	1850	1950	3.1E-177	T	18-03-2025	-	-	-	-
+GCA_027604505.1	ba3cea80756848509dcc9db539f096f2	2046	Gene3D	G3DSA:3.30.565.10	-	135	382	3.1E-95	T	18-03-2025	IPR036890	Histidine kinase/HSP90-like ATPase superfamily	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	406	530	7.9E-126	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	CDD	cd02440	AdoMet_MTases	79	169	1.57782E-9	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Gene3D	G3DSA:2.30.140.10	Spermidine synthase, tetramerisation domain	1	40	1.2E-17	T	18-03-2025	IPR037163	Spermidine synthase, tetramerisation domain superfamily	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Gene3D	G3DSA:3.40.50.720	-	284	405	7.9E-126	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	283	460	1.08E-29	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	284	416	7.4E-46	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	406	574	6.41E-63	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Pfam	PF17284	Spermidine synthase tetramerisation domain	1	41	1.2E-14	T	18-03-2025	IPR035246	Spermidine synthase, tetramerisation domain	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Pfam	PF01564	Spermine/spermidine synthase domain	44	224	2.1E-68	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	286	401	8.6E-21	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	NCBIfam	TIGR00417	spermidine synthase	1	254	2.7E-101	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Hamap	MF_00198	Polyamine aminopropyltransferase [speE].	1	260	33.067974	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	ProSitePatterns	PS01330	Polyamine biosynthesis (PABS) domain signature.	65	78	-	T	18-03-2025	IPR030373	Polyamine biosynthesis domain, conserved site	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	PANTHER	PTHR11558	SPERMIDINE/SPERMINE SYNTHASE	2	258	4.5E-109	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)|GO:0004766(PANTHER)|GO:0005829(PANTHER)|GO:0008295(PANTHER)	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	ProSiteProfiles	PS51006	Polyamine biosynthesis (PABS) domain profile.	1	221	99.717659	T	18-03-2025	IPR030374	Polyamine biosynthesis domain	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	531	574	7.9E-126	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	FunFam	G3DSA:3.40.50.150:FF:000013	Spermidine synthase	41	261	9.2E-104	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	407	540	4.2E-56	T	18-03-2025	-	-	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	41	264	7.2E-78	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	2	256	5.3E-83	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCF_019112545.1	f5e2d2f3401ff008fb660c6ee047237e	580	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	405	563	2.1E-55	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	398	417	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	6	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Gene3D	G3DSA:3.40.50.720	-	587	1018	1.7E-170	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	366	376	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	163	189	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	699	976	1.7E-170	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	MobiDBLite	mobidb-lite	consensus disorder prediction	244	266	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Coils	Coil	Coil	537	557	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	581	706	3.0E-40	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	589	694	6.0E-18	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	348	365	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	337	347	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	699	975	9.81E-87	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	418	438	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	139	162	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	825	933	1.7E-170	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	41	67	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	314	336	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	120	138	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	68	94	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	FunFam	G3DSA:1.10.1870.10:FF:000002	Saccharopine dehydrogenase Lys9	825	933	2.1E-37	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	95	119	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	210	313	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	PANTHER	PTHR16130	LYSOSOMAL COBALAMIN TRANSPORTER-RELATED	3	554	1.4E-174	T	18-03-2025	IPR050854	Lysosomal Cobalamin Transport Escort Protein LMBD1	GO:0005774(PANTHER)|GO:0072665(PANTHER)	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	513	532	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	533	1029	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	190	209	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	377	397	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Pfam	PF04791	LMBR1-like membrane protein	12	441	1.4E-9	T	18-03-2025	IPR006876	LMBR1-like membrane protein	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	700	836	5.5E-52	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	7	29	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	439	512	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	30	40	-	T	18-03-2025	-	-	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	583	752	1.19E-27	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_023646655.1	fea4a2ab068ac3a2b36cfdba66be1a84	1029	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	698	1021	2.9E-88	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	1	188	3.79E-46	T	18-03-2025	-	-	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Gene3D	G3DSA:1.50.10.20	-	253	772	6.9E-160	T	18-03-2025	-	-	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	CDD	cd02893	FTase	308	676	1.09389E-113	T	18-03-2025	IPR026872	Protein farnesyltransferase subunit beta	GO:0005965(InterPro)|GO:0018343(InterPro)	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	FunFam	G3DSA:1.10.1870.10:FF:000002	Saccharopine dehydrogenase Lys9	47	147	9.0E-32	T	18-03-2025	-	-	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	2	236	5.9E-47	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	SUPERFAMILY	SSF48239	Terpenoid cyclases/Protein prenyltransferases	261	770	1.5E-93	T	18-03-2025	IPR008930	Terpenoid cyclases/protein prenyltransferase alpha-alpha toroid	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	1	186	4.4E-77	T	18-03-2025	-	-	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	PANTHER	PTHR11774	GERANYLGERANYL TRANSFERASE TYPE BETA SUBUNIT	306	769	4.9E-80	T	18-03-2025	IPR045089	Prenyltransferase subunit beta	GO:0004660(PANTHER)|GO:0005965(PANTHER)|GO:0008318(InterPro)|GO:0018342(PANTHER)|GO:0018343(PANTHER)	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Gene3D	G3DSA:3.40.50.720	-	187	235	4.4E-77	T	18-03-2025	-	-	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	47	147	4.4E-77	T	18-03-2025	-	-	-	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Pfam	PF00432	Prenyltransferase and squalene oxidase repeat	409	452	8.3	T	18-03-2025	IPR001330	PFTB repeat	GO:0003824(InterPro)	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Pfam	PF00432	Prenyltransferase and squalene oxidase repeat	547	591	3.2E-4	T	18-03-2025	IPR001330	PFTB repeat	GO:0003824(InterPro)	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Pfam	PF00432	Prenyltransferase and squalene oxidase repeat	633	675	0.71	T	18-03-2025	IPR001330	PFTB repeat	GO:0003824(InterPro)	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Pfam	PF00432	Prenyltransferase and squalene oxidase repeat	464	515	9.4	T	18-03-2025	IPR001330	PFTB repeat	GO:0003824(InterPro)	-
+GCA_004679265.1	79d0c7db787da5f13c5e7c0883d13495	784	Pfam	PF00432	Prenyltransferase and squalene oxidase repeat	356	398	1.3E-5	T	18-03-2025	IPR001330	PFTB repeat	GO:0003824(InterPro)	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	533	1041	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	398	417	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	FunFam	G3DSA:1.10.1870.10:FF:000002	Saccharopine dehydrogenase Lys9	834	942	4.6E-37	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	6	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	366	376	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	590	703	1.6E-19	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	348	365	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	7	32	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	337	347	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Pfam	PF04791	LMBR1-like membrane protein	12	252	7.8E-11	T	18-03-2025	IPR006876	LMBR1-like membrane protein	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	587	715	3.5E-44	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	418	438	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	588	762	7.69E-29	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	314	336	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	120	143	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	68	94	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	166	189	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	95	119	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	PANTHER	PTHR16130	LYSOSOMAL COBALAMIN TRANSPORTER-RELATED	3	555	2.5E-175	T	18-03-2025	IPR050854	Lysosomal Cobalamin Transport Escort Protein LMBD1	GO:0005774(PANTHER)|GO:0072665(PANTHER)	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	MobiDBLite	mobidb-lite	consensus disorder prediction	244	263	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	708	984	7.19E-87	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	709	845	4.9E-52	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	210	313	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	834	942	9.8E-175	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Gene3D	G3DSA:3.40.50.720	-	588	1030	9.8E-175	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	513	532	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	190	209	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	377	397	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	707	1033	4.6E-88	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	439	512	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	144	165	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	33	37	-	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	708	985	9.8E-175	T	18-03-2025	-	-	-	-
+GCA_023645815.1	9f12c4c8b93f0648d78d2bf5096bd84e	1041	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	38	67	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	593	706	9.1E-21	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	398	417	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	443	512	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	711	982	4.7E-174	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	1	6	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	837	939	4.7E-174	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	712	848	5.2E-53	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	418	442	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	366	376	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Coils	Coil	Coil	537	557	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	MobiDBLite	mobidb-lite	consensus disorder prediction	244	265	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	348	365	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	337	347	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	41	67	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	591	765	4.35E-30	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	314	336	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	711	981	4.97E-88	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	PANTHER	PTHR16130	LYSOSOMAL COBALAMIN TRANSPORTER-RELATED	3	555	7.7E-178	T	18-03-2025	IPR050854	Lysosomal Cobalamin Transport Escort Protein LMBD1	GO:0005774(PANTHER)|GO:0072665(PANTHER)	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	68	94	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	120	143	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	166	189	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	95	119	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	210	313	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	513	532	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	190	209	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	377	397	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	710	1028	3.5E-86	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Gene3D	G3DSA:3.40.50.720	-	591	1024	4.7E-174	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	7	29	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	144	165	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	590	719	5.3E-43	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	30	40	-	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	FunFam	G3DSA:1.10.1870.10:FF:000002	Saccharopine dehydrogenase Lys9	837	939	1.5E-37	T	18-03-2025	-	-	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Pfam	PF04791	LMBR1-like membrane protein	12	252	3.7E-12	T	18-03-2025	IPR006876	LMBR1-like membrane protein	-	-
+GCA_023645885.1	b8a30f2c153f96eca7d583384c9270d1	1040	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	533	1040	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Gene3D	G3DSA:3.40.50.720	-	1223	1358	3.1E-50	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	PANTHER	PTHR46718	ASPARTATE-SEMIALDEHYDE DEHYDROGENASE	786	1127	4.1E-144	T	18-03-2025	IPR051823	Aspartate-semialdehyde dehydrogenase-related	GO:0004073(PANTHER)|GO:0009086(PANTHER)|GO:0009088(PANTHER)	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	FunFam	G3DSA:1.10.1870.10:FF:000002	Saccharopine dehydrogenase Lys9	1509	1608	3.7E-43	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	1249	1354	2.4E-13	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Coils	Coil	Coil	354	374	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	1223	1388	6.37E-21	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	ProSitePatterns	PS01103	Aspartate-semialdehyde dehydrogenase signature.	1013	1027	-	T	18-03-2025	IPR000319	Aspartate-semialdehyde dehydrogenase, conserved site	GO:0004073(InterPro)|GO:0006520(InterPro)|GO:0050661(InterPro)	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	1509	1608	4.1E-104	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	MobiDBLite	mobidb-lite	consensus disorder prediction	1920	1930	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	MobiDBLite	mobidb-lite	consensus disorder prediction	1994	2005	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	MobiDBLite	mobidb-lite	consensus disorder prediction	1902	1911	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	MobiDBLite	mobidb-lite	consensus disorder prediction	1994	2039	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	MobiDBLite	mobidb-lite	consensus disorder prediction	1889	1932	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	MobiDBLite	mobidb-lite	consensus disorder prediction	2012	2031	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	MobiDBLite	mobidb-lite	consensus disorder prediction	213	241	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	MobiDBLite	mobidb-lite	consensus disorder prediction	215	229	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	NCBIfam	TIGR00978	aspartate-semialdehyde dehydrogenase	787	1126	7.0E-102	T	18-03-2025	IPR005676	Aspartate-semialdehyde dehydrogenase, peptidoglycan lacking	GO:0050661(InterPro)	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	SUPERFAMILY	SSF53254	Phosphoglycerate mutase-like	1774	1852	4.71E-8	T	18-03-2025	IPR029033	Histidine phosphatase superfamily	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	1359	1381	3.1E-50	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	1387	1528	1.9E-45	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Gene3D	G3DSA:3.40.50.1240	-	1763	1862	7.8E-9	T	18-03-2025	IPR029033	Histidine phosphatase superfamily	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	931	1114	3.9E-143	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Pfam	PF00300	Histidine phosphatase superfamily (branch 1)	1776	1850	0.39	T	18-03-2025	IPR013078	Histidine phosphatase superfamily, clade-1	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	1396	1654	4.1E-104	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	1359	1648	7.19E-85	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	787	958	4.93E-32	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	1358	1657	1.1E-72	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Pfam	PF01118	Semialdehyde dehydrogenase, NAD binding domain	787	907	1.6E-20	T	18-03-2025	IPR000534	Semialdehyde dehydrogenase, NAD-binding	GO:0016620(InterPro)|GO:0051287(InterPro)	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	FunFam	G3DSA:3.30.360.10:FF:000016	Probable aspartate-semialdehyde dehydrogenase	931	1114	3.1E-80	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Pfam	PF02774	Semialdehyde dehydrogenase, dimerisation domain	941	1117	2.3E-29	T	18-03-2025	IPR012280	Semialdehyde dehydrogenase, dimerisation domain	GO:0008652(InterPro)|GO:0016620(InterPro)|GO:0046983(InterPro)	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	929	1119	9.23E-30	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Coils	Coil	Coil	213	233	-	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	Gene3D	G3DSA:3.40.50.720	-	787	1126	3.9E-143	T	18-03-2025	-	-	-	-
+GCA_002276475.2	df5735b29fa37b6f3a3f360ba10a8041	2039	SMART	SM00859	Semialdhyde_dh_3	787	909	4.9E-25	T	18-03-2025	IPR000534	Semialdehyde dehydrogenase, NAD-binding	GO:0016620(InterPro)|GO:0051287(InterPro)	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	432	694	7.5E-121	T	18-03-2025	-	-	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	FunFam	G3DSA:2.30.140.10:FF:000001	SPE3p Spermidine synthase	3	67	2.4E-35	T	18-03-2025	-	-	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	550	650	7.5E-121	T	18-03-2025	-	-	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	FunFam	G3DSA:3.40.50.150:FF:000013	Spermidine synthase	67	288	1.3E-102	T	18-03-2025	-	-	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Pfam	PF01564	Spermine/spermidine synthase domain	70	249	1.0E-70	T	18-03-2025	-	-	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	10	287	4.73E-85	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Gene3D	G3DSA:2.30.140.10	Spermidine synthase, tetramerisation domain	2	66	1.2E-26	T	18-03-2025	IPR037163	Spermidine synthase, tetramerisation domain superfamily	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	462	690	4.84E-56	T	18-03-2025	-	-	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	NCBIfam	TIGR00417	spermidine synthase	14	281	6.1E-104	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Pfam	PF17284	Spermidine synthase tetramerisation domain	13	67	2.8E-20	T	18-03-2025	IPR035246	Spermidine synthase, tetramerisation domain	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	313	426	8.5E-19	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	311	439	1.9E-38	T	18-03-2025	-	-	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	310	444	4.94E-24	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	CDD	cd02440	AdoMet_MTases	113	195	1.2453E-8	T	18-03-2025	-	-	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	461	741	3.9E-58	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Hamap	MF_00198	Polyamine aminopropyltransferase [speE].	13	287	34.684441	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	67	291	4.5E-77	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	ProSiteProfiles	PS51006	Polyamine biosynthesis (PABS) domain profile.	12	247	101.543854	T	18-03-2025	IPR030374	Polyamine biosynthesis domain	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	PANTHER	PTHR11558	SPERMIDINE/SPERMINE SYNTHASE	6	287	2.9E-121	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)|GO:0004766(PANTHER)|GO:0005829(PANTHER)|GO:0008295(PANTHER)	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	ProSitePatterns	PS01330	Polyamine biosynthesis (PABS) domain signature.	91	104	-	T	18-03-2025	IPR030373	Polyamine biosynthesis domain, conserved site	-	-
+GCA_904859935.1	b11f2ef409a8aa957b187ce94586c944	748	Gene3D	G3DSA:3.40.50.720	-	311	737	7.5E-121	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	ProSiteProfiles	PS51006	Polyamine biosynthesis (PABS) domain profile.	11	246	107.309891	T	18-03-2025	IPR030374	Polyamine biosynthesis domain	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Pfam	PF01564	Spermine/spermidine synthase domain	69	252	7.8E-71	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	66	289	3.0E-81	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Gene3D	G3DSA:2.30.140.10	Spermidine synthase, tetramerisation domain	3	65	1.5E-26	T	18-03-2025	IPR037163	Spermidine synthase, tetramerisation domain superfamily	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	ProSitePatterns	PS01330	Polyamine biosynthesis (PABS) domain signature.	90	103	-	T	18-03-2025	IPR030373	Polyamine biosynthesis domain, conserved site	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	308	444	3.4E-46	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	FunFam	G3DSA:2.30.140.10:FF:000001	SPE3p Spermidine synthase	2	66	2.9E-35	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	431	559	2.9E-54	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	555	599	3.8E-123	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	307	484	2.83E-32	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Pfam	PF17284	Spermidine synthase tetramerisation domain	12	66	1.4E-20	T	18-03-2025	IPR035246	Spermidine synthase, tetramerisation domain	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	429	584	5.8E-53	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	FunFam	G3DSA:3.40.50.150:FF:000013	Spermidine synthase	66	286	3.6E-104	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	NCBIfam	TIGR00417	spermidine synthase	13	279	7.7E-107	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Gene3D	G3DSA:3.40.50.720	-	308	429	3.8E-123	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	9	285	6.47E-90	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Hamap	MF_00198	Polyamine aminopropyltransferase [speE].	12	285	35.396542	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	430	554	3.8E-123	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	PANTHER	PTHR11558	SPERMIDINE/SPERMINE SYNTHASE	6	285	1.5E-121	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)|GO:0004766(PANTHER)|GO:0005829(PANTHER)|GO:0008295(PANTHER)	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	CDD	cd02440	AdoMet_MTases	111	196	1.82101E-8	T	18-03-2025	-	-	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	310	425	3.7E-23	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_029747585.1	a51bb9596a656a2bf6617f674cc6f559	609	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	430	599	3.2E-59	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	FunFam	G3DSA:1.10.10.820:FF:000001	Myosin heavy chain	301	360	1.1E-18	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	1674	1952	2.01E-83	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	CDD	cd02440	AdoMet_MTases	1774	1862	6.58209E-8	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:3.30.70.1590	-	776	838	6.1E-16	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SMART	SM00242	MYSc_2a	95	840	0.0	T	18-03-2025	IPR001609	Myosin head, motor domain-like	GO:0003774(InterPro)|GO:0005524(InterPro)|GO:0016459(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSitePatterns	PS01330	Polyamine biosynthesis (PABS) domain signature.	1753	1766	-	T	18-03-2025	IPR030373	Polyamine biosynthesis domain, conserved site	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSiteProfiles	PS50096	IQ motif profile.	913	942	7.675	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF01564	Spermine/spermidine synthase domain	1732	1909	3.0E-63	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSiteProfiles	PS51006	Polyamine biosynthesis (PABS) domain profile.	1674	1910	101.112663	T	18-03-2025	IPR030374	Polyamine biosynthesis domain	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:1.20.5.190	-	892	939	1.2E-7	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:1.20.5.190	-	940	990	5.5E-8	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:1.20.5.190	-	839	891	6.1E-10	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF17284	Spermidine synthase tetramerisation domain	1675	1729	1.3E-19	T	18-03-2025	IPR035246	Spermidine synthase, tetramerisation domain	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSiteProfiles	PS51456	Myosin motor domain profile.	101	839	245.232834	T	18-03-2025	IPR001609	Myosin head, motor domain-like	GO:0003774(InterPro)|GO:0005524(InterPro)|GO:0016459(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	1974	2088	4.7E-22	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Coils	Coil	Coil	1127	1147	-	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Hamap	MF_00198	Polyamine aminopropyltransferase [speE].	1675	1952	34.577625	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:1.20.120.720	Myosin VI head, motor domain, U50 subdomain	365	710	6.8E-228	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	FunFam	G3DSA:3.40.50.150:FF:000013	Spermidine synthase	1729	1953	7.5E-95	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	86	892	9.95E-264	T	18-03-2025	IPR027417	P-loop containing nucleoside triphosphate hydrolase	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:3.40.850.10	Kinesin motor domain	104	771	6.8E-228	T	18-03-2025	IPR036961	Kinesin motor domain superfamily	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	2095	2233	2.0E-50	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	NCBIfam	TIGR00417	spermidine synthase	1676	1946	4.6E-96	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	CDD	cd15480	fMyo2p_CBD	1251	1635	0.0	T	18-03-2025	IPR046943	Myosin 2/2A, cargo-binding domain, fungi	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SUPERFAMILY	SSF50084	Myosin S1 fragment, N-terminal domain	31	94	1.49E-8	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	PANTHER	PTHR13140	MYOSIN	104	1117	9.7E-287	T	18-03-2025	-	-	GO:0000146(PANTHER)|GO:0005737(PANTHER)|GO:0007015(PANTHER)|GO:0015629(PANTHER)|GO:0016020(PANTHER)|GO:0051015(PANTHER)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	2222	2328	1.6E-167	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	FunFam	G3DSA:2.30.140.10:FF:000001	SPE3p Spermidine synthase	1665	1729	1.6E-32	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF00612	IQ calmodulin-binding motif	866	883	130.0	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF00612	IQ calmodulin-binding motif	940	959	26.0	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF00612	IQ calmodulin-binding motif	892	910	370.0	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SMART	SM00015	iq_5	841	863	5.3	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SMART	SM00015	iq_5	889	911	5.6	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SMART	SM00015	iq_5	864	886	0.94	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SMART	SM00015	iq_5	912	934	0.27	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SMART	SM00015	iq_5	960	982	36.0	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SMART	SM00015	iq_5	937	959	0.23	T	18-03-2025	IPR000048	IQ motif, EF-hand binding site	GO:0005515(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSiteProfiles	PS50096	IQ motif profile.	865	894	8.132501	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:3.40.50.720	-	1972	2416	1.6E-167	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	1972	2104	8.9E-45	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	2093	2419	1.3E-81	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	2094	2373	1.6E-167	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSiteProfiles	PS50096	IQ motif profile.	963	990	7.0162	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	891	990	1.73E-8	T	18-03-2025	IPR027417	P-loop containing nucleoside triphosphate hydrolase	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	2094	2367	7.85E-77	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	1729	1956	6.6E-75	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	MobiDBLite	mobidb-lite	consensus disorder prediction	650	708	-	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	MobiDBLite	mobidb-lite	consensus disorder prediction	662	677	-	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	MobiDBLite	mobidb-lite	consensus disorder prediction	1173	1184	-	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	MobiDBLite	mobidb-lite	consensus disorder prediction	689	701	-	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	MobiDBLite	mobidb-lite	consensus disorder prediction	1173	1204	-	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:1.20.58.530	-	493	732	6.8E-228	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SMART	SM01132	DIL_2	1483	1586	2.0E-44	T	18-03-2025	IPR002710	Dilute domain	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	1971	2147	1.91E-30	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Coils	Coil	Coil	1064	1112	-	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	CDD	cd01380	MYSc_Myo5	115	827	0.0	T	18-03-2025	IPR036103	Class V myosin, motor domain	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSiteProfiles	PS50096	IQ motif profile.	938	965	8.5351	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSiteProfiles	PS50096	IQ motif profile.	890	917	7.7116	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF01843	DIL domain	1483	1583	4.8E-28	T	18-03-2025	IPR002710	Dilute domain	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Coils	Coil	Coil	1012	1046	-	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:2.30.140.10	Spermidine synthase, tetramerisation domain	1658	1728	1.7E-25	T	18-03-2025	IPR037163	Spermidine synthase, tetramerisation domain superfamily	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Pfam	PF00063	Myosin head (motor domain)	104	827	2.4E-247	T	18-03-2025	IPR001609	Myosin head, motor domain-like	GO:0003774(InterPro)|GO:0005524(InterPro)|GO:0016459(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	Gene3D	G3DSA:1.10.10.820	-	301	363	6.8E-228	T	18-03-2025	-	-	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	ProSiteProfiles	PS51126	Dilute domain profile.	1323	1603	48.875137	T	18-03-2025	IPR002710	Dilute domain	-	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	PRINTS	PR00193	Myosin heavy chain signature	187	212	2.6E-60	T	18-03-2025	IPR001609	Myosin head, motor domain-like	GO:0003774(InterPro)|GO:0005524(InterPro)|GO:0016459(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	PRINTS	PR00193	Myosin heavy chain signature	483	511	2.6E-60	T	18-03-2025	IPR001609	Myosin head, motor domain-like	GO:0003774(InterPro)|GO:0005524(InterPro)|GO:0016459(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	PRINTS	PR00193	Myosin heavy chain signature	131	150	2.6E-60	T	18-03-2025	IPR001609	Myosin head, motor domain-like	GO:0003774(InterPro)|GO:0005524(InterPro)|GO:0016459(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	PRINTS	PR00193	Myosin heavy chain signature	245	272	2.6E-60	T	18-03-2025	IPR001609	Myosin head, motor domain-like	GO:0003774(InterPro)|GO:0005524(InterPro)|GO:0016459(InterPro)	-
+GCA_013368555.1	0cd1cae701621c7981af2545a07304fd	2426	PRINTS	PR00193	Myosin heavy chain signature	537	565	2.6E-60	T	18-03-2025	IPR001609	Myosin head, motor domain-like	GO:0003774(InterPro)|GO:0005524(InterPro)|GO:0016459(InterPro)	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Gene3D	G3DSA:3.40.50.720	-	305	426	1.8E-44	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	NCBIfam	TIGR00417	spermidine synthase	13	279	3.8E-107	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Pfam	PF01564	Spermine/spermidine synthase domain	69	250	4.9E-70	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	305	459	4.06E-29	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	ProSiteProfiles	PS51006	Polyamine biosynthesis (PABS) domain profile.	11	246	103.708229	T	18-03-2025	IPR030374	Polyamine biosynthesis domain	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	305	451	2.4E-46	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	447	576	2.0E-26	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	9	285	1.4E-89	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	PANTHER	PTHR11558	SPERMIDINE/SPERMINE SYNTHASE	6	285	1.2E-121	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)|GO:0004766(PANTHER)|GO:0005829(PANTHER)|GO:0008295(PANTHER)	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	427	528	1.05E-11	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Gene3D	G3DSA:3.40.50.720	-	527	575	1.5E-40	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	FunFam	G3DSA:3.40.50.150:FF:000013	Spermidine synthase	66	286	2.4E-104	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	428	483	1.5E-40	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	FunFam	G3DSA:2.30.140.10:FF:000001	SPE3p Spermidine synthase	2	66	8.3E-35	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	ProSitePatterns	PS01330	Polyamine biosynthesis (PABS) domain signature.	90	103	-	T	18-03-2025	IPR030373	Polyamine biosynthesis domain, conserved site	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Hamap	MF_00198	Polyamine aminopropyltransferase [speE].	12	285	35.802437	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	68	287	2.9E-81	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	307	422	7.9E-23	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	484	526	1.5E-40	T	18-03-2025	-	-	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Gene3D	G3DSA:2.30.140.10	Spermidine synthase, tetramerisation domain	3	66	2.8E-27	T	18-03-2025	IPR037163	Spermidine synthase, tetramerisation domain superfamily	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	Pfam	PF17284	Spermidine synthase tetramerisation domain	12	66	4.1E-20	T	18-03-2025	IPR035246	Spermidine synthase, tetramerisation domain	-	-
+GCA_019616975.1	608fd478be16fb4cb4ddfbd9188b8cbd	583	CDD	cd02440	AdoMet_MTases	111	196	7.3054E-9	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PANTHER	PTHR43814	ARGININOSUCCINATE LYASE	465	931	8.2E-182	T	18-03-2025	IPR009049	Argininosuccinate lyase	GO:0004056(InterPro)|GO:0004056(PANTHER)|GO:0005829(PANTHER)|GO:0042450(InterPro)|GO:0042450(PANTHER)	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	FunFam	G3DSA:1.20.200.10:FF:000025	Argininosuccinate lyase chloroplastic	584	752	2.0E-82	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	NCBIfam	TIGR00838	argininosuccinate lyase	479	928	6.1E-168	T	18-03-2025	IPR009049	Argininosuccinate lyase	GO:0004056(InterPro)|GO:0042450(InterPro)	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Hamap	MF_00006	Argininosuccinate lyase [argH].	478	929	36.963528	T	18-03-2025	IPR009049	Argininosuccinate lyase	GO:0004056(InterPro)|GO:0042450(InterPro)	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	129	395	5.69E-99	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Gene3D	G3DSA:1.20.200.10	Fumarase/aspartase (Central domain)	596	924	4.3E-182	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	128	442	1.3E-97	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	14	124	9.6E-20	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Gene3D	G3DSA:1.10.40.30	-	837	908	4.3E-182	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	14	184	4.89E-30	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Pfam	PF00206	Lyase	482	777	1.1E-83	T	18-03-2025	IPR022761	Fumarate lyase, N-terminal	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	130	271	8.5E-59	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	4	139	2.0E-44	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Gene3D	G3DSA:1.10.275.10	-	498	706	4.3E-182	T	18-03-2025	IPR024083	Fumarase/histidase, N-terminal	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00145	Argininosuccinate lyase family signature	670	686	2.7E-54	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00145	Argininosuccinate lyase family signature	752	768	2.7E-54	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00145	Argininosuccinate lyase family signature	708	732	2.7E-54	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00145	Argininosuccinate lyase family signature	619	639	2.7E-54	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00145	Argininosuccinate lyase family signature	787	806	2.7E-54	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00145	Argininosuccinate lyase family signature	578	600	2.7E-54	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	FunFam	G3DSA:1.10.275.10:FF:000002	Argininosuccinate lyase	498	598	2.4E-35	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Pfam	PF14698	Argininosuccinate lyase C-terminal	840	907	8.2E-23	T	18-03-2025	IPR029419	Argininosuccinate lyase, C-terminal	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	CDD	cd01359	Argininosuccinate_lyase	498	931	0.0	T	18-03-2025	IPR009049	Argininosuccinate lyase	GO:0004056(InterPro)|GO:0042450(InterPro)	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	ProSitePatterns	PS00163	Fumarate lyases signature.	752	761	-	T	18-03-2025	IPR020557	Fumarate lyase, conserved site	GO:0003824(InterPro)	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	254	353	1.5E-192	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Gene3D	G3DSA:3.40.50.720	-	6	439	1.5E-192	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	129	396	1.5E-192	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	FunFam	G3DSA:1.10.40.30:FF:000001	Argininosuccinate lyase	837	908	3.0E-26	T	18-03-2025	-	-	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	SUPERFAMILY	SSF48557	L-aspartase-like	482	932	1.38E-133	T	18-03-2025	IPR008948	L-Aspartase-like	GO:0003824(InterPro)	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00149	Fumarate lyase superfamily signature	579	597	4.8E-19	T	18-03-2025	IPR000362	Fumarate lyase family	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00149	Fumarate lyase superfamily signature	708	735	4.8E-19	T	18-03-2025	IPR000362	Fumarate lyase family	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00149	Fumarate lyase superfamily signature	624	642	4.8E-19	T	18-03-2025	IPR000362	Fumarate lyase family	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	PRINTS	PR00149	Fumarate lyase superfamily signature	752	768	4.8E-19	T	18-03-2025	IPR000362	Fumarate lyase family	-	-
+GCA_002812745.2	2073e9a4e4dd11b0d985b100aba1f9ec	933	FunFam	G3DSA:1.10.1870.10:FF:000002	Saccharopine dehydrogenase Lys9	254	353	6.9E-44	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	395	592	1.6E-79	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	CDD	cd02440	AdoMet_MTases	108	193	4.15822E-9	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Gene3D	G3DSA:3.40.50.720	-	593	641	1.6E-79	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Pfam	PF01564	Spermine/spermidine synthase domain	66	247	6.0E-70	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	ProSitePatterns	PS01330	Polyamine biosynthesis (PABS) domain signature.	87	100	-	T	18-03-2025	IPR030373	Polyamine biosynthesis domain, conserved site	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	302	395	1.02E-19	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	65	284	3.7E-81	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	388	642	9.0E-53	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	NCBIfam	TIGR00417	spermidine synthase	10	276	4.8E-107	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Pfam	PF17284	Spermidine synthase tetramerisation domain	9	63	4.7E-20	T	18-03-2025	IPR035246	Spermidine synthase, tetramerisation domain	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	304	394	2.9E-14	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	FunFam	G3DSA:2.30.140.10:FF:000001	SPE3p Spermidine synthase	1	63	8.2E-32	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	FunFam	G3DSA:3.40.50.150:FF:000013	Spermidine synthase	63	283	3.0E-104	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Hamap	MF_00198	Polyamine aminopropyltransferase [speE].	9	282	35.802437	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	PANTHER	PTHR11558	SPERMIDINE/SPERMINE SYNTHASE	4	282	8.7E-121	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)|GO:0004766(PANTHER)|GO:0005829(PANTHER)|GO:0008295(PANTHER)	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Gene3D	G3DSA:3.40.50.720	-	299	394	8.9E-27	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Gene3D	G3DSA:1.10.1870.10	Domain 3, Saccharopine reductase	448	549	1.6E-79	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	Gene3D	G3DSA:2.30.140.10	Spermidine synthase, tetramerisation domain	1	63	1.0E-26	T	18-03-2025	IPR037163	Spermidine synthase, tetramerisation domain superfamily	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	388	594	3.6E-46	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	ProSiteProfiles	PS51006	Polyamine biosynthesis (PABS) domain profile.	8	243	103.708229	T	18-03-2025	IPR030374	Polyamine biosynthesis domain	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	FunFam	G3DSA:1.10.1870.10:FF:000002	Saccharopine dehydrogenase Lys9	448	549	3.7E-31	T	18-03-2025	-	-	-	-
+GCA_019627725.1	3d5f80f2407c084ef507c7a559335848	649	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	8	282	4.16E-89	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	ProSiteProfiles	PS51006	Polyamine biosynthesis (PABS) domain profile.	11	243	95.47345	T	18-03-2025	IPR030374	Polyamine biosynthesis domain	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Gene3D	G3DSA:2.30.140.10	Spermidine synthase, tetramerisation domain	2	65	8.1E-28	T	18-03-2025	IPR037163	Spermidine synthase, tetramerisation domain superfamily	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	SUPERFAMILY	SSF55347	Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain	428	549	1.05E-47	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	CDD	cd02440	AdoMet_MTases	111	193	6.02668E-5	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	FunFam	G3DSA:2.30.140.10:FF:000001	SPE3p Spermidine synthase	2	66	2.1E-35	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Pfam	PF17284	Spermidine synthase tetramerisation domain	12	66	8.5E-21	T	18-03-2025	IPR035246	Spermidine synthase, tetramerisation domain	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	PANTHER	PTHR11558	SPERMIDINE/SPERMINE SYNTHASE	6	282	5.7E-112	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)|GO:0004766(PANTHER)|GO:0005829(PANTHER)|GO:0008295(PANTHER)	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	FunFam	G3DSA:3.30.360.10:FF:000008	Alpha-aminoadipic semialdehyde synthase, mitochondrial	429	578	1.1E-54	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Pfam	PF03435	Saccharopine dehydrogenase NADP binding domain	308	423	1.1E-21	T	18-03-2025	IPR005097	Saccharopine dehydrogenase, NADP binding domain	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	ProSitePatterns	PS01330	Polyamine biosynthesis (PABS) domain signature.	90	103	-	T	18-03-2025	IPR030373	Polyamine biosynthesis domain, conserved site	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Pfam	PF01564	Spermine/spermidine synthase domain	69	248	2.2E-61	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	NCBIfam	TIGR00417	spermidine synthase	13	276	7.6E-98	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	FunFam	G3DSA:3.40.50.720:FF:000072	Saccharopine dehydrogenase [NADP(+), L-glutamate-forming]	306	439	3.2E-47	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Gene3D	G3DSA:3.30.360.10	Dihydrodipicolinate Reductase; domain 2	428	549	9.7E-112	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Hamap	MF_00198	Polyamine aminopropyltransferase [speE].	12	282	32.690559	T	18-03-2025	IPR001045	Spermidine/spermine synthases	GO:0003824(InterPro)	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Gene3D	G3DSA:3.40.50.720	-	306	427	9.7E-112	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	FunFam	G3DSA:3.40.50.150:FF:000013	Spermidine synthase	66	283	6.6E-93	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	SUPERFAMILY	SSF51735	NAD(P)-binding Rossmann-fold domains	305	482	1.29E-32	T	18-03-2025	IPR036291	NAD(P)-binding domain superfamily	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Gene3D	G3DSA:3.40.50.150	Vaccinia Virus protein VP39	66	286	3.1E-72	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	MobiDBLite	mobidb-lite	consensus disorder prediction	582	597	-	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	MobiDBLite	mobidb-lite	consensus disorder prediction	569	597	-	T	18-03-2025	-	-	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	Pfam	PF16653	Saccharopine dehydrogenase C-terminal domain	427	550	9.1E-46	T	18-03-2025	IPR032095	Saccharopine dehydrogenase-like, C-terminal	-	-
+GCA_004681135.1	33dba0e059a5ba0826f1b822d9320b5b	597	SUPERFAMILY	SSF53335	S-adenosyl-L-methionine-dependent methyltransferases	9	282	2.9E-81	T	18-03-2025	IPR029063	S-adenosyl-L-methionine-dependent methyltransferase superfamily	-	-
