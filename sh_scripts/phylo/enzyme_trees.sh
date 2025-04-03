@@ -9,7 +9,7 @@
 
 # Create output directories
 mkdir -p out_iqtree
-mkdir -p /work3/s233201/enzyme_out_3/enzyme_trees
+mkdir -p /work3/s233201/enzyme_out_4/enzyme_trees
 
 # Function to count running jobs
 count_running_jobs() {
@@ -19,7 +19,7 @@ count_running_jobs() {
 MAX_CONCURRENT=20
 
 # Process each alignment file
-for aln in /work3/s233201/enzyme_out_3/alignments/*.aln; do
+for aln in /work3/s233201/enzyme_out_4/trim/*.aln; do
     # Extract enzyme name from filename
     enzyme=$(basename "$aln" .aln)
     
@@ -30,7 +30,7 @@ for aln in /work3/s233201/enzyme_out_3/alignments/*.aln; do
     done
     
     # Create enzyme-specific output directory
-    out_dir="/work3/s233201/enzyme_out_3/enzyme_trees/$enzyme"
+    out_dir="/work3/s233201/enzyme_out_4/enzyme_trees/$enzyme"
     mkdir -p "$out_dir"
     
     echo "Submitting IQ-TREE job for ${enzyme}"

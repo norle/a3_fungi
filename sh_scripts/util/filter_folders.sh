@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to the CSV file
-csv_file="/zhome/85/8/203063/a3_fungi/data_out/busco_results_600.csv"
+csv_file="/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing_after_interpro.csv"
 
 # Path to the directory containing the folders
 source_dir="/work3/s233201/finished_runs"

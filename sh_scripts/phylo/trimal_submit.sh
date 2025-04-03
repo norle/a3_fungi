@@ -20,7 +20,7 @@ count_running_jobs() {
     bjobs -w | grep "trimal_" | wc -l
 }
 
-MAX_CONCURRENT=50
+MAX_CONCURRENT=200
 
 # Process each alignment file
 for aln_file in "${SOURCE_DIR}"/*.aln; do

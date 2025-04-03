@@ -7,7 +7,7 @@
 #BSUB -R "rusage[mem=1GB]"
 #BSUB -W 48:00
 
-BASE_DIR="/work3/s233201/output_phyl_busco_1/supermatrix"
+BASE_DIR="/work3/s233201/output_phyl_busco_3/supermatrix"
 
 # Create output directories if they don't exist
 mkdir -p out_mafft
@@ -18,7 +18,7 @@ count_running_jobs() {
     bjobs -w | grep "mafft_" | wc -l
 }
 
-MAX_CONCURRENT=20
+MAX_CONCURRENT=100
 
 # Process each sequence file
 for seq_file in ${BASE_DIR}/sequences/*.faa; do
@@ -37,8 +37,8 @@ for seq_file in ${BASE_DIR}/sequences/*.faa; do
     bsub -J "mafft_${filename}" \
          -o "out_mafft/mafft_${filename}_%J.out" \
          -e "out_mafft/mafft_${filename}_%J.err" \
-         -n 8 \
-         -R "span[hosts=1] rusage[mem=1GB]" \
+         -n 2 \
+         -R "span[hosts=1] rusage[mem=4GB]" \
          -q hpc \
          -W 12:00 \
          "source ~/miniconda3/etc/profile.d/conda.sh && \

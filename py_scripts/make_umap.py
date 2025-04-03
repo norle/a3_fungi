@@ -4,8 +4,34 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from ete3 import Tree
+import multiprocessing
+from functools import partial
 
-def make_umap(gene_name):
+def process_gene_data(gene_name):
+    """Process single gene and return UMAP coordinates and taxa information"""
+    try:
+        taxa_df = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_non_filtered.csv')
+        mldist_name = f'/work3/s233201/enzyme_out_3/enzyme_trees/{gene_name}/tree_iq_multi_LGI.mldist'
+        
+        distance_matrix = pd.read_csv(mldist_name, sep='\s+', header=None, skiprows=1)
+        distance_matrix = distance_matrix.to_numpy()
+        accessions = distance_matrix[:, 0]
+        distance_matrix = distance_matrix[:, 1:]
+        
+        taxa_df['Accession_short'] = taxa_df['Accession'].str[:15]
+        accessions_short = np.array([acc[:15] for acc in accessions])
+        taxa_df = taxa_df[taxa_df['Accession_short'].isin(accessions_short)].copy()
+        taxa_df = taxa_df.set_index('Accession_short').loc[accessions_short].reset_index()
+        
+        if distance_matrix.size > 0 and len(taxa_df) == len(accessions):
+            reducer = UMAP(n_components=2, metric='precomputed', random_state=42, min_dist=0.1, n_neighbors=100)
+            embedding = reducer.fit_transform(distance_matrix)
+            return gene_name, embedding, taxa_df['Phylum'].values
+    except Exception as e:
+        print(f"Error processing {gene_name}: {str(e)}")
+        return None
+
+def make_umap(gene_name, use_subplots=False, ax=None):
     # Toggle tree visualization here
     SHOW_TREE = False  # Set to True to show phylogenetic tree edges
     OUTPUT_PATH = f'/zhome/85/8/203063/a3_fungi/figures/enzyme_umaps/{gene_name}.png'
@@ -56,8 +82,9 @@ def make_umap(gene_name):
             # Create a mapping from node names to UMAP coordinates
             name_to_idx = {acc[:15]: i for i, acc in enumerate(accessions)}
             
-            # Create plot with larger figure size
-            plt.figure(figsize=(15, 10))
+            if not use_subplots:
+                plt.figure(figsize=(15, 10))
+                ax = plt.gca()
             
             # First plot edges from the tree (with low opacity) if enabled
             if SHOW_TREE:
@@ -93,29 +120,63 @@ def make_umap(gene_name):
             # Plot each phylum separately for legend
             for phylum in phyla:
                 mask = taxa_df['Phylum'] == phylum
-                plt.scatter(embedding[mask.values, 0], 
+                ax.scatter(embedding[mask.values, 0], 
                         embedding[mask.values, 1],
-                        s=30,
+                        s=12,
                         label=phylum,
                         color=PHYLUM_COLORS.get(phylum, '#999999'),  # Default to gray if phylum not in dictionary
                         alpha=0.8,
                         zorder=2)
             
-            plt.title('UMAP projection with phylogenetic relationships')
-            plt.xlabel('UMAP1')
-            plt.ylabel('UMAP2')
-            plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
-            plt.tight_layout()
+            # Remove axis scales and ticks
+            ax.set_xticks([])
+            ax.set_yticks([])
+            ax.set_xticklabels([])
+            ax.set_yticklabels([])
             
-            # Save the plot with appropriate filename
-            plt.savefig(OUTPUT_PATH, dpi=300, bbox_inches='tight')
-            plt.close()
+            ax.set_title(f'{gene_name}', fontsize=16, pad=5)
+            # ax.set_xlabel('UMAP1')
+            # ax.set_ylabel('UMAP2')
+            
+            # Only save if not using subplots
+            if not use_subplots:
+                plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+                plt.tight_layout()
+                plt.savefig(f'/zhome/85/8/203063/a3_fungi/figures/enzyme_umaps/{gene_name}.png', dpi=300, bbox_inches='tight')
+                plt.close()
         else:
             print("Error: Empty distance matrix")
     except Exception as e:
         print(f"Error processing data: {str(e)}")
 
 if __name__ == '__main__':
-    gene_names = ['LYS1', 'LYS2', 'LYS4', 'LYS9', 'LYS12', 'LYS20', 'ARO8', 'ACO2']
-    for gene_name in gene_names:
-        make_umap(gene_name)
+    gene_names = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
+    use_subplots = True  # Toggle for subplot vs separate plots
+    
+    if use_subplots:
+        # Process all genes in parallel
+        with multiprocessing.Pool() as pool:
+            results = pool.map(process_gene_data, gene_names)
+        results = [r for r in results if r is not None]
+        
+        # Create subplot grid
+        n_rows = 2
+        n_cols = 4
+        fig, axes = plt.subplots(n_rows, n_cols, figsize=(16, 8))
+        axes = axes.ravel()
+        
+        # Plot each result in its subplot
+        for idx, (gene_name, embedding, phyla) in enumerate(results):
+            make_umap(gene_name, use_subplots=True, ax=axes[idx])
+        
+        # Add single legend for all subplots
+        handles, labels = axes[-1].get_legend_handles_labels()
+        # fig.legend(handles, labels, bbox_to_anchor=(1.05, 0.5), loc='center left')
+        
+        plt.tight_layout()
+        plt.savefig('/zhome/85/8/203063/a3_fungi/figures/enzyme_umaps/all_genes.png', dpi=300, bbox_inches='tight')
+        plt.close()
+    else:
+        # Process genes individually
+        for gene_name in gene_names:
+            make_umap(gene_name)

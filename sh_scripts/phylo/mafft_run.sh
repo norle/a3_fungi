@@ -33,7 +33,9 @@ conda activate mafft
 
 # mafft --auto --thread 16 /work3/s233201/output_phyl/supermatrix/sequences/494at4751.faa > /work3/s233201/output_phyl/supermatrix/alignments/494at4751.faa
 
-fftnsi --thread 16 /work3/s233201/output_phyl/supermatrix/sequences/494at4751.faa > /work3/s233201/output_phyl/supermatrix/alignments/494at4751_test.faa
+# fftnsi --thread 16 /work3/s233201/output_phyl_busco_3/supermatrix/sequences/771at4751.faa > /work3/s233201/output_phyl_busco_3/supermatrix/alignments/771at4751.aln
+
+mafft --auto --thread 16 /work3/s233201/output_phyl_busco_3/supermatrix/sequences/494at4751.faa > /work3/s233201/output_phyl_busco_3/supermatrix/alignments/494at4751.aln
 
 
 
