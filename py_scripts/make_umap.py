@@ -42,8 +42,8 @@ def make_umap(gene_name, use_subplots=False, ax=None):
         taxa_df = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_non_filtered.csv')
         #taxa_df = pd.read_csv('/work3/s233201/enzyme_out/final_iq.mldist')
         
-        mldist_name = f'/work3/s233201/enzyme_out_3/enzyme_trees/{gene_name}/tree_iq_multi_LGI.mldist'
-        tree_name = f'/work3/s233201/enzyme_out_3/enzyme_trees/{gene_names}tree_iq_multi_LGI.treefile'
+        mldist_name = f'/work3/s233201/enzyme_out_6/enzyme_trees/{gene_name}/tree_iq_multi_LGI.mldist'
+        tree_name = f'/work3/s233201/enzyme_out_6/enzyme_trees/{gene_names}tree_iq_multi_LGI.treefile'
 
         #mldist_name = '/work3/s233201/output_phyl_busco_1/tree_iq_multi_LGI.mldist'
         #tree_name = '/work3/s233201/output_phyl_busco_1/tree_iq_multi_LGI.treefile'
@@ -122,10 +122,10 @@ def make_umap(gene_name, use_subplots=False, ax=None):
                 mask = taxa_df['Phylum'] == phylum
                 ax.scatter(embedding[mask.values, 0], 
                         embedding[mask.values, 1],
-                        s=12,
+                        s=0.5,
                         label=phylum,
                         color=PHYLUM_COLORS.get(phylum, '#999999'),  # Default to gray if phylum not in dictionary
-                        alpha=0.8,
+                        alpha=0.6,
                         zorder=2)
             
             # Remove axis scales and ticks
@@ -154,7 +154,7 @@ if __name__ == '__main__':
     use_subplots = True  # Toggle for subplot vs separate plots
     
     if use_subplots:
-        # Process all genes in parallel
+        # Process all genes in parallel to get data
         with multiprocessing.Pool() as pool:
             results = pool.map(process_gene_data, gene_names)
         results = [r for r in results if r is not None]
@@ -165,18 +165,58 @@ if __name__ == '__main__':
         fig, axes = plt.subplots(n_rows, n_cols, figsize=(16, 8))
         axes = axes.ravel()
         
-        # Plot each result in its subplot
-        for idx, (gene_name, embedding, phyla) in enumerate(results):
-            make_umap(gene_name, use_subplots=True, ax=axes[idx])
+        # Plot each result in its subplot (plotting itself is sequential here)
+        # Define phylum colors using ColorBrewer - moved outside loop for consistency
+        PHYLUM_COLORS = {
+            'Ascomycota': '#377eb8',        # Blue
+            'Basidiomycota': '#e41a1c',     # Red
+            'Mucoromycota': '#4daf4a',      # Green
+            'Zoopagomycota': '#984ea3',     # Purple
+            'Chytridiomycota': '#ff7f00',   # Orange
+            'Blastocladiomycota': '#ffff33',# Yellow
+            'Cryptomycota': '#a65628'       # Brown
+        }
+        all_phyla = set()
+        for _, _, phyla_list in results:
+            all_phyla.update(phyla_list)
+        sorted_phyla = sorted(list(all_phyla))
+
+        for idx, (gene_name, embedding, phyla_values) in enumerate(results):
+            ax = axes[idx]
+            # Plot each phylum separately for legend
+            phyla_series = pd.Series(phyla_values) # Convert numpy array to Series for boolean indexing
+            for phylum in sorted_phyla:
+                mask = phyla_series == phylum
+                if mask.any(): # Check if there are any points for this phylum
+                    ax.scatter(embedding[mask.values, 0], 
+                            embedding[mask.values, 1],
+                            s=0.5,
+                            label=phylum,
+                            color=PHYLUM_COLORS.get(phylum, '#999999'),  # Default to gray
+                            alpha=0.6,
+                            zorder=2)
+            
+            # Remove axis scales and ticks
+            ax.set_xticks([])
+            ax.set_yticks([])
+            ax.set_xticklabels([])
+            ax.set_yticklabels([])
+            ax.set_title(f'{gene_name}', fontsize=16, pad=5)
+
+        # Create a single legend for the figure
+        handles = []
+        labels = []
+        for phylum in sorted_phyla:
+            handles.append(plt.Line2D([0], [0], marker='o', color='w', label=phylum,
+                                      markerfacecolor=PHYLUM_COLORS.get(phylum, '#999999'), markersize=5))
+            labels.append(phylum)
         
-        # Add single legend for all subplots
-        handles, labels = axes[-1].get_legend_handles_labels()
-        # fig.legend(handles, labels, bbox_to_anchor=(1.05, 0.5), loc='center left')
+        fig.legend(handles, labels, bbox_to_anchor=(1.05, 0.5), loc='center left', title="Phylum")
         
-        plt.tight_layout()
-        plt.savefig('/zhome/85/8/203063/a3_fungi/figures/enzyme_umaps/all_genes.png', dpi=300, bbox_inches='tight')
-        plt.close()
+        plt.tight_layout(rect=[0, 0, 0.9, 1]) # Adjust layout to make space for legend
+        plt.savefig('/zhome/85/8/203063/a3_fungi/figures/enzyme_umaps/all_genes_subplots.png', dpi=300, bbox_inches='tight')
+        plt.close(fig) # Close the figure object
     else:
-        # Process genes individually
-        for gene_name in gene_names:
-            make_umap(gene_name)
+        # Process and plot genes individually in parallel
+        with multiprocessing.Pool() as pool:
+            pool.map(make_umap, gene_names)

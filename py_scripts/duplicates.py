@@ -74,10 +74,11 @@ def enzyme_matrices():
 
     gene_names = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
     for gene_name in gene_names:
-        in_fasta = f'/work3/s233201/enzyme_out_3/{gene_name}.fasta'
-        unique_fasta = f'/work3/s233201/enzyme_out_3/enzyme_trees/{gene_name}/tree_iq_multi_LGI.uniqueseq.phy'
-        mat_dist_name = f'/work3/s233201/enzyme_out_3/enzyme_trees/{gene_name}/tree_iq_multi_LGI.mldist'
-        log_file = f'/work3/s233201/enzyme_out_3/enzyme_trees/{gene_name}/tree_iq_multi_LGI.log'
+        base_dir = '/work3/s233201/enzyme_out_6/enzyme_trees'
+        in_fasta = f'/work3/s233201/enzyme_out_6/{gene_name}.fasta'
+        unique_fasta = f'{base_dir}/{gene_name}/tree_iq_multi_LGI.uniqueseq.phy'
+        mat_dist_name = f'{base_dir}/{gene_name}/tree_iq_multi_LGI.mldist'
+        log_file = f'{base_dir}/{gene_name}/tree_iq_multi_LGI.log'
 
         mat_dist = pd.read_csv(mat_dist_name, sep=r'\s+', header=None, skiprows=1)
         mat_dist = mat_dist.iloc[:, 1:].to_numpy()
@@ -89,14 +90,25 @@ def enzyme_matrices():
 
 def single_matrix():
 
-    main_dir = '/work3/s233201/enzyme_out_1'
-    in_fasta = f'{main_dir}/final.aln'
+    main_dir = '/work3/s233201/enzyme_out_6'
+    in_fasta = f'{main_dir}/final.fasta'
     
-    unique_fasta = f'{main_dir}/tree_iq_multi_LGI.uniqueseq.phy'
-    mat_dist_name = f'{main_dir}/tree_iq_multi_LGI.mldist'
-    log_file = f'{main_dir}/tree_iq_multi_LGI.log'
+    
+    unique_fasta = f'{main_dir}/tree_LGI.uniqueseq.phy'
+    mat_dist_name = f'{main_dir}/tree_LGI.mldist'
+    log_file = f'{main_dir}/tree_LGI.log'
 
-    output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl.csv'
+    output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl_6.csv'
+
+    # main_dir = '/work3/s233201/output_phyl_busco_4'
+    # in_fasta = f'{main_dir}/final.fasta'
+    
+    
+    # unique_fasta = f'{main_dir}/tree_iq_LGI.uniqueseq.phy'
+    # mat_dist_name = f'{main_dir}/tree_iq_LGI.mldist'
+    # log_file = f'{main_dir}/tree_iq_LGI.log'
+
+    # output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/busco_phyl_4.csv'
 
     mat_dist = pd.read_csv(mat_dist_name, sep=r'\s+', header=None, skiprows=1)
     mat_dist = mat_dist.iloc[:, 1:].to_numpy()
@@ -109,4 +121,4 @@ def single_matrix():
 if __name__ == '__main__':
 
     single_matrix()
-    
+    #enzyme_matrices()

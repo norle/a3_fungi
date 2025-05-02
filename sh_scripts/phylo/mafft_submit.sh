@@ -7,7 +7,7 @@
 #BSUB -R "rusage[mem=1GB]"
 #BSUB -W 48:00
 
-BASE_DIR="/work3/s233201/output_phyl_busco_3/supermatrix"
+BASE_DIR="/work3/s233201/output_phyl_busco_4/supermatrix"
 
 # Create output directories if they don't exist
 mkdir -p out_mafft

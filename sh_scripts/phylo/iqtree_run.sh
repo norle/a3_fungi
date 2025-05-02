@@ -33,6 +33,6 @@ conda activate busco_phyl
 
 # iqtree -s /work3/s233201/output_phyl_busco/supermatrix/final.aln -T 20 -mem 300G -m LG+I -B 1000 -pre /work3/s233201/output_phyl_busco/tree_iq_multi_LGI
 
-iqtree -s /work3/s233201/output_phyl_busco_3/final.fasta -T 20 -mem 300G -m LG+I -B 1000 -pre /work3/s233201/output_phyl_busco_3/tree_iq_LGI
+iqtree -s /work3/s233201/output_phyl_busco_4/supermatrix/final.fasta -T 20 -mem 300G -m LG+I -B 1000 -pre /work3/s233201/output_phyl_busco_4/tree_iq_LGI
 
-# iqtree -s /work3/s233201/enzyme_out_4/final.fasta -T 20 -m LG+I -B 1000 -pre /work3/s233201/enzyme_out_4/tree_LGI
+# iqtree -s /work3/s233201/enzyme_out_6/final.fasta -T 20 -m LG+I -B 1000 -pre /work3/s233201/enzyme_out_6/tree_LGI

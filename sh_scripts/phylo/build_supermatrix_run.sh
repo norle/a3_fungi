@@ -31,5 +31,9 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate busco_phyl
 
-python -u ~/a3_fungi/py_scripts/build_supermatrix.py -i /work3/s233201/output_phyl_busco_3/supermatrix/trim -o /work3/s233201/output_phyl_busco_3/final.fasta
+# Define the input and output directories
+# BASE_DIR="/work3/s233201/output_phyl_busco_4/supermatrix"
+BASE_DIR="/work3/s233201/enzyme_out_6"
+
+python -u ~/a3_fungi/py_scripts/build_supermatrix.py -i ${BASE_DIR}/trim -o ${BASE_DIR}/final.fasta
 

@@ -37,20 +37,45 @@ def get_colors_numba(rows, cols, phyla_indices, pair_to_color_idx):
 
 
 def plot_dms(dm1, dm2, dm1_name='dm1', dm2_name='dm2', to_remove=None):
-    # Align both dms
+    # Clean up and standardize accession IDs
     dm1.iloc[:, 0] = dm1.iloc[:, 0].str[:15]
     dm2.iloc[:, 0] = dm2.iloc[:, 0].str[:15]
     
     dm1_order = dm1.iloc[:, 0].tolist()
+    dm2_order = dm2.iloc[:, 0].tolist()
+    
+    # Find common entries between dm1 and dm2
+    common_entries = list(set(dm1_order) & set(dm2_order))
+    missing_entries = set(dm1_order) - set(dm2_order)
+    if missing_entries:
+        print(f"Warning: Following entries are missing from {dm2_name}:")
+        print(missing_entries)
+        print("Removing these entries from both matrices...")
+    
+    # Filter rows and corresponding columns for both matrices
+    keep_indices_dm1 = [i for i, acc in enumerate(dm1_order) if acc in common_entries]
+    keep_indices_dm2 = [i for i, acc in enumerate(dm2_order) if acc in common_entries]
+    
+    # Filter rows
+    dm1 = dm1.iloc[keep_indices_dm1].reset_index(drop=True)
+    dm2 = dm2.iloc[keep_indices_dm2].reset_index(drop=True)
+    
+    # Filter columns (excluding first column which contains accessions)
+    col_indices_dm1 = [0] + [i + 1 for i in keep_indices_dm1]
+    col_indices_dm2 = [0] + [i + 1 for i in keep_indices_dm2]
+    
+    dm1 = dm1.iloc[:, col_indices_dm1]
+    dm2 = dm2.iloc[:, col_indices_dm2]
+    
+    # Update orders after filtering
+    dm1_order = dm1.iloc[:, 0].tolist()
+    dm2_order = dm2.iloc[:, 0].tolist()
     
     # Create mapping for reordering dm2
-    dm2_order = dm2.iloc[:, 0].tolist()
     order_mapping = [dm2_order.index(x) for x in dm1_order]
     
-    # Reorder rows of dm2
+    # Reorder dm2 to match dm1's order
     dm2 = dm2.iloc[order_mapping]
-    
-    # Reorder columns of dm2 (excluding first column)
     dm2_cols = dm2.columns.tolist()
     dm2 = dm2[[dm2_cols[0]] + [dm2_cols[i+1] for i in order_mapping]]
 
@@ -84,7 +109,7 @@ def plot_dms(dm1, dm2, dm1_name='dm1', dm2_name='dm2', to_remove=None):
     dm2_array = dm2.to_numpy()
     
     # Load taxa information to get phyla
-    taxa_df = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing.csv')
+    taxa_df = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing_after_interpro.csv')
     taxa_dict = dict(zip(taxa_df['Accession'].str[:15], taxa_df['Phylum']))
     
     # Map accessions to phyla
@@ -103,9 +128,8 @@ def plot_dms(dm1, dm2, dm1_name='dm1', dm2_name='dm2', to_remove=None):
         '#332288', '#117733', '#44AA99', '#88CCEE', '#DDCC77', '#CC6677', '#AA4499',
         '#882255', '#6699CC', '#661100', '#DD6677', '#AA4466', '#4477AA', '#228833',
         '#CCBB44', '#EE8866', '#BBCC33', '#AAAA00', '#EEDD88', '#FFAABB', '#77AADD',
-        '#99DDFF', '#44BB99', '#DDDDDD', '#000000', '#FFFFFF', '#BBBBBB'
+        '#99DDFF', '#44BB99', '#DDDDDD', '#000000', '#F0E442', '#BBBBBB'
     ]
-    
     # Create color list for phylum pairs, cycling if needed
     color_list = []
     for i in range(len(phyla_pairs)):
@@ -247,17 +271,20 @@ def plot_dms(dm1, dm2, dm1_name='dm1', dm2_name='dm2', to_remove=None):
 
 if __name__ == '__main__':
 
-    with open('/zhome/85/8/203063/a3_fungi/data_out/interpro/all_missing.txt', 'r') as file:
-        to_remove = file.readlines()
+    # with open('/zhome/85/8/203063/a3_fungi/data_out/interpro/all_missing.txt', 'r') as file:
+    #     to_remove = file.readlines()
 
-    dm1_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl.csv'
+    dm1_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl_4.csv'
     dm1_name = 'AAA enzyme phyl'
 
-    dm2_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/busco_phyl.csv'
+    dm2_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/busco_phyl_3.csv'
     dm2_name = 'BUSCO phyl'
     
     dm1 = pd.read_csv(dm1_path, sep=r'\s+', header=None, skiprows=1)
     dm2 = pd.read_csv(dm2_path, sep=r'\s+', header=None, skiprows=1)
 
-    plot_dms(dm1, dm2, dm1_name, dm2_name, to_remove)
+    print(dm1.shape)
+    print(dm2.shape)
+
+    plot_dms(dm1, dm2, dm1_name, dm2_name)
 

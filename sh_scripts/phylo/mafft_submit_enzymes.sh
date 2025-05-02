@@ -9,8 +9,8 @@
 
 
 
-SEQUENCE_DIR="/work3/s233201/enzyme_out_4"
-OUTPUT_DIR="/work3/s233201/enzyme_out_4"
+SEQUENCE_DIR="/work3/s233201/enzyme_out_6"
+OUTPUT_DIR="/work3/s233201/enzyme_out_6"
 
 # Create output directories if they don't exist
 mkdir -p out_mafft

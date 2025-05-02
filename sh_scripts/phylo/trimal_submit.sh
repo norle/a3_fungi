@@ -8,8 +8,11 @@
 #BSUB -W 24:00
 
 # Define source and output paths
-SOURCE_DIR="/work3/s233201/output_phyl_busco_3/supermatrix/alignments"
-OUTPUT_DIR="/work3/s233201/output_phyl_busco_3/supermatrix/trim"
+SOURCE_DIR="/work3/s233201/output_phyl_busco_4/supermatrix/alignments"
+OUTPUT_DIR="/work3/s233201/output_phyl_busco_4/supermatrix/trim"
+
+# SOURCE_DIR="/work3/s233201/enzyme_out_6/alignments"
+# OUTPUT_DIR="/work3/s233201/enzyme_out_6/trim"
 
 # Create output directories if they don't exist
 mkdir -p out_trimal

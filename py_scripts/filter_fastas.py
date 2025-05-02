@@ -27,7 +27,7 @@ def filter_fasta(fasta_path, names, output_path):
     return len(missing_names)
 
 def main():
-    main_dir = '/work3/s233201/enzyme_out_4'
+    main_dir = '/work3/s233201/enzyme_out_5'
     file_names = ["ACO2", "ARO8", "LYS1", "LYS2", "LYS4", "LYS9", "LYS12", "LYS20"]
 
     to_keep = pd.read_csv('/zhome/85/8/203063/a3_fungi/data_out/taxa_no_missing_after_interpro.csv')

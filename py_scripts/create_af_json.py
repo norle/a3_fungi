@@ -30,8 +30,8 @@ def fasta_to_af_json(fasta_file, output_file, job_name):
 # Remove main() function and replace with direct usage example
 if __name__ == "__main__":
     # Example usage - modify these values as needed
-    input_fasta = "/work3/s233201/enzyme_out_2/LYS1.fasta"
-    output_json = "/zhome/85/8/203063/a3_fungi/data/lys1.json"
-    job_name = "LYS1"
+    input_fasta = "/zhome/85/8/203063/a3_fungi/data/s_cer_query.fasta"
+    output_json = input_fasta.replace(".fasta", ".json")
+    job_name = "s_cer_query"
     
     fasta_to_af_json(input_fasta, output_json, job_name)
