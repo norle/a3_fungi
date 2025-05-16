@@ -21,7 +21,7 @@
 # -- Error File --
 #BSUB -e out/sm_%J.err
 # -- estimated wall clock time (execution time): hh:mm -- 
-#BSUB -W 48:00
+#BSUB -W 1:00
 # -- Number of cores requested -- 
 #BSUB -n 1
 # -- Specify the distribution of the cores: on a single node --
@@ -32,8 +32,8 @@ source ~/miniconda3/etc/profile.d/conda.sh
 conda activate busco_phyl
 
 # Define the input and output directories
-# BASE_DIR="/work3/s233201/output_phyl_busco_4/supermatrix"
-BASE_DIR="/work3/s233201/enzyme_out_6"
+BASE_DIR="/work3/s233201/output_phyl_busco_4/supermatrix"
+#BASE_DIR="/work3/s233201/enzyme_out_6"
 
 python -u ~/a3_fungi/py_scripts/build_supermatrix.py -i ${BASE_DIR}/trim -o ${BASE_DIR}/final.fasta
 

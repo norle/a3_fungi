@@ -46,10 +46,10 @@ custom_params = {"axes.spines.right": False, "axes.spines.top": False}
 sns.set_theme(style="ticks", rc=custom_params)
 
 # Create a figure with a GridSpec layout
-# Further adjust figsize and height_ratios
-fig = plt.figure(figsize=(26, 22)) # Slightly larger figure size
-# Make bar chart row even shorter relative to pie chart row
-gs = gridspec.GridSpec(2, 3, figure=fig, height_ratios=[1, 1], hspace=0.5, wspace=0.3) # Increased hspace slightly
+# Even larger figure size to accommodate larger text
+fig = plt.figure(figsize=(30, 24))
+# Keep bar chart and pie chart rows equal in height
+gs = gridspec.GridSpec(2, 3, figure=fig, height_ratios=[1, 1], hspace=0.5, wspace=0.3)
 
 ax_bar = fig.add_subplot(gs[0, :]) # Top row, span all columns
 ax_pie1 = fig.add_subplot(gs[1, 0]) # Bottom row, first column
@@ -57,26 +57,17 @@ ax_pie2 = fig.add_subplot(gs[1, 1]) # Bottom row, second column
 ax_pie3 = fig.add_subplot(gs[1, 2]) # Bottom row, third column
 pie_axes = [ax_pie1, ax_pie2, ax_pie3]
 
-# fig.suptitle('Overall and Top 3 Phyla Class Distributions (Non-Filtered Data)', fontsize=24, y=0.98) # Further increased font size
-
 # --- Plot Stacked Bar Chart (Top) ---
 distribution.plot(kind='bar', stacked=True, ax=ax_bar, colormap='tab20', legend=False)
-ax_bar.set_title('Class Distribution Across All Phyla', fontsize=24) # Increased font size
-#ax_bar.set_xlabel('Phylum', fontsize=18) # Increased font size
-ax_bar.set_ylabel('Number of Accessions (Count)', fontsize=18) # Increased font size
-ax_bar.tick_params(axis='x', labelsize=16) # Increased font size
-ax_bar.tick_params(axis='y', labelsize=16) # Increased font size
+ax_bar.set_title('Class Distribution Across All Phyla', fontsize=36) # Doubled font size
+ax_bar.set_ylabel('Number of Accessions (Count)', fontsize=32) # Doubled font size
+ax_bar.tick_params(axis='x', labelsize=28) # Doubled font size
+ax_bar.tick_params(axis='y', labelsize=28) # Doubled font size
 
 # Set rotation and alignment on the actual tick labels
 for label in ax_bar.get_xticklabels():
     label.set_rotation(45)
     label.set_ha('right')
-    # label.set_fontsize(16) # Alternative way to set tick label size
-
-# Optional: Add a legend for the bar chart if feasible
-# handles, labels = ax_bar.get_legend_handles_labels()
-# ax_bar.legend(handles, labels, title='Class', bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0., fontsize='small', title_fontsize='medium')
-
 
 # --- Plot Pie Charts (Bottom) ---
 for i, phylum in enumerate(top_3_phyla):
@@ -91,12 +82,12 @@ for i, phylum in enumerate(top_3_phyla):
     # Add labels back, adjust distances
     wedges, texts, autotexts = ax.pie(
         class_distribution_in_phylum,
-        labels=class_distribution_in_phylum.index, # Add class labels
+        labels=class_distribution_in_phylum.index,
         autopct='%1.1f%%',
         startangle=90,
-        pctdistance=0.80, # Adjust percentage distance from center
-        labeldistance=1.05, # Adjust label distance from center (outside percentage)
-        textprops={'fontsize': 14} # Increased base font size for labels/percentages
+        pctdistance=0.80,
+        labeldistance=1.1, # Increased slightly to accommodate larger text
+        textprops={'fontsize': 20} # Doubled font size for pie chart labels/percentages
     )
 
     # Hide labels AND percentages for very small slices
@@ -106,16 +97,8 @@ for i, phylum in enumerate(top_3_phyla):
         if percentage < threshold:
             pct_label.set_visible(False)
             texts[j].set_visible(False) # Hide the corresponding class label as well
-        # else: # Optional: Make percentage bold for visible slices
-            # pct_label.set_weight('bold')
-            # texts[j].set_fontsize(14) # Increase specific label size
 
-
-    ax.set_title(f'Phylum: {phylum}\n(Total: {phylum_counts[phylum]})', fontsize=20) # Increased font size
-    # Remove legend code as we are using direct labels now
-    # # Add a legend to the side of the pie chart if labels are hidden
-    # # ax.legend(visible_wedges, visible_labels, title="Classes (%)", loc="center left", bbox_to_anchor=(0.95, 0.5), fontsize='small')
-
+    ax.set_title(f'Phylum: {phylum}\n(Total: {phylum_counts[phylum]})', fontsize=32) # Doubled font size
 
 # Adjust layout - may need fine-tuning after size changes
 plt.tight_layout(rect=[0, 0.03, 1, 0.95]) # Adjust rect if suptitle is added back or needed

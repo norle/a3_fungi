@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define directories
-input_dir="/work3/s233201/output_phyl_busco_4/supermatrix/sequences"
+input_dir="/work3/s233201/output_phyl_busco_4/supermatrix/trim"
 trashed_dir="/work3/s233201/output_phyl_busco_4/supermatrix/trashed"
 
 # Check if the trashed directory exists, if not, create it
@@ -19,14 +19,14 @@ threshold=4491  # Change this value as needed
 kept_count=0
 
 # Loop through all *.fasta files in the input directory
-for fasta_file in "$input_dir"/*.faa; do
+for fasta_file in "$input_dir"/*.aln; do
     # Count the number of '>' characters in the file
     count=$(grep -c ">" "$fasta_file")
     
     # Check if the count is below the threshold
     if (( count < threshold )); then
         # Move the file to the trashed directory
-        #mv "$fasta_file" "$trashed_dir"
+        mv "$fasta_file" "$trashed_dir"
         echo "Moved $fasta_file to $trashed_dir (count: $count)"
     else
         echo "Kept $fasta_file (count: $count)"
