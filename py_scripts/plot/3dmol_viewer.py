@@ -151,28 +151,28 @@ def main():
                 }}
 
                 let viewer = $3Dmol.createViewer(element, {{
-                    backgroundColor: "white",
-                    antialias: true,
-                    shadow: true,
-                    shadowIntensity: 0.5  // Reduced shadow intensity
+                    backgroundColor: "white"
+                }});
+
+                // Add style controls UI
+                viewer.addStyle({{
+                    line: {{}},
+                    stick: {{}},
+                    sphere: {{}},
+                    cartoon: {{}}
                 }});
 
                 const pdbData = embeddedPDBData[geneName];
                 viewer.addModel(pdbData, "pdb");
+                viewer.setStyle({{}}, {{cartoon: {{}}}});
                 
-                // Set improved cartoon representation
-                viewer.setStyle({{}}, {{
-                    cartoon: {{
-                        style: "smooth",
-                        thickness: 0.3,  // Thinner tubes
-                        arrows: true,    // Show beta sheets as arrows
-                        opacity: 0.95    // Slight transparency
-                    }}
+                // Add hover labels
+                viewer.addResLabels({{
+                    sele: {{}},
+                    showBackground: true,
+                    backgroundOpacity: 0.8,
+                    alignment: "center"
                 }});
-                
-                // Set better lighting
-                viewer.setLightingPreset("default");
-                viewer.setSlab(0, 0);
                 
                 // Apply conservation coloring if available
                 if (allGenesWithConservation.includes(geneName) && embeddedConservationData[geneName]) {{

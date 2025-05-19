@@ -45,9 +45,9 @@ def modify_tree(input_path, output_path, phylum_map):
 
 if __name__ == "__main__":
     # Define the input and output file paths here
-    input_file_path = "/work3/s233201/enzyme_out_6/tree_LGI.treefile"
+    input_file_path = "/work3/s233201/output_phyl_busco_4/tree_iq_LGI.treefile"
     # Output tree file with only truncated names
-    output_tree_path = "/work3/s233201/enzyme_out_6/tree_LGI_refactored.treefile"
+    output_tree_path = "/work3/s233201/output_phyl_busco_4/tree_iq_LGI_refactored.treefile"
     phylum_csv_path = "data_out/taxa_clean_0424.csv"
     # Output annotation file path for COLORSTRIP
     output_annotation_path = "/work3/s233201/enzyme_out_6/tree_iq_LGI_phylum_aaa_colorstrip.txt"

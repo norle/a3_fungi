@@ -7,19 +7,16 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from numba import jit
-import shutil  # Added import for copying files
 
-# Bokeh imports
+# Keep only needed Bokeh imports
 from bokeh.plotting import figure, save, output_file
-from bokeh.layouts import column, row, layout
+from bokeh.layouts import column, row
 from bokeh.models import (
     ColumnDataSource, ColorBar, LinearColorMapper, 
     BasicTicker, CheckboxGroup, CustomJS, 
-    Title, HoverTool, Range1d, Div
+    HoverTool
 )
-# Use Blues_r instead of RdYlBu11 for blue (0) to red (1) color scheme
 from bokeh.palettes import RdBu11
-# Updated imports for Tabs in newer Bokeh versions
 from bokeh.models import Tabs
 from bokeh.models.layouts import TabPanel
 
@@ -64,38 +61,17 @@ def load_phylum_data(taxa_file):
     # Create a mapping from accession to phylum
     return dict(zip(phylum_data['Accession'], phylum_data['Phylum']))
 
-def load_pdb_content(pdb_path, gene_name, output_dir):
-    """Load PDB file content as string and copy the file to output directory"""
-    if not os.path.exists(pdb_path):
-        print(f"DEBUG: PDB file not found at {pdb_path} for gene {gene_name}")
-        return None
-    try:
-        with open(pdb_path, 'r') as f:
-            content = f.read()
-        print(f"DEBUG: Successfully read PDB file for {gene_name} from {pdb_path}")
-        # Copy PDB file to output directory 
-        output_pdb_path = os.path.join(output_dir, f"{gene_name.lower()}.pdb")
-        shutil.copy2(pdb_path, output_pdb_path)
-        print(f"DEBUG: Copied PDB file to {output_pdb_path}")
-        return content
-    except Exception as e:
-        print(f"Error handling PDB file {pdb_path}: {str(e)}")
-        return None
-
-# Replace the previous create_3dmol_viewer with a version that does not embed <script> tags
-def create_3dmol_viewer(pdb_content, element_id, gene_name, width=600, height=400):
-    """Create a Mol* viewer container div. External scripts will be injected into the HTML."""
-    from bokeh.layouts import column  # Ensure column is imported
-    if not pdb_content:
-        return Div(text="<p>PDB structure not available</p>", width=width, height=height)
-    
-    # Only create the container; the initialization is handled via external script injection.
-    container_div = Div(text=f"<div id='molstar_{gene_name}' style='width:{width}px;height:{height}px;'></div>",
-                        width=width, height=height)
-    return column(container_div)
+def get_most_common_aa(alignment, position):
+    """Get most common amino acid at a given position"""
+    aa_counts = {}
+    for record in alignment:
+        aa = record.seq[position]
+        if aa != '-':  # Skip gaps
+            aa_counts[aa] = aa_counts.get(aa, 0) + 1
+    return max(aa_counts.items(), key=lambda x: x[1])[0] if aa_counts else '-'
 
 def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, output_dir):
-    """Create an interactive conservation plot with phylum filtering and 3D structure visualization"""
+    """Create an interactive conservation plot with phylum filtering"""
     
     # Get unique phyla across all sequences
     all_phyla = sorted(set(accession_to_phylum.values()))
@@ -147,12 +123,16 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
         )
         p.add_layout(color_bar, 'right')
         
+        # Get most common amino acid for each position
+        most_common_aas = [get_most_common_aa(alignment, i) for i in range(alignment_length)]
+        
         # Create a data source for the combined conservation scores
         combined_data = ColumnDataSource(data=dict(
             x=positions,
-            y=[1] * alignment_length,  # Single row at y=1
-            conservation=gene_scores[gene_name],  # Start with all sequences
-            phylum=['All'] * alignment_length  # Start with all phyla
+            y=[1] * alignment_length,
+            conservation=gene_scores[gene_name],
+            phylum=['All'] * alignment_length,
+            amino_acid=most_common_aas  # Add amino acid information
         ))
         
         # Store phylum-specific data for updating the plot
@@ -177,7 +157,8 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
         hover = HoverTool(
             tooltips=[
                 ("Position", "@x"),
-                ("Conservation", "@conservation{0.00}")
+                ("Conservation", "@conservation{0.00}"),
+                ("Most Common AA", "@amino_acid")
             ]
         )
         p.add_tools(hover)
@@ -240,48 +221,12 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
         )
         
         checkbox.js_on_change('active', callback)
-        pdb_path = f"/zhome/85/8/203063/a3_fungi/html/to_html/{gene_name.lower()}.pdb"
-        # Load and display Mol* protein structure instead of 3Dmol viewer
-        # (the pdb content is still loaded and used only to confirm file existence)
-        try:
-            if os.path.exists(pdb_path):
-                pdb_content = load_pdb_content(pdb_path, gene_name, output_dir)
-            else:
-                alt_path = f"/zhome/85/8/203063/a3_fungi/html/to_html/{gene_name.lower()}.pdb"
-                pdb_content = load_pdb_content(alt_path, gene_name, output_dir) if os.path.exists(alt_path) else None
-            if not pdb_content:
-                print(f"DEBUG: No PDB content for {gene_name}")
-            protein_viewer = create_3dmol_viewer(pdb_content, f"viewer_{gene_name}", gene_name, width=600, height=400)
-            
-            # Add console debugging for the viewer
-            debug_info = Div(text=f"""
-            <script>
-                console.log("Debug: Added viewer for {gene_name} with ID viewer_{gene_name}");
-                setTimeout(() => {{
-                    const elem = document.getElementById("viewer_{gene_name}");
-                    console.log("Element found:", elem !== null, 
-                               elem ? "Dimensions: " + elem.offsetWidth + "x" + elem.offsetHeight : "");
-                }}, 1000);
-            </script>
-            """)
-            
-            # Create structure header
-            structure_header = Div(text=f"<h3>3D Structure of {gene_name}</h3>")
-            
-            # Package all the structure elements together
-            structure_panel = column(structure_header, protein_viewer, debug_info)
-        except Exception as e:
-            print(f"Error setting up 3D viewer for {gene_name}: {str(e)}")
-            structure_panel = column(Div(text=f"<h3>3D Structure of {gene_name}</h3><p>Error loading 3D structure: {str(e)}</p>"))
         
-        # Create layout with conservation plot and 3D viewer
+        # Create layout with just conservation plot
         controls = column(checkbox, width=200, height=400)
-        conservation_panel = row(controls, p)
+        plot_layout = row(controls, p)
         
-        # Combine both panels vertically
-        plot_layout = column(conservation_panel, structure_panel)
-        
-        # Add to tabs
+        # Add to tabs without structure visualization
         tab = TabPanel(child=plot_layout, title=gene_name)
         tabs.append(tab)
     
@@ -289,7 +234,7 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
     tabs_layout = Tabs(tabs=tabs)
     
     # Save the result
-    output_file(os.path.join(output_dir, "interactive_conservation.html"))
+    output_file(os.path.join(output_dir, "interactive_conservation_1.html"))
     save(tabs_layout)
     
     print(f"Interactive plot saved to {os.path.join(output_dir, 'interactive_conservation.html')}")
@@ -334,45 +279,7 @@ def main():
     # Create interactive plot
     create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, output_dir)
     
-    # After saving, post-process the HTML to insert Mol* CSS/JS into the <head>
-    html_path = os.path.join(output_dir, "interactive_conservation.html")
-    try:
-        with open(html_path, "r", encoding="utf-8") as f:
-            html_text = f.read()
-        # Build the snippet to include Mol* library and a script to auto-initialize viewers.
-        # This snippet searches for each Mol* container (its id is "molstar_<gene>") and calls its initialization.
-        molstar_snippet = """
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/molstar@2.5.0/build/viewer/molstar.css">
-<script src="https://cdn.jsdelivr.net/npm/molstar@2.5.0/build/viewer/molstar.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    // For each viewer container, initialize a Mol* viewer with controls.
-    var geneNames = ["lys20", "aco2", "lys4", "lys12", "aro8", "lys2", "lys9", "lys1"];
-    geneNames.forEach(function(gene){
-       var container = document.getElementById("molstar_" + gene.toUpperCase());
-       if(container) {
-          var viewer = new Molstar.Viewer(container, {
-              layoutIsExpanded: true,
-              layoutShowControls: true,
-              layoutShowLeftPanel: true,
-              layoutShowSequence: true,
-              layoutShowLog: true,
-          });
-          viewer.loadStructureFromUrl(gene + ".pdb", "pdb");
-       } else {
-          console.error("Mol* container not found for gene: " + gene);
-       }
-    });
-});
-</script>
-"""
-        # Insert the snippet before the closing </head> tag.
-        html_text = html_text.replace("</head>", molstar_snippet + "\n</head>")
-        with open(html_path, "w", encoding="utf-8") as f:
-            f.write(html_text)
-        print("Mol* scripts injected into HTML.")
-    except Exception as e:
-        print("Error injecting Mol* scripts: " + str(e))
+    print("Interactive conservation plots created successfully.")
 
 if __name__ == "__main__":
     main()

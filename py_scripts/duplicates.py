@@ -90,15 +90,15 @@ def enzyme_matrices():
 
 def single_matrix():
 
-    main_dir = '/work3/s233201/enzyme_out_6'
-    in_fasta = f'{main_dir}/final.fasta'
+    main_dir = '/work3/s233201/output_phyl_busco_4'
+    in_fasta = f'{main_dir}/supermatrix/final.fasta'
     
     
-    unique_fasta = f'{main_dir}/tree_LGI.uniqueseq.phy'
-    mat_dist_name = f'{main_dir}/tree_LGI.mldist'
-    log_file = f'{main_dir}/tree_LGI.log'
+    unique_fasta = f'{main_dir}/tree_iq_LGI.uniqueseq.phy'
+    mat_dist_name = f'{main_dir}/tree_iq_LGI.mldist'
+    log_file = f'{main_dir}/tree_iq_LGI.log'
 
-    output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl_6.csv'
+    output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/phyl_busco_4_correct.csv'
 
     # main_dir = '/work3/s233201/output_phyl_busco_4'
     # in_fasta = f'{main_dir}/final.fasta'

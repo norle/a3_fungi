@@ -321,7 +321,7 @@ if __name__ == '__main__':
     # with open('/zhome/85/8/203063/a3_fungi/data_out/interpro/all_missing.txt', 'r') as file:
     #     to_remove = file.readlines()
 
-    dm1_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl_6.csv'
+    dm1_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/phyl_busco_4_correct.csv'
     dm1_name = 'AAA Enzyme Phylogenetic'
 
     dm2_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/busco_phyl_4.csv'
