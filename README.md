@@ -1,7 +1,7 @@
 [Link to GitHub pages](https://norle.github.io/a3_fungi/)
 
 
-Saccharomyces cerevisiae alpha-aminoadipate pathway enzymes, with coloring - how conserved the amino acids are conserved across the fungal kingdom
+Alpha-aminoadipate pathway enzymes of fungi representatives, with coloring - how conserved the amino acids are conserved across the fungal kingdom.
 
 [View interactive protein structure visualization](./html/3dmol_viewer.html)
 

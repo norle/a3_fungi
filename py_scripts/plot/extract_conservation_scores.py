@@ -8,8 +8,8 @@ import json
 import shutil
 
 # Define accession ID and species name as global variables
-ACCESSION = "GCF_000146045.2"
-SPECIES_NAME = "S. cerevisiae"
+ACCESSION = "GCF_000182895.1"
+SPECIES_NAME = "C. cinerea"
 
 # Mapping of accessions to species names (for reference)
 # "GCF_000146045.2": "S. cerevisiae"

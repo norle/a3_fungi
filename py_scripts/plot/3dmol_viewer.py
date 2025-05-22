@@ -14,7 +14,8 @@ def main():
     base_path = "/zhome/85/8/203063/a3_fungi/conservation_scores"
     organisms = {
         'S_cerevisiae': {'pdb_suffix': '.pdb'},
-        'A_niger': {'pdb_suffix': '_a_niger.pdb'}
+        'A_niger': {'pdb_suffix': '_a_niger.pdb'},
+        'C_cinerea': {'pdb_suffix': '_c_cinerea.pdb'},
     }
     
     # Initialize data structures for both organisms
@@ -82,7 +83,7 @@ def main():
                 structure_html = f"<div id='{viewer_div_id}' style='width:600px;height:500px;position:relative;'><p>PDB structure not available for {gene_name} in {org.replace('_', ' ')}</p></div>"
             viewers_html += f"""
             <div style="display:inline-block;margin:10px;">
-                <h4>{org.replace('_', ' ')}</h4>
+                <h4>{org.replace('_', '. ')}</h4>
                 {structure_html}
             </div>"""
 
@@ -100,7 +101,7 @@ def main():
         function initialize3DmolForGene(geneName) {
             if (initializedViewers.has(geneName)) return;
             
-            const organisms = ['S_cerevisiae', 'A_niger'];
+            const organisms = Object.keys(embeddedPDBData);
             
             organisms.forEach(org => {
                 if (!embeddedPDBData[org][geneName]) {
