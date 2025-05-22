@@ -3,6 +3,8 @@ import os
 from tqdm import tqdm
 
 # Define maximum sequence length limits for each enzyme
+# Maximum allowed sequence lengths for each gene (in amino acids):
+# ACO2: 1000, LYS1: 1100, LYS2: 2000, ARO8: 800, LYS12: 1000, LYS20: 1000, LYS9: 1000, LYS4: 1500
 MAX_LENGTHS = {
     'ACO2': 1000,
     'LYS1': 1100,

@@ -1,16 +1,28 @@
 import os
 import glob
 import numpy as np
-from Bio import AlignIO
+from Bio import AlignIO, SeqIO
 from collections import defaultdict
 import re
 import json
 import shutil
 
+# Define accession ID and species name as global variables
+ACCESSION = "GCF_000146045.2"
+SPECIES_NAME = "S. cerevisiae"
+
+# Mapping of accessions to species names (for reference)
+# "GCF_000146045.2": "S. cerevisiae"
+# "GCA_000230395.2": "A. niger"
+# "GCF_000002655.1": "A. fumigatus"
+# "GCF_000182895.1": "C. cinerea"
+# "GCF_000149305.1": "R. delemar"
+# "GCF_028827035.1": "P. chrysogenum"
+
 # Import conservation calculation functions from existing script
 from conserved_regions import calculate_conservation
 
-def extract_conservation_scores_for_accession(alignment, accession="GCF_000146045.2"):
+def extract_conservation_scores_for_accession(alignment, accession=ACCESSION):
     """
     Extract conservation scores for a specific accession, excluding gaps
     
@@ -49,24 +61,42 @@ def extract_conservation_scores_for_accession(alignment, accession="GCF_00014604
     return position_map
 
 def main():
-    # Create output directory
-    output_dir = '/zhome/85/8/203063/a3_fungi/conservation_scores'
+    # Create base output directory
+    base_output_dir = '/zhome/85/8/203063/a3_fungi/conservation_scores'
+    os.makedirs(base_output_dir, exist_ok=True)
+    
+    # Create organism-specific output directory
+    output_dir = os.path.join(base_output_dir, SPECIES_NAME)
     os.makedirs(output_dir, exist_ok=True)
     
-    # Directory for Mol* conservation JSON files
+    # Directory for Mol* conservation JSON files (keep this at root level)
     molstar_conservation_dir = '/zhome/85/8/203063/a3_fungi/html_molstar_only/conservation_data'
     os.makedirs(molstar_conservation_dir, exist_ok=True)
     
     # Define the gene order (same as in conserved_regions.py)
     gene_order = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
     
-    # Get all alignment files
+    # Get alignment files for conservation scores
     all_files = glob.glob('/work3/s233201/enzyme_out_6/alignments/*aln')
-    
-    # Map gene names to file paths
     file_dict = {os.path.basename(f).split('.')[0]: f for f in all_files}
     
-    # Process each gene
+    # Create a FASTA file for the target sequences
+    fasta_output = os.path.join(output_dir, f'{ACCESSION}_{SPECIES_NAME}_sequences.fasta')
+    with open(fasta_output, 'w') as fasta_file:
+        for gene in gene_order:
+            input_file = f'/zhome/85/8/203063/a3_fungi/inputs_new/{gene.upper()}.fasta'
+            try:
+                for record in SeqIO.parse(input_file, 'fasta'):
+                    if ACCESSION in record.id:
+                        # Get sequence and write to file
+                        seq = str(record.seq)
+                        fasta_file.write(f">{gene}\n{seq}\n")
+                        break
+            except Exception as e:
+                print(f"Warning: Could not process {gene}: {str(e)}")
+                continue
+    
+    # Process each gene for conservation scores
     for gene in gene_order:
         if gene not in file_dict:
             print(f"Warning: {gene} not found in alignment files")
