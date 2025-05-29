@@ -67,6 +67,16 @@ def main():
                 except Exception as e:
                     print(f"Error reading conservation JSON {conservation_json_source_path}: {str(e)}")
 
+    # After all file reads, override accession per organism for every gene
+    genome_accessions = {
+        'S_cerevisiae': 'GCF_000146045.2',
+        'A_niger':     'GCF_000002855.4',
+        'C_cinerea':   'GCF_000182895.1',
+    }
+    for org, acc in genome_accessions.items():
+        for gene_name in gene_order:
+            accession_data_strings[org][gene_name] = acc
+
     # Create JSON strings for JavaScript
     data_for_js = {
         'pdbData': pdb_data_strings,
