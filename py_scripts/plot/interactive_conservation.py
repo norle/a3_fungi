@@ -251,7 +251,7 @@ def main():
     gene_order = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
     
     # Get all alignment files
-    all_files = glob.glob('/work3/s233201/enzyme_out_6/trim/*aln')
+    all_files = glob.glob('/work3/s233201/enzyme_out_6/alignments/*aln')
     
     # Create a dictionary to map gene names to full file paths
     file_dict = {os.path.basename(f).split('.')[0]: f for f in all_files}

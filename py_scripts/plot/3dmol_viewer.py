@@ -1,6 +1,7 @@
 import os
 import glob
 import json
+from accession_map import accession_to_species
 
 def main():
     # Define base output directory
@@ -17,6 +18,14 @@ def main():
         'A_niger': {'pdb_suffix': '_a_niger.pdb'},
         'C_cinerea': {'pdb_suffix': '_c_cinerea.pdb'},
     }
+
+    # Add full‐name map and accession holder
+    full_name_map = {
+        'S_cerevisiae': 'Saccharomyces cerevisiae',
+        'A_niger': 'Aspergillus niger',
+        'C_cinerea': 'Coprinopsis cinerea',
+    }
+    accession_data_strings = {org: {} for org in organisms}
     
     # Initialize data structures for both organisms
     genes_with_pdb = {org: [] for org in organisms}
@@ -40,16 +49,19 @@ def main():
                 except Exception as e:
                     print(f"Error reading PDB file {pdb_source_path}: {str(e)}")
 
-            # Conservation files
+            # Conservation files: extract accession
             conservation_json_file_name = f"{gene_name}_conservation_3dmol.json"
             conservation_json_source_path = os.path.join(base_path, org, conservation_json_file_name)
 
             if os.path.exists(conservation_json_source_path):
                 try:
                     with open(conservation_json_source_path, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                    if content and content.strip():
-                        conservation_data_strings[org][gene_name] = content
+                        raw = f.read().strip()
+                    if raw:
+                        data = json.loads(raw)
+                        accession_data_strings[org][gene_name] = data.get('accession', 'N/A')
+                        data.pop('accession', None)
+                        conservation_data_strings[org][gene_name] = json.dumps(data)
                         genes_with_conservation[org].append(gene_name)
                         print(f"DEBUG: Read conservation JSON for {gene_name} ({org})")
                 except Exception as e:
@@ -61,7 +73,10 @@ def main():
         'conservationData': conservation_data_strings,
         'genesWithPdb': genes_with_pdb,
         'genesWithConservation': genes_with_conservation,
-        'orderedTabGeneNames': gene_order
+        'orderedTabGeneNames': gene_order,
+        'accessionData': accession_data_strings,
+        'fullNameMap': full_name_map,
+        'accessionToSpecies': accession_to_species
     }
     json_data = {key: json.dumps(value) for key, value in data_for_js.items()}
 
@@ -71,26 +86,29 @@ def main():
         default_open_id = 'id="defaultOpen"' if i == 0 else ''
         tab_buttons_html += f'<button class="tablinks" onclick="openTab(event, \'{gene_name}\')" {default_open_id}>{gene_name}</button>\n'
 
-    # Update tab content HTML to show side-by-side viewers
+    # Build responsive tab content HTML with placeholders for species & accession
     tab_content_html = ""
     for gene_name in gene_order:
         viewers_html = ""
         for org in organisms:
             viewer_div_id = f"viewer_{gene_name}_{org}"
-            if gene_name in genes_with_pdb[org]:
-                structure_html = f"<div id='{viewer_div_id}' style='width:600px;height:500px;position:relative;'></div>"
-            else:
-                structure_html = f"<div id='{viewer_div_id}' style='width:600px;height:500px;position:relative;'><p>PDB structure not available for {gene_name} in {org.replace('_', ' ')}</p></div>"
+            acc_span_id = f"accession_{gene_name}_{org}"
+            species_span_id = f"species_{gene_name}_{org}"
+            structure_html = (
+                f"<div id='{viewer_div_id}' "
+                "style='width:100%;height:400px;max-width:600px;position:relative;'></div>"
+            )
             viewers_html += f"""
-            <div style="display:inline-block;margin:10px;">
-                <h4>{org.replace('_', '. ')}</h4>
+            <div style="flex:1 1 300px;margin:10px;">
+                <h4><span id="{species_span_id}">{full_name_map[org]}</span></h4>
+                <p>Accession: <span id="{acc_span_id}">–</span></p>
                 {structure_html}
             </div>"""
 
         tab_content_html += f"""
 <div id="{gene_name}_content" class="tabcontent">
     <h3>3D Structure of {gene_name}</h3>
-    <div style="display:flex;justify-content:center;">
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;">
         {viewers_html}
     </div>
 </div>
@@ -172,6 +190,18 @@ def main():
 
                     viewer.zoomTo();
                     viewer.render();
+
+                    // Set accession text if available
+                    const acc = embeddedAccessionData[org][geneName];
+                    if (acc) {
+                        const span = document.getElementById(`accession_${geneName}_${org}`);
+                        if (span) span.innerText = acc;
+                        // override species name if mapping exists
+                        const speciesSpan = document.getElementById(`species_${geneName}_${org}`);
+                        if (embeddedAccessionToSpecies[acc] && speciesSpan) {
+                            speciesSpan.innerText = embeddedAccessionToSpecies[acc];
+                        }
+                    }
                 }
             });
             
@@ -208,6 +238,9 @@ def main():
     <script type="text/javascript">
         const embeddedPDBData = {json_data['pdbData']};
         const embeddedConservationData = {json_data['conservationData']};
+        const embeddedAccessionData = {json_data['accessionData']};
+        const embeddedAccessionToSpecies = {json_data['accessionToSpecies']};
+        const fullNameMap = {json_data['fullNameMap']};
         const genesWithPDB = {json_data['genesWithPdb']};
         const genesWithConservation = {json_data['genesWithConservation']};
         const orderedTabGeneNames = {json_data['orderedTabGeneNames']};

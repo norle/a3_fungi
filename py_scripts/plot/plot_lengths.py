@@ -1,49 +1,72 @@
 import os
+import csv
 from Bio import SeqIO
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches  # new import
+
+# Define phylum colors using ColorBrewer
+PHYLUM_COLORS = {
+    'Ascomycota': '#377eb8',        # Blue
+    'Basidiomycota': '#e41a1c',     # Red
+    'Mucoromycota': '#4daf4a',      # Green
+    'Zoopagomycota': '#984ea3',     # Purple
+    'Chytridiomycota': '#ff7f00',   # Orange
+    'Blastocladiomycota': '#ffff33',# Yellow
+    'Cryptomycota': '#a65628'       # Brown
+}
+
+# Load accession→phylum map
+taxa_file = "/zhome/85/8/203063/a3_fungi/data_out/taxa_clean.csv"
+acc2phylum = {}
+with open(taxa_file) as tf:
+    reader = csv.DictReader(tf)
+    for row in reader:
+        acc2phylum[row['Accession']] = row['Phylum']
 
 # Path to the folder containing .fasta files
-fasta_folder = "/work3/s233201/enzyme_out_4"
+fasta_folder = "/work3/s233201/enzyme_out_6"
 
-# Dictionary to store sequence lengths for each file
+# Dictionary to store sequence lengths for each file by phylum
 file_sequences = {}
 
 # Collect lengths of sequences for each .fasta file
 for file_name in os.listdir(fasta_folder):
     if file_name.endswith(".fasta"):
-        file_path = os.path.join(fasta_folder, file_name)
-        file_base_name = file_name[:-6]  # Remove .fasta extension
-        file_sequences[file_base_name] = []
-        
-        with open(file_path, "r") as fasta_file:
-            for record in SeqIO.parse(fasta_file, "fasta"):
-                file_sequences[file_base_name].append(len(record.seq))
+        gene = file_name[:-6]
+        file_sequences[gene] = {}
+        with open(os.path.join(fasta_folder, file_name)) as fh:
+            for rec in SeqIO.parse(fh, "fasta"):
+                ph = acc2phylum.get(rec.id, 'Unknown')
+                file_sequences[gene].setdefault(ph, []).append(len(rec.seq))
 
 # Define the order of genes for plotting
 gene_order = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
 
-# Create a 4x2 subplot for the histograms (one per file)
-fig, axes = plt.subplots(4, 2, figsize=(10, 14))
+# Create a 3x3 subplot grid
+fig, axes = plt.subplots(3, 3, figsize=(12, 12))
 axes = axes.flatten()
 
-# Plot histogram for each file in the specified order
-for i, gene_name in enumerate(gene_order):
-    if i < len(axes) and gene_name in file_sequences:
-        ax = axes[i]
-        lengths = file_sequences[gene_name]
-        ax.hist(lengths, bins=30, color='blue', alpha=0.7)
-        ax.set_title(gene_name)
+# Plot histograms for the first 8 genes
+for i, gene in enumerate(gene_order):
+    ax = axes[i]
+    if gene in file_sequences:
+        phyla = [p for p in PHYLUM_COLORS if p in file_sequences[gene]]
+        data = [file_sequences[gene][p] for p in phyla]
+        colors = [PHYLUM_COLORS[p] for p in phyla]
+        ax.hist(data, bins=30, stacked=True, color=colors, alpha=0.8)
+        ax.set_title(gene, fontweight='bold')
         ax.set_xlabel("Sequence Length")
-        ax.set_ylabel("Frequency")
-    elif i < len(axes):
-        # Handle the case where a specified gene isn't in the files
-        ax = axes[i]
-        ax.set_title(f"{gene_name} (No data)")
+        ax.set_ylabel("Count")
+    else:
+        ax.set_title(f"{gene} (No data)", fontweight='bold')
         ax.set_visible(False)
 
-# Hide any unused subplots
-for i in range(len(gene_order), len(axes)):
-    axes[i].set_visible(False)
+# 9th subplot reserved for legend
+legend_ax = axes[8]
+legend_ax.axis('off')
+handles = [mpatches.Patch(color=PHYLUM_COLORS[p], label=p) for p in PHYLUM_COLORS]
+legend_ax.legend(handles=handles, title='Phylum', loc='center')
 
+# Final layout and save
 plt.tight_layout()
 plt.savefig("figures/sequence_length_histograms.png")
