@@ -318,8 +318,8 @@ def plot_dms(dm1, dm2, dm1_name='dm1', dm2_name='dm2', to_remove=None):
     print('Plots created successfully!')
 
 if __name__ == '__main__':
-    # with open('/zhome/85/8/203063/a3_fungi/data_out/interpro/all_missing.txt', 'r') as file:
-    #     to_remove = file.readlines()
+    with open('/zhome/85/8/203063/a3_fungi/data/outliers_set.txt', 'r') as file:
+        to_remove = file.readlines()
 
     dm1_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl_correct_6.csv'
     dm1_name = 'AAA Enzyme Phylogenetic'
@@ -331,6 +331,6 @@ if __name__ == '__main__':
     dm2 = pd.read_csv(dm2_path, sep=r'\s+', header=None, skiprows=1)
 
     print(dm1.shape)
-    print(dm2.shape)
+    print(dmdshape)
 
-    plot_dms(dm1, dm2, dm1_name, dm2_name)
+    plot_dms(dm1, dm2, dm1_name, dm2_name, to_remove=to_remove)

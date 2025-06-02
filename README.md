@@ -11,4 +11,6 @@ Conservation scores for alpha-aminoadipate pathway enzymes across the fungal kin
 
 UMAP projections of enzyme ESM-C embeddings using cosine similarity as a distance metric
 
-[View interactive UMAP projections](./html/interactive_umap_subplots_bokeh.html)
+[UMAP projections colored by phyla](./html/interactive_umap_subplots_bokeh.html)
+
+[UMAP projections colored by localization](./html/umap_by_localization.html)

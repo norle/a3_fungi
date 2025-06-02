@@ -65,14 +65,14 @@ def filter_dm_pairs(dm1, dm2, dm1_range=(0.5, 1.0), dm2_range=(1.0, 1.5), outfil
 
 if __name__ == '__main__':
     # Example usage
-    dm1_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl_correct_6.csv'
-    dm2_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/phyl_busco_4_correct.csv'    
+    dm1_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/new/full_mat_LYS20.csv'
+    dm2_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/new/full_mat_LYS4.csv'    
     dm1 = pd.read_csv(dm1_path, sep=r'\s+', header=None, skiprows=1)
     dm2 = pd.read_csv(dm2_path, sep=r'\s+', header=None, skiprows=1)
     
     # Example: find pairs where dm1 distance is between 0.5 and 1.0
     # and dm2 distance is between 1.0 and 1.5
     filter_dm_pairs(dm1, dm2, 
-                   dm1_range=(1, 1.2),
-                   dm2_range=(0.5, 0.7),
+                   dm1_range=(1.5, 3),
+                   dm2_range=(0, 1.5),
                    outfile='/zhome/85/8/203063/a3_fungi/data/filtered_pairs.txt')

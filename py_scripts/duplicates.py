@@ -74,8 +74,8 @@ def enzyme_matrices():
 
     gene_names = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
     for gene_name in gene_names:
-        base_dir = '/work3/s233201/enzyme_out_6/enzyme_trees'
-        in_fasta = f'/work3/s233201/enzyme_out_6/{gene_name}.fasta'
+        base_dir = '/work3/s233201/enzyme_out_7/enzyme_trees'
+        in_fasta = f'/work3/s233201/enzyme_out_7/{gene_name}.fasta'
         unique_fasta = f'{base_dir}/{gene_name}/tree_iq_multi_LGI.uniqueseq.phy'
         mat_dist_name = f'{base_dir}/{gene_name}/tree_iq_multi_LGI.mldist'
         log_file = f'{base_dir}/{gene_name}/tree_iq_multi_LGI.log'
@@ -84,7 +84,7 @@ def enzyme_matrices():
         mat_dist = mat_dist.iloc[:, 1:].to_numpy()
         
         full_mat = manage_duplicates(in_fasta, unique_fasta, mat_dist, log_file)
-        output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/full_mat_{gene_name}.csv'
+        output_path = f'/zhome/85/8/203063/a3_fungi/full_dist_mats/fast/full_mat_{gene_name}.csv'
         full_mat.to_csv(output_path, sep=' ', index=False)
         print(full_mat.shape)
 
@@ -120,5 +120,5 @@ def single_matrix():
 
 if __name__ == '__main__':
 
-    single_matrix()
-    #enzyme_matrices()
+    #single_matrix()
+    enzyme_matrices()

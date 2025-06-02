@@ -51,43 +51,59 @@ def plot_conservation_heatmaps(all_scores, all_filenames, output_dir):
     n_cols = 1
     n_rows = n_plots
     
-    # Reduced height per subplot from 2 to 1
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(15, 1.5*n_rows))
-    if n_plots == 1:
-        axes = [axes]
+    # Increased figure width to accommodate statistics
+    fig = plt.figure(figsize=(20, 1.5*n_rows))  # Increased figure width
     
-    # Adjusted colorbar position for new dimensions
-    cbar_ax = fig.add_axes([0.92, 0.1, 0.02, 0.8])  # [left, bottom, width, height]
+    # Adjusted grid ratios to give more space for stats
+    gs = plt.GridSpec(n_rows, 2, width_ratios=[15, 5])
+    
+    # Moved colorbar position more to the left
+    cbar_ax = fig.add_axes([0.83, 0.1, 0.02, 0.8])  # Changed from 0.89 to 0.86
     
     for idx, (scores, filename) in enumerate(zip(all_scores, all_filenames)):
+        # Create subplot for heatmap
+        ax_heat = fig.add_subplot(gs[idx, 0])
         scores_array = np.array(scores).reshape(1, -1)
         
-        # Show heatmap with colorbar only for first plot
+        # Show heatmap
         sns.heatmap(scores_array, cmap='RdYlBu_r',
-                    xticklabels=50,  # Show x-axis for all plots
+                    xticklabels=50,
                     yticklabels=False,
                     cbar=True if idx == 0 else False,
                     cbar_ax=cbar_ax if idx == 0 else None,
                     cbar_kws={'label': 'Conservation Score'} if idx == 0 else None,
                     vmin=0, vmax=1,
-                    ax=axes[idx])
+                    ax=ax_heat)
         
         # Remove x-label from all but bottom plot
         if idx != n_plots-1:
-            axes[idx].set_xlabel('')
+            ax_heat.set_xlabel('')
         else:
-            axes[idx].set_xlabel('Alignment Position',fontsize=14)
+            ax_heat.set_xlabel('Alignment Position', fontsize=14)
         
         # Move title to left and make vertical
-        axes[idx].set_title(f'{os.path.basename(filename).replace(".aln", "")}',
-                          rotation='vertical',x=-0.015,y=0.27, fontsize=14)
+        ax_heat.set_title(f'{os.path.basename(filename).replace(".aln", "")}',
+                       rotation='vertical', x=-0.015, y=0.27, fontsize=14)
+        
+        # Create text subplot for statistics
+        ax_stats = fig.add_subplot(gs[idx, 1])
+        ax_stats.axis('off')
+        
+        # Calculate statistics
+        mean_score = np.mean(scores)
+        median_score = np.median(scores)
+        
+        # Add statistics with larger font - moved slightly to the left
+        stats_text = f'Mean: {mean_score:.2f}\nMedian: {median_score:.2f}'
+        ax_stats.text(0, 0.5, stats_text,  # Changed from 0.3 to 0.2
+                     transform=ax_stats.transAxes,
+                     fontsize=14,
+                     verticalalignment='center')
     
-    # Set colorbar label fontsize to 14
+    # Set colorbar label fontsize
     cbar_ax.set_ylabel('Conservation Score', fontsize=14)
     
     plt.tight_layout()
-    # Adjust layout to prevent colorbar overlap
-    plt.subplots_adjust(right=0.9)
     
     output_path = os.path.join(output_dir, 'all_conservation_plots.png')
     plt.savefig(output_path, bbox_inches='tight', dpi=300)
