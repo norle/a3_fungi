@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 import numpy as np
 from scipy.stats import pearsonr, spearmanr
+from scipy import stats  # Import the stats module
 
 def compute_correlations(df1, df2):
     """Compute both Pearson and Spearman correlations between two DataFrames"""
@@ -13,7 +14,11 @@ def compute_correlations(df1, df2):
     arr2 = df2_numeric.values.flatten()
     pearson_corr, pearson_p = pearsonr(arr1, arr2)
     spearman_corr, spearman_p = spearmanr(arr1, arr2)
-    return pearson_corr, pearson_p, spearman_corr, spearman_p
+    
+    # Linear regression
+    slope, intercept, r_value, p_value, std_err = stats.linregress(arr1, arr2)
+    
+    return pearson_corr, pearson_p, spearman_corr, spearman_p, slope, intercept, r_value
 
 if __name__ == '__main__':
     dm1_path = '/zhome/85/8/203063/a3_fungi/full_dist_mats/enzyme_phyl_correct_6.csv'
@@ -70,11 +75,19 @@ if __name__ == '__main__':
     dm2_cols = dm2.columns.tolist()
     dm2 = dm2[[dm2_cols[0]] + [dm2_cols[i+1] for i in order_mapping]]
     
+    print(f"Shape of dm1 after outlier removal: {dm1.shape}")
+    print(f"Shape of dm2 after outlier removal: {dm2.shape}")
+    
     # Calculate correlations
-    pearson_corr, pearson_p, spearman_corr, spearman_p = compute_correlations(df1_numeric, df2_numeric)
+    pearson_corr, pearson_p, spearman_corr, spearman_p, slope, intercept, r_value = compute_correlations(df1_numeric, df2_numeric)
     
     print("=== After removing outliers ===")
     print("Pearson correlation coefficient:", pearson_corr)
     print("Pearson P-value: {:.2e}".format(pearson_p))
     print("Spearman correlation coefficient:", spearman_corr)
     print("Spearman P-value: {:.2e}".format(spearman_p))
+
+    print("Linear regression equation: Y = {:.2f}X + {:.2f}".format(slope, intercept))
+    angle = np.degrees(np.arctan(slope))
+    print("Angle of the correlation: {:.2f} degrees".format(angle))
+    print("R-squared value: {:.2f}".format(r_value**2))

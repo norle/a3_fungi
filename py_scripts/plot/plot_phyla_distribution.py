@@ -43,7 +43,7 @@ fig, ax = plt.subplots(figsize=(8, 5))
 
 # Set the positions of the bars
 x = np.arange(len(all_phyla))
-width = 0.25  # reduced width to accommodate third bar
+width = 0.3  # increased width from 0.25 to 0.3
 
 # Create bars for each dataset
 for i, phylum in enumerate(all_phyla):
@@ -57,15 +57,21 @@ for i, phylum in enumerate(all_phyla):
     bar2 = ax.bar(x[i], count2, width, color=color, alpha=0.4, hatch='//', label="")
     bar3 = ax.bar(x[i] + width, count3, width, color=color, alpha=0.4, hatch='\\\\', label="")
     
-    # Add value labels on top of each bar with reduced font size
-    ax.text(x[i] - width, count1, f'{int(count1)}', ha='center', va='bottom', fontsize=7)
-    ax.text(x[i], count2, f'{int(count2)}', ha='center', va='bottom', fontsize=7)
-    ax.text(x[i] + width, count3, f'{int(count3)}', ha='center', va='bottom', fontsize=7)
+
+    offset = -.1  # Offset for value labels
+    # Add value labels on top of each bar with reduced font size and rotation
+    ax.text(x[i] - width + offset, count1, f'{int(count1)}', ha='left', va='bottom', fontsize=8, rotation=45)
+    ax.text(x[i] - 0 + offset, count2, f'{int(count2)}', ha='left', va='bottom', fontsize=8, rotation=45)
+    ax.text(x[i] + width + offset, count3, f'{int(count3)}', ha='left', va='bottom', fontsize=8, rotation=45)
 
 # Update legend
 ax.bar(0, 0, color='gray', alpha=0.7, label='Annotated genomes')
 ax.bar(0, 0, color='gray', alpha=0.4, hatch='//', label='After INTERPRO')
 ax.bar(0, 0, color='gray', alpha=0.4, hatch='\\\\', label='After outliers')
+
+# Remove top and right spines
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
 
 # Customize the plot
 ax.set_title('Comparison of Fungi Phyla Distributions')

@@ -23,6 +23,11 @@ with open(taxa_file) as tf:
     for row in reader:
         acc2phylum[row['Accession']] = row['Phylum']
 
+# Load outlier accessions
+outlier_file = "/zhome/85/8/203063/a3_fungi/data/outliers_set.txt"
+with open(outlier_file) as of:
+    outlier_accessions = {line.strip() for line in of}
+
 # Path to the folder containing .fasta files
 fasta_folder = "/work3/s233201/enzyme_out_6"
 
@@ -36,6 +41,8 @@ for file_name in os.listdir(fasta_folder):
         file_sequences[gene] = {}
         with open(os.path.join(fasta_folder, file_name)) as fh:
             for rec in SeqIO.parse(fh, "fasta"):
+                if rec.id in outlier_accessions:
+                    continue  # Skip outlier sequences
                 ph = acc2phylum.get(rec.id, 'Unknown')
                 file_sequences[gene].setdefault(ph, []).append(len(rec.seq))
 

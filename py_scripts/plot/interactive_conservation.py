@@ -46,11 +46,20 @@ def calculate_all_conservation_scores(alignment_array):
     
     return conservation_scores
 
-def calculate_conservation(alignment):
-    """Calculate conservation scores for each position in alignment"""
+def calculate_conservation(alignment, outliers):
+    """Calculate conservation scores for each position in alignment, excluding outliers"""
+    
+    # Filter out outlier sequences
+    filtered_alignment = [record for record in alignment if record.id not in outliers]
+    
+    # If all sequences are outliers, return an empty list
+    if not filtered_alignment:
+        print("Warning: All sequences in alignment are outliers. Returning empty conservation scores.")
+        return []
+    
     # Convert alignment to numpy array of ASCII values
     alignment_array = np.array([[ord(aa) for aa in str(record.seq)] 
-                              for record in alignment], dtype=np.int32)
+                              for record in filtered_alignment], dtype=np.int32)
     
     # Calculate conservation using numba-optimized function
     return calculate_all_conservation_scores(alignment_array).tolist()
@@ -234,7 +243,7 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
     tabs_layout = Tabs(tabs=tabs)
     
     # Save the result
-    output_file(os.path.join(output_dir, "interactive_conservation_1.html"))
+    output_file(os.path.join(output_dir, "interactive_conservation.html"))
     save(tabs_layout)
     
     print(f"Interactive plot saved to {os.path.join(output_dir, 'interactive_conservation.html')}")
@@ -251,7 +260,12 @@ def main():
     gene_order = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
     
     # Get all alignment files
-    all_files = glob.glob('/work3/s233201/enzyme_out_6/alignments/*aln')
+    all_files = glob.glob('/work3/s233201/enzyme_out_6/trim/*aln')
+    
+    # Load outlier gene names from file
+    outlier_file = '/zhome/85/8/203063/a3_fungi/data/outliers_set.txt'
+    with open(outlier_file, 'r') as f:
+        outliers = set(line.strip() for line in f)
     
     # Create a dictionary to map gene names to full file paths
     file_dict = {os.path.basename(f).split('.')[0]: f for f in all_files}
@@ -268,9 +282,14 @@ def main():
         if gene in file_dict:
             try:
                 alignment = AlignIO.read(file_dict[gene], 'fasta')
-                conservation_scores = calculate_conservation(alignment)
-                gene_alignments[gene] = alignment
-                gene_scores[gene] = conservation_scores
+                conservation_scores = calculate_conservation(alignment, outliers)
+                
+                if conservation_scores:
+                    gene_alignments[gene] = alignment
+                    gene_scores[gene] = conservation_scores
+                else:
+                    print(f"Skipping {gene} due to all sequences being outliers.")
+                    continue
             except Exception as e:
                 print(f"Error processing {gene}: {str(e)}")
         else:

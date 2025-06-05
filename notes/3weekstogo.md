@@ -9,6 +9,10 @@
 - correlation between enzyme phylo and maybe esm-c distances
     - done 
 
+- remove cryptomycota from all the figures
+
+- localization dataset for individual enzyme phylo trees
+
 # Could do list
 
 - protein engineering

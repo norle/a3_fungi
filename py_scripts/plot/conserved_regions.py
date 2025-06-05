@@ -36,11 +36,20 @@ def calculate_all_conservation_scores(alignment_array):
     
     return conservation_scores
 
-def calculate_conservation(alignment):
-    """Calculate conservation scores for each position in alignment"""
+def calculate_conservation(alignment, outliers):
+    """Calculate conservation scores for each position in alignment, excluding outliers"""
+    
+    # Filter out outlier sequences
+    filtered_alignment = [record for record in alignment if record.id not in outliers]
+    
+    # If all sequences are outliers, return an empty list
+    if not filtered_alignment:
+        print("Warning: All sequences in alignment are outliers. Returning empty conservation scores.")
+        return []
+    
     # Convert alignment to numpy array of ASCII values
     alignment_array = np.array([[ord(aa) for aa in str(record.seq)] 
-                              for record in alignment], dtype=np.int32)
+                              for record in filtered_alignment], dtype=np.int32)
     
     # Calculate conservation using numba-optimized function
     return calculate_all_conservation_scores(alignment_array).tolist()
@@ -120,6 +129,11 @@ def main():
     # Get all alignment files
     all_files = glob.glob('/work3/s233201/enzyme_out_6/trim/*aln')
     
+    # Load outlier gene names from file
+    outlier_file = '/zhome/85/8/203063/a3_fungi/data/outliers_set.txt'
+    with open(outlier_file, 'r') as f:
+        outliers = set(line.strip() for line in f)
+    
     # Create a dictionary to map gene names to full file paths
     file_dict = {os.path.basename(f).split('.')[0]: f for f in all_files}
     
@@ -129,11 +143,19 @@ def main():
     # Process files in the specified order
     for gene in gene_order:
         if gene in file_dict:
+            file_path = file_dict[gene]
             try:
-                alignment = AlignIO.read(file_dict[gene], 'fasta')
-                conservation_scores = calculate_conservation(alignment)
-                all_scores.append(conservation_scores)
-                all_filenames.append(file_dict[gene])
+                alignment = AlignIO.read(file_path, 'fasta')
+                
+                conservation_scores = calculate_conservation(alignment, outliers)
+                
+                # Only append if conservation scores are not empty
+                if conservation_scores:
+                    all_scores.append(conservation_scores)
+                    all_filenames.append(file_path)
+                else:
+                    print(f"Skipping {gene} due to all sequences being outliers.")
+                
             except Exception as e:
                 print(f"Error processing {gene}: {str(e)}")
         else:
