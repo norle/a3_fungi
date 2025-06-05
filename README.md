@@ -1,11 +1,11 @@
 [Link to GitHub pages](https://norle.github.io/a3_fungi/)
-
+[Link to GitHub repository](https://github.com/norle/a3_fungi)
 
 Alpha-aminoadipate pathway enzymes of fungi representatives, with coloring - how conserved the amino acids are conserved across the fungal kingdom.
 
 [View interactive protein structure visualization](./html/3dmol_viewer.html)
 
-Conservation scores for alpha-aminoadipate pathway enzymes across the fungal kingdom. Trimmed alignemnt - removed gappy regions from the alignement.
+Conservation scores for alpha-aminoadipate pathway enzymes across the fungal kingdom. Trimmed alignment - removed gappy regions from the alignment.
 
 [View interactive conservation plots](./html/interactive_conservation.html)
 
