@@ -1,6 +1,15 @@
 import os
 import glob
 import base64
+from io import BytesIO
+from PIL import Image
+
+def png_to_webp(png_path):
+    """Convert PNG image to WebP format in memory"""
+    with Image.open(png_path) as im:
+        output = BytesIO()
+        im.save(output, format="WEBP", quality=80)
+        return output.getvalue()
 
 def generate_html(image_dir):
     """Generates an HTML file to display plots with scrolling and a menu."""
@@ -12,9 +21,9 @@ def generate_html(image_dir):
     image_names = [os.path.basename(f) for f in image_files]
     image_data_uris = []
     for f in image_files:
-        with open(f, "rb") as image_file:
-            encoded_string = base64.b64encode(image_file.read()).decode("utf-8")
-            image_data_uris.append(f"data:image/png;base64,{encoded_string}")
+        webp_data = png_to_webp(f)
+        encoded_string = base64.b64encode(webp_data).decode("utf-8")
+        image_data_uris.append(f"data:image/webp;base64,{encoded_string}")
 
     # Shorten image names for the menu
     short_image_names = [name.replace("pair_", "").replace(".png", "").replace("_", "-") for name in image_names]
