@@ -14,3 +14,7 @@ UMAP projections of enzyme ESM-C embeddings using cosine similarity as a distanc
 [UMAP projections colored by phyla](./html/interactive_umap_subplots_bokeh.html)
 
 [UMAP projections colored by localization](./html/umap_by_localization.html)
+
+BUSCO phylogeny and the AAA pathway phylogeny distance comparison by phyla pairs
+
+[View pairwise phylogeny comparisons](./html/plot_viewer.html)
