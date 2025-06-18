@@ -9,7 +9,7 @@ def main():
     os.makedirs(base_output_dir, exist_ok=True)
 
     # Define the desired order of genes
-    gene_order = ["LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
+    gene_order = ["Info", "LYS20", "ACO2", "LYS4", "LYS12", "ARO8", "LYS2", "LYS9", "LYS1"]
     
     # Update base paths for both organisms
     base_path = "/zhome/85/8/203063/a3_fungi/conservation_scores"
@@ -97,8 +97,19 @@ def main():
         tab_buttons_html += f'<button class="tablinks" onclick="openTab(event, \'{gene_name}\')" {default_open_id}>{gene_name}</button>\n'
 
     # Build responsive tab content HTML with placeholders for species & accession
-    tab_content_html = ""
-    for gene_name in gene_order:
+    info_tab_content = f"""
+<div id="Info_content" class="tabcontent">
+    <div style="max-width: 800px; margin: auto; text-align: left;">
+        <h3 style="text-align: left;">About this page</h3>
+        <p>
+            Representative structures are displayed for the AAA pathway enzymes with coloring based on conservation scores. For each of the AAA pathway enzymes, enzyme sequences were retrieved and aligned from 4634 fungal genomes. The conservation score for each of the representative sequences was calculated - conservation score is the frequency of that amino acid at the specific alignment position. Red shows that the amino acid is more conserved, blue shows less conserved, white shows medium conservation.
+        </p>
+    </div>
+</div>
+"""
+
+    tab_content_html = info_tab_content
+    for gene_name in gene_order[1:]:
         viewers_html = ""
         for org in organisms:
             viewer_div_id = f"viewer_{gene_name}_{org}"
@@ -127,6 +138,7 @@ def main():
     # Update the JavaScript to handle both organisms
     js_viewer_init = """
         function initialize3DmolForGene(geneName) {
+            if (geneName === "Info") return;
             if (initializedViewers.has(geneName)) return;
             
             const organisms = Object.keys(embeddedPDBData);
