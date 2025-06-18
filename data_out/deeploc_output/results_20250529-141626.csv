@@ -1,0 +1,2 @@
+Protein_ID,Localizations,Signals,Membrane types,Cytoplasm,Nucleus,Extracellular,Cell membrane,Mitochondrion,Plastid,Endoplasmic reticulum,Lysosome/Vacuole,Golgi apparatus,Peroxisome,Peripheral,Transmembrane,Lipid anchor,Soluble
+LYS20_mod,Cytoplasm,Nuclear localization signal,Soluble,0.722000002861023,0.4341000020503998,0.0746999979019165,0.2572999894618988,0.35910001397132874,0.0860000029206276,0.042399998754262924,0.07370000332593918,0.06069999933242798,0.028300000354647636,0.42750000953674316,0.03099999949336052,0.546999990940094,0.8030999898910522

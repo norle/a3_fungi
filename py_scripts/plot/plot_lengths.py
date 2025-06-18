@@ -61,18 +61,18 @@ for i, gene in enumerate(gene_order):
         data = [file_sequences[gene][p] for p in phyla]
         colors = [PHYLUM_COLORS[p] for p in phyla]
         ax.hist(data, bins=30, stacked=True, color=colors, alpha=0.8)
-        ax.set_title(gene, fontweight='bold')
-        ax.set_xlabel("Sequence Length")
-        ax.set_ylabel("Count")
+        ax.set_title(gene, fontweight='bold', fontsize=14)  # Increased fontsize
+        ax.set_xlabel("Sequence Length", fontsize=12)  # Increased fontsize
+        ax.set_ylabel("Count", fontsize=12)  # Increased fontsize
     else:
-        ax.set_title(f"{gene} (No data)", fontweight='bold')
+        ax.set_title(f"{gene} (No data)", fontweight='bold', fontsize=14)  # Increased fontsize
         ax.set_visible(False)
 
 # 9th subplot reserved for legend
 legend_ax = axes[8]
 legend_ax.axis('off')
 handles = [mpatches.Patch(color=PHYLUM_COLORS[p], label=p) for p in PHYLUM_COLORS]
-legend_ax.legend(handles=handles, title='Phylum', loc='center')
+legend_ax.legend(handles=handles, title='Phylum', loc='center', fontsize=12, title_fontsize=13)  # Increased fontsize
 
 # Final layout and save
 plt.tight_layout()
