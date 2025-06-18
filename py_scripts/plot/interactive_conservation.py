@@ -49,8 +49,20 @@ def calculate_all_conservation_scores(alignment_array):
 def calculate_conservation(alignment, outliers):
     """Calculate conservation scores for each position in alignment, excluding outliers"""
     
-    # Filter out outlier sequences
-    filtered_alignment = [record for record in alignment if record.id not in outliers]
+    # Filter out outlier sequences - check both full ID and accession part
+    filtered_alignment = []
+    removed_count = 0
+    
+    for record in alignment:
+        # Extract accession (part before | if present)
+        accession = record.id.split('|')[0] if '|' in record.id else record.id
+        # Keep sequence if neither full ID nor accession is in outliers
+        if record.id not in outliers and accession not in outliers:
+            filtered_alignment.append(record)
+        else:
+            removed_count += 1
+    
+    print(f"Removed {removed_count} outlier sequences out of {len(alignment)} total sequences")
     
     # If all sequences are outliers, return an empty list
     if not filtered_alignment:
@@ -82,25 +94,48 @@ def get_most_common_aa(alignment, position):
 def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, output_dir):
     """Create an interactive conservation plot with phylum filtering"""
     
-    # Get unique phyla across all sequences
-    all_phyla = sorted(set(accession_to_phylum.values()))
+    print(f"Creating interactive plot with {len(gene_alignments)} genes...")
     
     # Create tabs for each gene
     tabs = []
     
     for gene_name, alignment in gene_alignments.items():
-        # Get accessions and their phyla for this alignment
+        print(f"Processing {gene_name} for plot creation...")
+        
+        # Get accessions and their phyla for this alignment (these are already filtered alignments)
         seq_accessions = [record.id.split('|')[0] if '|' in record.id else record.id for record in alignment]
         seq_phyla = [accession_to_phylum.get(acc, "Unknown") for acc in seq_accessions]
+        
+        print(f"  - {gene_name}: {len(alignment)} sequences, phyla: {set(seq_phyla)}")
         
         # Group sequences by phylum
         phylum_indices = defaultdict(list)
         for idx, phylum in enumerate(seq_phyla):
             phylum_indices[phylum].append(idx)
         
+        # Get unique phyla and prepare sequence data for JavaScript
+        valid_phyla = sorted(set(seq_phyla))
+        
+        # Prepare sequence data for JavaScript - store actual sequences grouped by phylum
+        phylum_sequences = {}
+        for phylum in valid_phyla:
+            if phylum in phylum_indices:
+                phylum_seqs = []
+                for idx in phylum_indices[phylum]:
+                    phylum_seqs.append(str(alignment[idx].seq))
+                phylum_sequences[phylum] = phylum_seqs
+        
         # Prepare data for Bokeh
         alignment_length = len(alignment[0].seq)
         positions = list(range(1, alignment_length + 1))
+        
+        print(f"  - {gene_name}: alignment length = {alignment_length}")
+        print(f"  - {gene_name}: conservation scores length = {len(gene_scores[gene_name])}")
+        
+        # Ensure conservation scores match alignment length
+        if len(gene_scores[gene_name]) != alignment_length:
+            print(f"Warning: Conservation scores length mismatch for {gene_name}")
+            continue
         
         # Create a color mapper - reverse RdBu11 for blue (0) to red (1)
         color_mapper = LinearColorMapper(
@@ -114,7 +149,7 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
             y_range=(0, 2),  # Just need space for a single row
             x_axis_label='Alignment Position',
             y_axis_label='',  # No y-axis label needed
-            title=f"Conservation scores for {gene_name}",
+            title=f"Conservation scores for {gene_name} (outliers removed)",
             tools="pan,wheel_zoom,box_zoom,reset,save"
         )
         
@@ -141,33 +176,16 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
             y=[1] * alignment_length,
             conservation=gene_scores[gene_name],
             phylum=['All'] * alignment_length,
-            amino_acid=most_common_aas  # Add amino acid information
+            amino_acid=most_common_aas
         ))
-        
-        # Store phylum-specific data for updating the plot
-        phylum_conservation_data = {}
-        for phylum in all_phyla:
-            if phylum in phylum_indices:
-                # Get sequences for this phylum
-                phylum_seqs = [alignment[idx] for idx in phylum_indices[phylum]]
-                
-                # If we have sequences for this phylum, calculate conservation
-                if phylum_seqs:
-                    # Create a sub-alignment with just these sequences
-                    phylum_alignment = [record.seq for record in phylum_seqs]
-                    alignment_array = np.array([[ord(aa) for aa in str(seq)] 
-                                              for seq in phylum_alignment], dtype=np.int32)
-                    phylum_scores = calculate_all_conservation_scores(alignment_array).tolist()
-                    
-                    # Store the conservation scores for this phylum
-                    phylum_conservation_data[phylum] = phylum_scores
         
         # Add hover tool
         hover = HoverTool(
             tooltips=[
                 ("Position", "@x"),
                 ("Conservation", "@conservation{0.00}"),
-                ("Most Common AA", "@amino_acid")
+                ("Most Common AA", "@amino_acid"),
+                ("Phylum", "@phylum")
             ]
         )
         p.add_tools(hover)
@@ -180,49 +198,81 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
             line_color=None
         )
         
-        # Create checkbox group for phyla filtering
-        checkbox = CheckboxGroup(labels=all_phyla, active=list(range(len(all_phyla))))
+        # Create checkbox group for phyla filtering - only include valid phyla
+        checkbox = CheckboxGroup(labels=valid_phyla, active=list(range(len(valid_phyla))))
         
-        # Create JavaScript callback for checkbox interaction
+        # Simplified JavaScript callback to avoid potential errors
         callback = CustomJS(
             args=dict(
                 source=combined_data,
-                phylum_data=phylum_conservation_data,
+                phylum_sequences=phylum_sequences,
                 checkbox=checkbox,
-                phyla=all_phyla,
-                positions=positions
+                phyla=valid_phyla,
+                positions=positions,
+                original_scores=gene_scores[gene_name]
             ), 
             code="""
+            // Function to calculate conservation score for a position
+            function calculateConservation(sequences, position) {
+                if (!sequences || sequences.length === 0) return 0;
+                
+                const aaCounts = {};
+                let total = 0;
+                
+                for (let seq of sequences) {
+                    if (position < seq.length) {
+                        const aa = seq[position];
+                        if (aa !== '-' && aa !== 'X') {  // Skip gaps and unknown
+                            aaCounts[aa] = (aaCounts[aa] || 0) + 1;
+                            total++;
+                        }
+                    }
+                }
+                
+                if (total === 0) return 0;
+                
+                // Find the most common amino acid
+                let maxCount = 0;
+                for (let count of Object.values(aaCounts)) {
+                    if (count > maxCount) maxCount = count;
+                }
+                
+                return maxCount / total;
+            }
+            
             const active = checkbox.active;
             const selected_phyla = active.map(i => phyla[i]);
             
+            console.log('Selected phyla:', selected_phyla);
+            
             if (selected_phyla.length === 0) {
                 // If no phyla selected, show empty data
-                const empty_data = positions.map(p => 0);
+                const empty_data = new Array(positions.length).fill(0);
                 source.data['conservation'] = empty_data;
-                source.data['phylum'] = positions.map(p => 'None');
+                source.data['phylum'] = new Array(positions.length).fill('None');
+            } else if (selected_phyla.length === phyla.length) {
+                // If ALL phyla are selected, use the original scores
+                source.data['conservation'] = [...original_scores];
+                source.data['phylum'] = new Array(positions.length).fill('All');
             } else {
-                // Calculate conservation scores for all selected phyla combined
-                const combined_scores = Array(positions.length).fill(0);
-                
-                // For each position, calculate the average conservation across selected phyla
-                for (let pos = 0; pos < positions.length; pos++) {
-                    let valid_scores = 0;
-                    let sum = 0;
-                    
-                    for (let i of active) {
-                        const phylum = phyla[i];
-                        if (phylum in phylum_data) {
-                            sum += phylum_data[phylum][pos];
-                            valid_scores++;
-                        }
+                // Combine sequences from selected phyla
+                let combined_sequences = [];
+                for (let phylum of selected_phyla) {
+                    if (phylum in phylum_sequences) {
+                        combined_sequences = combined_sequences.concat(phylum_sequences[phylum]);
                     }
-                    
-                    combined_scores[pos] = valid_scores > 0 ? sum / valid_scores : 0;
                 }
                 
-                source.data['conservation'] = combined_scores;
-                source.data['phylum'] = positions.map(p => selected_phyla.join(', '));
+                console.log('Combined sequences count:', combined_sequences.length);
+                
+                // Calculate conservation scores from scratch for the combined sequences
+                const conservation_scores = [];
+                for (let pos = 0; pos < positions.length; pos++) {
+                    conservation_scores.push(calculateConservation(combined_sequences, pos));
+                }
+                
+                source.data['conservation'] = conservation_scores;
+                source.data['phylum'] = new Array(positions.length).fill(selected_phyla.join(', '));
             }
             
             source.change.emit();
@@ -231,22 +281,35 @@ def create_interactive_plot(gene_alignments, gene_scores, accession_to_phylum, o
         
         checkbox.js_on_change('active', callback)
         
-        # Create layout with just conservation plot
-        controls = column(checkbox, width=200, height=400)
+        # Create layout with conservation plot and controls
+        from bokeh.models import Div
+        title_div = Div(text=f"<h3>Phyla in {gene_name}:</h3>", width=200)
+        controls = column(title_div, checkbox, width=200, height=400)
         plot_layout = row(controls, p)
         
-        # Add to tabs without structure visualization
+        # Add to tabs
         tab = TabPanel(child=plot_layout, title=gene_name)
         tabs.append(tab)
+        
+        print(f"  - Successfully created tab for {gene_name}")
+    
+    if not tabs:
+        print("Error: No tabs were created!")
+        return
     
     # Create the tabbed layout
     tabs_layout = Tabs(tabs=tabs)
     
     # Save the result
-    output_file(os.path.join(output_dir, "interactive_conservation.html"))
-    save(tabs_layout)
+    output_path = os.path.join(output_dir, "interactive_conservation.html")
+    print(f"Saving plot to {output_path}")
     
-    print(f"Interactive plot saved to {os.path.join(output_dir, 'interactive_conservation.html')}")
+    try:
+        output_file(output_path)
+        save(tabs_layout)
+        print(f"Interactive plot saved successfully to {output_path}")
+    except Exception as e:
+        print(f"Error saving plot: {e}")
 
 def main():
     # Define paths
@@ -267,6 +330,8 @@ def main():
     with open(outlier_file, 'r') as f:
         outliers = set(line.strip() for line in f)
     
+    print(f"Loaded {len(outliers)} outlier sequences from {outlier_file}")
+    
     # Create a dictionary to map gene names to full file paths
     file_dict = {os.path.basename(f).split('.')[0]: f for f in all_files}
     
@@ -282,11 +347,20 @@ def main():
         if gene in file_dict:
             try:
                 alignment = AlignIO.read(file_dict[gene], 'fasta')
+                print(f"\nProcessing {gene} with {len(alignment)} sequences...")
                 conservation_scores = calculate_conservation(alignment, outliers)
                 
                 if conservation_scores:
-                    gene_alignments[gene] = alignment
+                    # Filter the alignment to remove outliers for the interactive plot
+                    filtered_alignment = []
+                    for record in alignment:
+                        accession = record.id.split('|')[0] if '|' in record.id else record.id
+                        if record.id not in outliers and accession not in outliers:
+                            filtered_alignment.append(record)
+                    
+                    gene_alignments[gene] = filtered_alignment
                     gene_scores[gene] = conservation_scores
+                    print(f"Successfully processed {gene} with {len(filtered_alignment)} sequences after outlier removal")
                 else:
                     print(f"Skipping {gene} due to all sequences being outliers.")
                     continue
